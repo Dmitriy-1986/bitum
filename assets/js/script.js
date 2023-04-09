@@ -76,7 +76,7 @@ const headerTitle = document.getElementById('title');
 headerTitle.innerHTML = bitumData.groupName;
 
 const headerImg = document.querySelector('.img-header');
-headerImg.src = bitumData.imgLink;
+headerImg.src = bitumData.headerSlider.imgLink;
 headerImg.alt = bitumData.groupName;
 
 
