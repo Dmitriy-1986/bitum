@@ -67,3 +67,10 @@ const bitum_data = {
         /* *** */
     ]   
 };
+
+/**
+* Заполняем данные
+*/
+document.title = bitum_data.group_name;
+document.getElementById(#title).innerHTML = bitum_data.group_name;
+
