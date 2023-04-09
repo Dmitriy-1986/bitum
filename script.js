@@ -25,7 +25,7 @@ const bitum_data = {
            'vk': 'vk',
            'telegram': 'tg'
        }},
-       {'name': 'Dima', link-img': '/dima.webp', 'social-link': {
+       {'name': 'Dima', 'link-img': '/dima.webp', 'social-link': {
            'facebook': 'facebook',
            'twitter': 'twitter',
            'telegram': 'tg'
