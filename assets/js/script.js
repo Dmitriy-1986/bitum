@@ -72,5 +72,6 @@ const bitumData = {
 * Заполняем данные
 */
 document.title = bitumData.groupName;
-document.getElementById('title').innerHTML = bitumData.groupName;
+const headerTitle = document.getElementById('title');
+headerTitle.innerHTML = bitumData.groupName;
 
