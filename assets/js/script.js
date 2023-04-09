@@ -3,7 +3,7 @@
 */
 
 const bitumData = {
-    'group-name': 'Бітум',
+    'groupName': 'Бітум',
     'logotype': '/',
     'navigation': [
          {'title': 'Головна', 'link': 'index.html'},
