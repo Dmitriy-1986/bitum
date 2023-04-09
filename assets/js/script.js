@@ -13,17 +13,17 @@ const bitumData = {
          {'title': 'Блог', 'link': 'blog.html'},
          {'title': 'Контакти', 'link': 'contacts.html'},
     ],
-    'header-slider': [
-        {'img-link': '/img/bitum1.webp'},
-        {'img-link': '/img/bitum2.webp'},
-        {'img-link': '/img/bitum3.webp'},
+    'headerSlider': [
+        {'imgLink': '/img/bitum1.webp'},
+        {'imgLink': '/img/bitum2.webp'},
+        {'imgLink': '/img/bitum3.webp'},
     ],
-    'about-us': 'Lorem ipsum dolor anet...',
-    'group identity': [
+    'aboutUs': 'Lorem ipsum dolor anet...',
+    'groupIdentity': [
        {   
            'name': 'Ruslan', 
-           'link-img': '/ruslan.webp', 
-           'social-link': {
+           'linkImg': '/ruslan.webp', 
+           'socialLink': {
                     'facebook': 'facebook',
                     'vk': 'vk',
                     'telegram': 'tg'
@@ -31,8 +31,8 @@ const bitumData = {
        },
        {
            'name': 'Dima', 
-           'link-img': '/dima.webp', 
-           'social-link': {
+           'linkImg': '/dima.webp', 
+           'socialLink': {
                     'facebook': 'facebook',
                     'twitter': 'twitter',
                     'telegram': 'tg'
@@ -40,24 +40,24 @@ const bitumData = {
        },
        {
             'name': 'Vlad', 
-            'link-img': '/vlad.webp',
-            'social-link': {
+            'linkImg': '/vlad.webp',
+            'socialLink': {
                     'facebook': 'facebook',
                     'telegram': 'tg'
             }
        }       
     ],
-    'gallery-img': [
-        {'title': 'title', 'link-photo': '/photo webp'},
-        {'title': 'title', 'link-photo': '/photo webp'},
-        {'title': 'title', 'link-photo': '/photo webp'},
-        {'title': 'title', 'link-photo': '/photo webp'},
-        {'title': 'title', 'link-photo': '/photo webp'},
+    'galleryImg': [
+        {'title': 'title', 'linkPhoto': '/photo webp'},
+        {'title': 'title', 'linkPhoto': '/photo webp'},
+        {'title': 'title', 'linkPhoto': '/photo webp'},
+        {'title': 'title', 'linkPhoto': '/photo webp'},
+        {'title': 'title', 'linkPhoto': '/photo webp'},
     ],
-    'music-list': [
-        {'track-name': 'Track Name', 'track-link': '/music.mp3'},
-        {'track-name': 'Track Name', 'track-link': '/music.mp3'},
-        {'track-name': 'Track Name', 'track-link': '/music.mp3'},
+    'musicList': [
+        {'trackName': 'Track Name', 'trackLink': '/music.mp3'},
+        {'trackName': 'Track Name', 'trackLink': '/music.mp3'},
+        {'trackName': 'Track Name', 'trackLink': '/music.mp3'},
     ],
     'contacts': {
          'city': 'Олександрія',
