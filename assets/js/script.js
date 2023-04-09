@@ -2,8 +2,8 @@
 * Объект данных 
 */
 
-const bitum_data = {
-    'group_name': 'Бітум',
+const bitumData = {
+    'group-name': 'Бітум',
     'logotype': '/',
     'navigation': [
          {'title': 'Головна', 'link': 'index.html'},
@@ -71,6 +71,6 @@ const bitum_data = {
 /**
 * Заполняем данные
 */
-document.title = bitum_data.group_name;
-document.getElementById(#title).innerHTML = bitum_data.group_name;
+document.title = bitumData.group-name;
+document.getElementById(#title).innerHTML = bitumData.group-name;
 
