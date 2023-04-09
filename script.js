@@ -19,21 +19,33 @@ const bitum_data = {
         {'img-link': '/img/bitum3.webp'},
     ],
     'about-us': 'Lorem ipsum dolor anet...',
-    'cards-img': [
-       {'name': 'Ruslan', 'link-img': '/ruslan.webp', 'social-link': {
-           'facebook': 'facebook',
-           'vk': 'vk',
-           'telegram': 'tg'
-       }},
-       {'name': 'Dima', 'link-img': '/dima.webp', 'social-link': {
-           'facebook': 'facebook',
-           'twitter': 'twitter',
-           'telegram': 'tg'
-       }},
-       {'name': 'Vlad', 'link-img': '/vlad.webp','social-link': {
-           'facebook': 'facebook',
-           'telegram': 'tg'
-       }}       
+    'group identity': [
+       {   
+           'name': 'Ruslan', 
+           'link-img': '/ruslan.webp', 
+           'social-link': {
+                    'facebook': 'facebook',
+                    'vk': 'vk',
+                    'telegram': 'tg'
+            }
+       },
+       {
+           'name': 'Dima', 
+           'link-img': '/dima.webp', 
+           'social-link': {
+                    'facebook': 'facebook',
+                    'twitter': 'twitter',
+                    'telegram': 'tg'
+            }
+       },
+       {
+            'name': 'Vlad', 
+            'link-img': '/vlad.webp',
+            'social-link': {
+                    'facebook': 'facebook',
+                    'telegram': 'tg'
+            }
+       }       
     ],
     'gallery-img': [
         {'title': 'title', 'link-photo': '/photo webp'},
@@ -47,6 +59,13 @@ const bitum_data = {
         {'track-name': 'Track Name', 'track-link': '/music.mp3'},
         {'track-name': 'Track Name', 'track-link': '/music.mp3'},
     ],
+    'contacts': {
+         'city': 'Олександрія',
+         'maps-link': 'google-maps...',
+    },
+    'blog': [
+        /* *** */
+    ]   
 };
 
 
