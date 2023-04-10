@@ -4,7 +4,7 @@
 
 const bitumData = {
     'groupName': 'Бітум',
-    'logotype': '/',
+    'logotype': 'https://bitum.pp.ua/assets/img/bitum-img.jpg',
     'navigation': {
          'titleHome': 'Головна', 'linkHome': 'index.html',
          'titleAboutUs': 'Про Нас', 'linkAboutUs': 'about-us.html',
