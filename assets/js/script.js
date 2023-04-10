@@ -154,12 +154,10 @@ for(let i = 0; i < bitumData.musicList.length; i++) {
 
 // Footer
 const fullYear = document.getElementById('fullYear');
-let date = new Date();
-const year = date.getFullYear();
-fullYear.append(year);
+      fullYear.innerHTML = new Date().getFullYear();
 
 const footerLogo = document.getElementById('footerLogo');
-footerLogo.innerHTML = '&copy';
-footerLogo.innerHTML += bitumData.groupName;
-footerLogo.innerHTML += ' - сайт у стані розробки';
+      footerLogo.innerHTML = '&copy';
+      footerLogo.innerHTML += bitumData.groupName;
+      footerLogo.innerHTML += ' - сайт у стані розробки';
 
