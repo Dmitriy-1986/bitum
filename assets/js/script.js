@@ -70,7 +70,8 @@ const bitumData = {
 /**
 * Заполнение данными 
 */
-
+try {
+    
 const docTitle = document.title;
 docTitle.innerHTML = bitumData.groupName;
 
@@ -96,3 +97,9 @@ fullYear.append(year);
 
 const footerLogo = document.getElementById('footerLogo');
 footerLogo.innerHTML = bitumData.groupName;
+
+} catch (error) {
+    const waiting = document.querySelector('.error');
+    waiting.innerHTML = error;
+    //console.log(error.message);
+}
