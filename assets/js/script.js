@@ -114,8 +114,8 @@ musicData.forEach(m => {
            <figcaption>${m.trackName}</figcaption>
              <audio
                 controls
-                src="m.trackLink">
-                  <a href="m.trackLink">
+                src="${m.trackLink}">
+                  <a href="${m.trackLink}">
                      Завантажити трек
                   </a>
               </audio>`;
