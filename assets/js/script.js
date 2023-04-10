@@ -77,8 +77,9 @@ headerTitle.innerHTML = bitumData.groupName;
 
 const blockImg = document.querySelector('.img-header');
 const img = new Image();
-img.src = "`${bitumData.headerSlider.imgLink}`";
-img.alt = bitumData.groupName;
+// img.src = bitumData.headerSlider.imgLink;
+// img.alt = bitumData.groupName;
+img.src = './assets/img/bitum.jpg';
 blockImg.append(img);
 
 
