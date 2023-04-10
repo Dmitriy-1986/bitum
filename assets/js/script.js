@@ -16,7 +16,7 @@ const bitumData = {
     'headerImgLink': 'https://bitum.pp.ua/assets/img/bitum.jpg',   
     'aboutUs': {
               'title': 'Про Нас',
-              'description': 'Це історія про реп гурт з міста Олександрія, Бітум - засновано у 2003 році.',
+              'description': 'Це історія про реп гурт Бітум з міста Олександрія,  який було засновано у 2003 році...',
     },
     'groupIdentity': [
        {   
