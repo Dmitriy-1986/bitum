@@ -83,7 +83,7 @@ const bitumData = {
         {'trackName': 'Тряпка', 
          'trackLink': 'https://bitum.pp.ua/assets/music/tryapka.mp3'},
         {'trackName': 'Утекла', 
-         'trackLink': 'https://bitum.pp.ua/assets/music/utekla.mp3'},
+         'trackLink': 'https://bitum.pp.ua/assets/music/utekla.mp3'}
     ],
     'contacts': {
          'city': 'Олександрія',
@@ -128,7 +128,7 @@ const musicData = bitumData.musicList;
 
 for(let i = 0; i < bitumData.musicList.length; i++) {
        let figure = document.createElement('figure');
-           figure.innerHTML += `<figcaption>${bitumData.musicList[i].trackName}</figcaption>
+           figure.innerHTML = `<figcaption>${bitumData.musicList[i].trackName}</figcaption>
                          <audio
                             controls
                             src="${m.trackLink}">
