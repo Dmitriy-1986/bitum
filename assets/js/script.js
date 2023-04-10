@@ -133,7 +133,7 @@ blockImg.append(img);
 const aboutUs = document.getElementById('aboutUs');
 aboutUs.innerHTML =  `<h2 class='about-title'>${bitumData.aboutUs.title}</h2>`;
 aboutUs.innerHTML += `<p class='about-desc'>${bitumData.aboutUs.description}</p>`;
-aboutUs.innerHTML += `<a href='${bitumData.navigation.linkAboutUs}'><button class='about-btn'>Читати більше</button></a>`;
+aboutUs.innerHTML += `<a href='${bitumData.navigation.aboutUs.linkAboutUs}'><button class='about-btn'>Читати більше</button></a>`;
 
 // Music
 const music = document.getElementById('music');
