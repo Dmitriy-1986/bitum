@@ -6,12 +6,30 @@ const bitumData = {
     'groupName': 'Бітум',
     'logotype': 'https://bitum.pp.ua/assets/img/bitum-img.jpg',
     'navigation': {
-         'titleHome': 'Головна', 'linkHome': 'index.html',
-         'titleAboutUs': 'Про Нас', 'linkAboutUs': 'about-us.html',
-         'titleGallery': 'Галерея', 'linkGallery': 'gallery.html',
-         'titleMusic': 'Музика', 'linkMusic': 'music.html',
-         'titleBlog': 'Блог', 'linkBlog': 'blog.html',
-         'titleContacts': 'Контакти', 'linkContacts': 'contacts.html',
+       'home': {
+               'titleHome': 'Головна', 
+               'linkHome': 'index.html'
+        },
+        'aboutUs': {
+                'titleAboutUs': 'Про Нас', 
+                'linkAboutUs': 'about-us.html'
+         },
+         'gallery': {
+                'titleGallery': 'Галерея', 
+                'linkGallery': 'gallery.html'
+         },
+         'music': {
+                'titleMusic': 'Музика', 
+                'linkMusic': 'music.html'
+          },
+          'blog'{
+                 'titleBlog': 'Блог', 
+                 'linkBlog': 'blog.html'
+          },
+          'contacts': {
+                 'titleContacts': 'Контакти', 
+                 'linkContacts': 'contacts.html'
+          }
     },
     'headerImg': 'https://bitum.pp.ua/assets/img/bitum.jpg',   
     'aboutUs': {
