@@ -72,6 +72,10 @@
            margin: 10px;
        }
 
+       figcaption {
+           color: white;
+       }
+
        footer {
           color: white;
           padding: 10px;
