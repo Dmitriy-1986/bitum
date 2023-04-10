@@ -124,7 +124,7 @@ try {
 
 // Music
 const music = document.getElementById('music');
-const musicData = bitumData.musicList;
+music.innerHTML = "<h2>Популярні треки</h2>";
 
 for(let i = 0; i < bitumData.musicList.length; i++) {
        let figure = document.createElement('figure');
