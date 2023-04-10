@@ -129,13 +129,13 @@ const musicData = bitumData.musicList;
 for(let i = 0; i < bitumData.musicList.length; i++) {
        let figure = document.createElement('figure');
            figure.innerHTML = `<figcaption>${bitumData.musicList[i].trackName}</figcaption>
-                         <audio
-                            controls
-                            src="${bitumData.musicList[i].trackLink}">
-                               <a href="${bitumData.musicList[i].trackLink}">
-                                  Завантажити трек
-                               </a>
-                         </audio>`;
+                                 <audio
+                                     controls
+                                     src="${bitumData.musicList[i].trackLink}">
+                                       <a href="${bitumData.musicList[i].trackLink}">
+                                         Завантажити трек
+                                       </a>
+                                  </audio>`;
         music.append(figure);
 }
 
