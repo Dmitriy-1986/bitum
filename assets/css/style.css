@@ -59,6 +59,10 @@
            padding: 100px 0;
            color: black;
        }
+     
+       .about-title {
+           color: black;
+       }
 
        footer {
           color: white;
