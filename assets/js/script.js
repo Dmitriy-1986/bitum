@@ -13,7 +13,7 @@ const bitumData = {
          {'title': 'Блог', 'link': 'blog.html'},
          {'title': 'Контакти', 'link': 'contacts.html'},
     ],
-    'headerImgLink': 'https://bitum.pp.ua/assets/img/bitum.jpg',   
+    'headerImg': 'https://bitum.pp.ua/assets/img/bitum.jpg',   
     'aboutUs': {
               'title': 'Про Нас',
               'description': 'Це історія про реп гурт Бітум з міста Олександрія,  який було засновано у 2003 році...',
@@ -80,7 +80,8 @@ headerTitle.innerHTML = bitumData.groupName;
 const blockImg = document.querySelector('.img-header');
 const img = new Image();
 img.alt = bitumData.groupName;
-img.src = bitumData.headerImgLink;
+img.src = 'https://bitum.pp.ua/assets/img/bitum.jpg';
+// bitumData.headerImgLink;
 blockImg.append(img);
 
 const aboutUs = document.getElementById('aboutUs');
