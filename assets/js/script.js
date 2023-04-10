@@ -1,7 +1,6 @@
 /**
 * Объект данных 
 */
-
 const bitumData = {
     'groupName': 'Бітум',
     'logotype': 'https://bitum.pp.ua/assets/img/bitum-img.jpg',
@@ -115,7 +114,6 @@ const bitumData = {
 /**
 * Заполнение данными 
 */
-
 const docTitle = document.title;
       docTitle.innerHTML = bitumData.groupName;
 
