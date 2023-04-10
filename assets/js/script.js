@@ -83,4 +83,7 @@ headerTitle.innerHTML = bitumData.groupName;
 // blockImg.append(img);
 
 const fullYear = document.getElementById('fullYear');
+let date = new Date();
+const year = date.getFullYear();
+fullYear.append(year);
 
