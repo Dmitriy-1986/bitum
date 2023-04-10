@@ -131,7 +131,7 @@ for(let i = 0; i < bitumData.musicList.length; i++) {
            figure.innerHTML = `<figcaption>${bitumData.musicList[i].trackName}</figcaption>
                          <audio
                             controls
-                            src="${m.trackLink}">
+                            src="${bitumData.musicList[i].trackLink}">
                                <a href="${bitumData.musicList[i].trackLink}">
                                   Завантажити трек
                                </a>
