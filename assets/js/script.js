@@ -123,23 +123,22 @@ try {
 }
 
 // Music
-/*
 const music = document.getElementById('music');
 const musicData = bitumData.musicList;
 
-for(let i = 0; i < musicData.length; i++) {
+for(let i = 0; i < bitumData.musicList.length; i++) {
        let figure = document.createElement('figure');
-           figure.innerHTML += `<figcaption>${musicData[i].trackName}</figcaption>
+           figure.innerHTML += `<figcaption>${bitumData.musicList[i].trackName}</figcaption>
                          <audio
                             controls
                             src="${m.trackLink}">
-                               <a href="${musicData[i].trackLink}">
+                               <a href="${bitumData.musicList[i].trackLink}">
                                   Завантажити трек
                                </a>
                          </audio>`;
         music.append(figure);
 }
-*/
+
 // Footer
 const fullYear = document.getElementById('fullYear');
 let date = new Date();
