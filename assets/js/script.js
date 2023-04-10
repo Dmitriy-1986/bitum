@@ -147,5 +147,5 @@ fullYear.append(year);
 
 const footerLogo = document.getElementById('footerLogo');
 footerLogo.innerHTML = bitumData.groupName;
-footerLogo.innerHTML += ' - на даний час сайт у стані розробки.';
+footerLogo.innerHTML += ' - сайт у стані розробки.';
 
