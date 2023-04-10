@@ -14,7 +14,7 @@ const bitumData = {
          {'title': 'Контакти', 'link': 'contacts.html'},
     ],
     'headerSlider': [
-        {'imgLink': '/assets/img/bitum.jpg'}
+        {'imgLink': './assets/img/bitum.jpg'}
     ],
     'aboutUs': 'Lorem ipsum dolor anet...',
     'groupIdentity': [
@@ -75,13 +75,11 @@ docTitle.innerHTML = bitumData.groupName;
 const headerTitle = document.getElementById('title');
 headerTitle.innerHTML = bitumData.groupName;
 
-const headerImg = document.querySelector('.img-header');
-headerImg.src = bitumData.headerSlider.imgLink;
-headerImg.alt = bitumData.groupName;
-
-
-
-
+const blockImg = document.querySelector('.img-header');
+const img = new Image(100, 200);
+img.src = bitumData.headerSlider.imgLink;
+img.alt = bitumData.groupName;
+blockImg.append(img);
 
 
 
