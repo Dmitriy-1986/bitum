@@ -54,9 +54,15 @@ const bitumData = {
         {'title': 'title', 'linkPhoto': '/photo webp'},
     ],
     'musicList': [
-        {'trackName': 'Track Name', 'trackLink': '/music.mp3'},
-        {'trackName': 'Track Name', 'trackLink': '/music.mp3'},
-        {'trackName': 'Track Name', 'trackLink': '/music.mp3'},
+        {'trackName': '25 лет жизни', 'trackLink': 'https://bitum.pp.ua/assets/music/25-let-zhizni.mp3'},
+        {'trackName': 'Худшие моменты', 'trackLink': 'https://bitum.pp.ua/assets/music/hudshie-momenty.mp3'},
+        {'trackName': 'Идеал', 'trackLink': 'https://bitum.pp.ua/assets/music/ideal.mp3'},
+        {'trackName': 'Идеал', 'trackLink': 'https://bitum.pp.ua/assets/music/ideal.mp3'},
+        {'trackName': 'Идеал', 'trackLink': 'https://bitum.pp.ua/assets/music/ideal.mp3'},
+        {'trackName': 'Идеал', 'trackLink': 'https://bitum.pp.ua/assets/music/ideal.mp3'},
+        {'trackName': 'Идеал', 'trackLink': 'https://bitum.pp.ua/assets/music/ideal.mp3'},
+        {'trackName': 'Идеал', 'trackLink': 'https://bitum.pp.ua/assets/music/ideal.mp3'},
+        {'trackName': 'Идеал', 'trackLink': 'https://bitum.pp.ua/assets/music/ideal.mp3'},
     ],
     'contacts': {
          'city': 'Олександрія',
