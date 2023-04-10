@@ -18,7 +18,7 @@ const bitumData = {
     ],
     'aboutUs': {
               'title': 'Про Нас',
-              'description': 'Lorem ipsum dolor anet...',
+              'description': 'Це історія про реп гурт з міста Олександрія, Бітум - засновано у 2003 році.',
     },
     'groupIdentity': [
        {   
@@ -88,6 +88,7 @@ headerTitle.innerHTML = bitumData.groupName;
 const aboutUs = document.getElementById('aboutUs');
 aboutUs.innerHTML =  `<h2 class='about-title'>${bitumData.aboutUs.title}</h2>`;
 aboutUs.innerHTML += `<p class='about-desc'>${bitumData.aboutUs.description}</p>`;
+aboutUs.innerHTML += `<a href='${bitumData.navigation.link}'><button class='about-btn'>Читати більше</button></a>`;
 
 const fullYear = document.getElementById('fullYear');
 let date = new Date();
