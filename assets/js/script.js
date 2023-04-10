@@ -105,6 +105,24 @@ try {
     waiting.innerHTML = error;
 }
 
+// Music
+const music = document.getElementById('music');
+let musicData = bitumData.musicList;
+musicData.forEach(m => {
+       let figure = document.createElement('figure');
+           figure += `
+           <figcaption>${m.trackName}</figcaption>
+             <audio
+                controls
+                src="m.trackLink">
+                  <a href="m.trackLink">
+                     Завантажити трек
+                  </a>
+              </audio>`;
+        music.append(figure);
+}
+
+// Footer
 const fullYear = document.getElementById('fullYear');
 let date = new Date();
 const year = date.getFullYear();
