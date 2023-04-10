@@ -159,6 +159,7 @@ const year = date.getFullYear();
 fullYear.append(year);
 
 const footerLogo = document.getElementById('footerLogo');
-footerLogo.innerHTML = bitumData.groupName;
+footerLogo.innerHTML = '&copy';
+footerLogo.innerHTML += bitumData.groupName;
 footerLogo.innerHTML += ' - сайт у стані розробки';
 
