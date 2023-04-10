@@ -19,8 +19,8 @@ const bitumData = {
               'description': 'Це історія про реп гурт Бітум з міста Олександрія,  який було засновано у 2003 році...',
     },
     'groupIdentity': [
-       {   
-           'name': 'Ruslan', 
+       'Ruslan': {   
+           'name': 'Ruslan',
            'linkImg': '/ruslan.webp', 
            'socialLink': {
                     'facebook': 'facebook',
@@ -28,7 +28,7 @@ const bitumData = {
                     'telegram': 'tg'
             }
        },
-       {
+       'Dima': {
            'name': 'Dima', 
            'linkImg': '/dima.webp', 
            'socialLink': {
@@ -37,7 +37,7 @@ const bitumData = {
                     'telegram': 'tg'
             }
        },
-       {
+       'Vlad': {
             'name': 'Vlad', 
             'linkImg': '/vlad.webp',
             'socialLink': {
@@ -109,7 +109,8 @@ try {
 
 // Music
 const music = document.getElementById('music');
-let musicData = bitumData.musicList;
+const musicData = bitumData.musicList;
+
 for(let i = 0; i < musicData.length; i++) {
        let figure = document.createElement('figure');
            figure += `<figcaption>${musicData[i].trackName}</figcaption>
