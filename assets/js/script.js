@@ -72,23 +72,27 @@ const bitumData = {
 */
 try {
     
-const docTitle = document.title;
-docTitle.innerHTML = bitumData.groupName;
+   const docTitle = document.title;
+   docTitle.innerHTML = bitumData.groupName;
 
-const headerTitle = document.getElementById('title');
-headerTitle.innerHTML = bitumData.groupName;
+   const headerTitle = document.getElementById('title');
+   headerTitle.innerHTML = bitumData.groupName;
 
-const blockImg = document.querySelector('.img-header');
-const img = new Image();
-img.alt = bitumData.groupName;
-// img.src = 'https://bitum.pp.ua/assets/img/bitum.jpg';
-img.src = `${bitumData.headerImg}`;
-blockImg.append(img);
+   const blockImg = document.querySelector('.img-header');
+   const img = new Image();
+   img.alt = bitumData.groupName;
+   // img.src = 'https://bitum.pp.ua/assets/img/bitum.jpg';
+   img.src = `${bitumData.headerImg}`;
+   blockImg.append(img);
 
-const aboutUs = document.getElementById('aboutUs');
-aboutUs.innerHTML =  `<h2 class='about-title'>${bitumData.aboutUs.title}</h2>`;
-aboutUs.innerHTML += `<p class='about-desc'>${bitumData.aboutUs.description}</p>`;
-aboutUs.innerHTML += `<a href='${bitumData.navigation.link}'><button class='about-btn'>Читати більше</button></a>`;
+   const aboutUs = document.getElementById('aboutUs');
+   aboutUs.innerHTML =  `<h2 class='about-title'>${bitumData.aboutUs.title}</h2>`;
+   aboutUs.innerHTML += `<p class='about-desc'>${bitumData.aboutUs.description}</p>`;
+   aboutUs.innerHTML += `<a href='${bitumData.navigation.link}'><button class='about-btn'>Читати більше</button></a>`;
+} catch (error) {
+    const waiting = document.querySelector('.error');
+    waiting.innerHTML = error;
+}
 
 const fullYear = document.getElementById('fullYear');
 let date = new Date();
@@ -98,8 +102,4 @@ fullYear.append(year);
 const footerLogo = document.getElementById('footerLogo');
 footerLogo.innerHTML = bitumData.groupName;
 
-} catch (error) {
-    const waiting = document.querySelector('.error');
-    waiting.innerHTML = error;
-    //console.log(error.message);
-}
+
