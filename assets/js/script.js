@@ -81,8 +81,8 @@ headerTitle.innerHTML = bitumData.groupName;
 const blockImg = document.querySelector('.img-header');
 const img = new Image();
 img.alt = bitumData.groupName;
-img.src = 'https://bitum.pp.ua/assets/img/bitum.jpg';
-// bitumData.headerImgLink;
+// img.src = 'https://bitum.pp.ua/assets/img/bitum.jpg';
+img.src = `${bitumData.headerImgLink`};
 blockImg.append(img);
 
 const aboutUs = document.getElementById('aboutUs');
