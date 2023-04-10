@@ -6,7 +6,7 @@ const bitumData = {
     'groupName': 'Бітум',
     'logotype': '/',
     'navigation': {
-         'titleHome': 'Головна', 'linkHome': 'index.html'},
+         'titleHome': 'Головна', 'linkHome': 'index.html',
          'titleAboutUs': 'Про Нас', 'linkAboutUs': 'about-us.html',
          'titleGallery': 'Галерея', 'linkGallery': 'gallery.html',
          'titleMusic': 'Музика', 'linkMusic': 'music.html',
