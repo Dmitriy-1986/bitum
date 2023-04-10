@@ -87,3 +87,5 @@ let date = new Date();
 const year = date.getFullYear();
 fullYear.append(year);
 
+const footerLogo = document.getElementById('footerLogo');
+footerLogo.innerHTML = bitumData.groupName;
