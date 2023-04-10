@@ -22,7 +22,7 @@ const bitumData = {
                 'titleMusic': 'Музика', 
                 'linkMusic': 'music.html'
           },
-          'blog'{
+          'blog': {
                  'titleBlog': 'Блог', 
                  'linkBlog': 'blog.html'
           },
