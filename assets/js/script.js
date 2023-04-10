@@ -125,7 +125,7 @@ for(let i = 0; i < musicData.length; i++) {
         music.append(figure);
 }
 } catch(e) {
-  waiting.innerHTML = error;
+  waiting.innerHTML = e;
 }
 
 // Footer
