@@ -16,7 +16,10 @@ const bitumData = {
     'headerSlider': [
         {'imgLink': './assets/img/Бітум.jpg'} 
     ],
-    'aboutUs': 'Lorem ipsum dolor anet...',
+    'aboutUs': {
+              'title': 'Про Нас',
+              'description': 'Lorem ipsum dolor anet...',
+    },
     'groupIdentity': [
        {   
            'name': 'Ruslan', 
@@ -81,6 +84,10 @@ headerTitle.innerHTML = bitumData.groupName;
 // img.alt = bitumData.groupName;
 // img.src = './assets/img/bitum.jpg';
 // blockImg.append(img);
+
+const aboutUs = document.getElementById('aboutUs');
+aboutUs.innerHTML =  "<h2 class='about-title'>`${bitumData.aboutUs.title}`</h2>";
+aboutUs.innerHTML += "<p class='about-desc'>`${bitumData.aboutUs.description}`</p>";
 
 const fullYear = document.getElementById('fullYear');
 let date = new Date();
