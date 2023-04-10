@@ -64,6 +64,10 @@
            color: black;
        }
 
+       .about-desc {
+           padding: 10px;
+       }
+
        footer {
           color: white;
           padding: 10px;
