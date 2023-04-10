@@ -86,8 +86,8 @@ headerTitle.innerHTML = bitumData.groupName;
 // blockImg.append(img);
 
 const aboutUs = document.getElementById('aboutUs');
-aboutUs.innerHTML =  "<h2 class='about-title'>`${bitumData.aboutUs.title}`</h2>";
-aboutUs.innerHTML += "<p class='about-desc'>`${bitumData.aboutUs.description}`</p>";
+aboutUs.innerHTML =  `<h2 class='about-title'>${bitumData.aboutUs.title}</h2>`;
+aboutUs.innerHTML += `<p class='about-desc'>${bitumData.aboutUs.description}</p>`;
 
 const fullYear = document.getElementById('fullYear');
 let date = new Date();
