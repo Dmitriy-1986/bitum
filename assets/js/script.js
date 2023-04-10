@@ -111,13 +111,14 @@ try {
 try {
 const music = document.getElementById('music');
 let musicData = bitumData.musicList;
-musicData.forEach((m) => {
+for(let i = 0; i < musicData.length; i++) {
+
        let figure = document.createElement('figure');
-           figure += `<figcaption>${m.trackName}</figcaption>
+           figure += `<figcaption>${musicData[i].trackName}</figcaption>
                          <audio
                             controls
                             src="${m.trackLink}">
-                               <a href="${m.trackLink}">
+                               <a href="${musicData[i].trackLink}">
                                   Завантажити трек
                                </a>
                          </audio>`;
