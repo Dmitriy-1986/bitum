@@ -5,14 +5,14 @@
 const bitumData = {
     'groupName': 'Бітум',
     'logotype': '/',
-    'navigation': [
-         {'title': 'Головна', 'link': 'index.html'},
-         {'title': 'Про Нас', 'link': 'about-us.html'},
-         {'title': 'Галерея', 'link': 'gallery.html'},
-         {'title': 'Музика', 'link': 'music.html'},
-         {'title': 'Блог', 'link': 'blog.html'},
-         {'title': 'Контакти', 'link': 'contacts.html'},
-    ],
+    'navigation': {
+         'titleHome': 'Головна', 'linkHome': 'index.html'},
+         'titleAboutUs': 'Про Нас', 'linkAboutUs': 'about-us.html',
+         'titleGallery': 'Галерея', 'linkGallery': 'gallery.html',
+         'titleMusic': 'Музика', 'linkMusic': 'music.html',
+         'titleBlog': 'Блог', 'linkBlog': 'blog.html',
+         'titleContacts': 'Контакти', 'linkContacts': 'contacts.html',
+    },
     'headerImg': 'https://bitum.pp.ua/assets/img/bitum.jpg',   
     'aboutUs': {
               'title': 'Про Нас',
@@ -87,7 +87,7 @@ try {
    const aboutUs = document.getElementById('aboutUs');
    aboutUs.innerHTML =  `<h2 class='about-title'>${bitumData.aboutUs.title}</h2>`;
    aboutUs.innerHTML += `<p class='about-desc'>${bitumData.aboutUs.description}</p>`;
-   aboutUs.innerHTML += `<a href='${bitumData.navigation.link}'><button class='about-btn'>Читати більше</button></a>`;
+   aboutUs.innerHTML += `<a href='${bitumData.navigation.linkAboutUs}'><button class='about-btn'>Читати більше</button></a>`;
 } catch (error) {
     const waiting = document.querySelector('.error');
     waiting.innerHTML = error;
