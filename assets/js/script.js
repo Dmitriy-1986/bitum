@@ -82,5 +82,5 @@ headerTitle.innerHTML = bitumData.groupName;
 // img.src = './assets/img/bitum.jpg';
 // blockImg.append(img);
 
-
+const fullYear = document.getElementById('fullYear');
 
