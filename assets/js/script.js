@@ -14,7 +14,7 @@ const bitumData = {
          {'title': 'Контакти', 'link': 'contacts.html'},
     ],
     'headerSlider': [
-        {'imgLink': './assets/img/Бітум.jpg'} 
+        {'imgLink': './assets/img/bitum.jpg'} 
     ],
     'aboutUs': {
               'title': 'Про Нас',
