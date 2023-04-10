@@ -108,7 +108,7 @@ try {
 // Music
 const music = document.getElementById('music');
 let musicData = bitumData.musicList;
-musicData.forEach(m => {
+musicData.forEach((m) => {
        let figure = document.createElement('figure');
            figure += `<figcaption>${m.trackName}</figcaption>
                          <audio
