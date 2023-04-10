@@ -113,7 +113,7 @@ const musicData = bitumData.musicList;
 
 for(let i = 0; i < musicData.length; i++) {
        let figure = document.createElement('figure');
-           figure += `<figcaption>${musicData[i].trackName}</figcaption>
+           figure.innerHTML += `<figcaption>${musicData[i].trackName}</figcaption>
                          <audio
                             controls
                             src="${m.trackLink}">
