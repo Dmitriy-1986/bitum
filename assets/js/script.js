@@ -18,7 +18,7 @@ const bitumData = {
               'title': 'Про Нас',
               'description': 'Це історія про реп гурт Бітум з міста Олександрія,  який було засновано у 2003 році...',
     },
-    'groupIdentity': [
+    'groupIdentity': {
        'Ruslan': {   
            'name': 'Ruslan',
            'linkImg': '/ruslan.webp', 
@@ -45,7 +45,7 @@ const bitumData = {
                     'telegram': 'tg'
             }
        }       
-    ],
+    },
     'galleryImg': [
         {'title': 'title', 'linkPhoto': '/photo webp'},
         {'title': 'title', 'linkPhoto': '/photo webp'},
