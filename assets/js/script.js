@@ -82,6 +82,9 @@ const bitumData = {
 /**
 * Заполнение данными 
 */
+
+const waiting = document.querySelector('.error');
+
 try {  
    const docTitle = document.title;
    docTitle.innerHTML = bitumData.groupName;
@@ -101,11 +104,11 @@ try {
    aboutUs.innerHTML += `<p class='about-desc'>${bitumData.aboutUs.description}</p>`;
    aboutUs.innerHTML += `<a href='${bitumData.navigation.linkAboutUs}'><button class='about-btn'>Читати більше</button></a>`;
 } catch (error) {
-    const waiting = document.querySelector('.error');
     waiting.innerHTML = error;
 }
 
 // Music
+try {
 const music = document.getElementById('music');
 let musicData = bitumData.musicList;
 musicData.forEach((m) => {
@@ -119,6 +122,9 @@ musicData.forEach((m) => {
                                </a>
                          </audio>`;
         music.append(figure);
+}
+} catch(e) {
+  waiting.innerHTML = error;
 }
 
 // Footer
