@@ -70,8 +70,7 @@ const bitumData = {
 /**
 * Заполнение данными 
 */
-try {
-    
+try {  
    const docTitle = document.title;
    docTitle.innerHTML = bitumData.groupName;
 
