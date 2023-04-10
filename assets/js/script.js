@@ -108,6 +108,7 @@ try {
 }
 
 // Music
+/*
 const music = document.getElementById('music');
 const musicData = bitumData.musicList;
 
@@ -123,7 +124,7 @@ for(let i = 0; i < musicData.length; i++) {
                          </audio>`;
         music.append(figure);
 }
-
+*/
 // Footer
 const fullYear = document.getElementById('fullYear');
 let date = new Date();
