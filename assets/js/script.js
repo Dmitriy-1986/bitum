@@ -108,11 +108,9 @@ try {
 }
 
 // Music
-try {
 const music = document.getElementById('music');
 let musicData = bitumData.musicList;
 for(let i = 0; i < musicData.length; i++) {
-
        let figure = document.createElement('figure');
            figure += `<figcaption>${musicData[i].trackName}</figcaption>
                          <audio
@@ -123,9 +121,6 @@ for(let i = 0; i < musicData.length; i++) {
                                </a>
                          </audio>`;
         music.append(figure);
-}
-} catch(e) {
-  waiting.innerHTML = e;
 }
 
 // Footer
