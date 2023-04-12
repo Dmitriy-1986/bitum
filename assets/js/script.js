@@ -2,7 +2,7 @@
 * Объект данных 
 */
 const bitumData = {
-    'groupName': 'Бітум',
+    'groupName': 'Bitum',
     'logotype': 'https://bitum.pp.ua/assets/img/bitum-img.jpg',
     'navigation': {
        'home': {
