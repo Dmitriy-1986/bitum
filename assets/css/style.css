@@ -55,6 +55,10 @@
           filter: grayscale(100%);
        }
 
+       .img-header img:hover {
+          filter: original;
+       }
+
        article {
            background: white;
            padding: 100px 0;
