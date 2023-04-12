@@ -60,6 +60,7 @@
            text-align: left;
            text-transform: uppercase;
            font-family: 'Nastup';
+           font-weight: bold;
        }
 
        .img-header img {
