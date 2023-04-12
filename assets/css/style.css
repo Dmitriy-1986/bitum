@@ -1,9 +1,8 @@
 @font-face {
     font-family: 'Nastup';
-    src: local('Nastup Soft'), local('Nastup-Soft'),
-        url('/assets/fonts/Nastup-Soft.woff2') format('woff2'),
-        url('/assets/fonts/Nastup-Soft.woff') format('woff'),
-        url('/assets/fonts/Nastup-Soft.ttf') format('truetype');
+    src: url('../assets/fonts/Nastup-Soft.woff2') format('woff2'),
+         url('../assets/fonts/Nastup-Soft.woff') format('woff'),
+         url('../assets/fonts/Nastup-Soft.ttf') format('ttf');
     font-weight: normal;
     font-style: normal;
   }
@@ -60,6 +59,7 @@
         h1 {
            text-align: left;
            text-transform: uppercase;
+           font-family: 'Nastup';
        }
 
        .img-header img {
