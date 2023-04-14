@@ -13,20 +13,20 @@ async function getBitum() {
 async function renderBitum() {
     const bitum = await getBitum();
 
-    if (`file:///home/dovgaldima/WebDev/bitum/${bitum.navigationMenu[0].link}`) {
+    if (`https://bitum.pp.ua/${bitum.navigationMenu[0].link}`) {
         document.title = `${bitum.groupName} | ${bitum.navigationMenu[0].title}`;
-    } else if (`file:///home/dovgaldima/WebDev/bitum/${bitum.navigationMenu[1].link}`){
-        document.title = `${bitum.groupName} | ${bitum.navigationMenu[0].title}`;
-    } else if (`file:///home/dovgaldima/WebDev/bitum/${bitum.navigationMenu[2].link}`){
+    } else if (`https://bitum.pp.ua/${bitum.navigationMenu[1].link}`){
+        document.title = `${bitum.groupName} | ${bitum.navigationMenu[1].title}`;
+    } else if (`https://bitum.pp.ua/${bitum.navigationMenu[2].link}`){
         document.title = `${bitum.groupName} | ${bitum.navigationMenu[2].title}`;
-    } else if (`file:///home/dovgaldima/WebDev/bitum/${bitum.navigationMenu[3].link}`){
+    } else if (`https://bitum.pp.ua/${bitum.navigationMenu[3].link}`){
         document.title = `${bitum.groupName} | ${bitum.navigationMenu[3].title}`;
-    } else if (`file:///home/dovgaldima/WebDev/bitum/${bitum.navigationMenu[4].link}`){
+    } else if (`https://bitum.pp.ua/${bitum.navigationMenu[4].link}`){
         document.title = `${bitum.groupName} | ${bitum.navigationMenu[4].title}`;
-    } else if (`file:///home/dovgaldima/WebDev/bitum/${bitum.navigationMenu[5].link}`){
+    } else if (`https://bitum.pp.ua/${bitum.navigationMenu[5].link}`){
         document.title = `${bitum.groupName} | ${bitum.navigationMenu[5].title}`;
     } else {
-        document.title = `${bitum.groupName} | ${bitum.navigationMenu[5].title}`;
+        document.title = bitum.groupName;
     }
 
     const logo = document.querySelector('.logo');
