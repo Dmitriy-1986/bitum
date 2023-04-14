@@ -192,23 +192,5 @@ header::before {
     .is-sticky a {
         color: var(--color-dark);
     }
-
-    /* 
-    .nav {
-        position: absolute;
-        top: 0;
-        left: 0;
-        height: 100%;
-        width: 100%;
-        background-color: red;
-        clip-path: circle(0px at 0 0px);
-        transition: 0.5s ease all;
-    }
-
-    .nav-list {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    } */
 }
+
