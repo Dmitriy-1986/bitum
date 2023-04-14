@@ -1,6 +1,28 @@
  {
   "groupName": "Бітум",
   "logotype": "https://bitum.pp.ua/assets/img/bitum-img.jpg",
+  "navigationMenu": [
+    {
+      "title": "Головна",
+      "link": "index.html"
+    },
+    {
+      "title": "Про Нас",
+      "link": "about-us.html"
+    },
+    {
+      "title": "Галерея",
+      "link": "gallery.html"
+    },
+    {
+      "title": "Музика",
+      "link": "music.html"
+    },
+    {
+      "title": "Контакти",
+      "link": "contacts.html"
+    }
+  ],
   "navigation": {
     "home": {
       "titleHome": "Головна",
