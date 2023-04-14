@@ -156,7 +156,7 @@ header::before {
     }
 
     .burger-menu::after {
-        content: url("./open.png");
+        content: url("../assets/img/open.png");
     }
 
     .nav {
@@ -182,7 +182,7 @@ header::before {
     }
 
     .menu-show.burger-menu::after {
-        content: url("./close.png");
+        content: url("../assets/img/close.png");
     }
 
     .nav ul a {
