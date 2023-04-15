@@ -99,9 +99,9 @@ async function renderBitum() {
     // Contacts
     const contacts = document.querySelector('#contentContacts h2');
     const contentContacts = document.querySelector('#contentContacts p');
-    contacts.innerHTML = `${bitum.navigation.contacts.titleContacts}`;
-    contentContacts.innerHTML += `<p class='content-about-us'>${bitum.aboutUs.description}</p>`;
-    contentContacts.innerHTML += `<a href='${bitum.navigation.contacts.linkContacts}'><button class='btn-about-us btn-primary'>Читати більше</button></a>`;
+    contacts.innerHTML = `${bitum.contacts.title}`;
+    contentContacts.innerHTML  = `<p class='content-about-us'>${bitum.contacts.text}</p>`;
+    contentContacts.innerHTML += `<a href='${bitum.contacts.mail}'>${bitum.contacts.mail}</a>`;
 
     // Footer
     const footerContent = document.querySelector('#footerContent');
