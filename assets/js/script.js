@@ -31,6 +31,7 @@ async function renderBitum() {
 
     const logo = document.querySelector('.logo');
     logo.innerHTML = bitum.groupName;
+    logo.innerHTML += `<img src='./assets/img/ukraine-flag.png' alt='Ukraine' class='flag-Ukraine'>`;
 
     const blockImg = document.querySelector('.img-header-block');
     const img = new Image();
