@@ -320,6 +320,11 @@ header::before {
     padding: 10px;
 }
 
+.img-gmail {
+    position: relative;
+    top: 4px;
+    width: 20px;
+}
 /**
 * Footer
 **/
