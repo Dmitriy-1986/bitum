@@ -100,12 +100,12 @@ async function renderBitum() {
     const contacts = document.querySelector('#contentContacts h2');
     const contentContacts = document.querySelector('#contentContacts p');
     contacts.innerHTML = `${bitum.contacts.title}`;
-    contentContacts.innerHTML  = `<p class='content-about-us'>${bitum.contacts.text}</p>`;
+    contentContacts.innerHTML = `<p class='content-about-us'>${bitum.contacts.text}</p>`;
     contentContacts.innerHTML += `<a href='mailto:${bitum.contacts.mail}'>${bitum.contacts.mail}</a>`;
 
     // Footer
     const footerContent = document.querySelector('#footerContent');
-    footerContent.innerHTML  = new Date().getFullYear();
+    footerContent.innerHTML = new Date().getFullYear();
     footerContent.innerHTML += ` &copy ${bitum.groupName}`;
 }
 
@@ -130,4 +130,3 @@ function menuShow() {
     nav.classList.toggle('menu-show');
     burgerMenu.classList.toggle('menu-show');
 }
-
