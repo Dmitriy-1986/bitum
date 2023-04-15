@@ -355,3 +355,21 @@ footer p {
     color: var(--color-light);
     font-weight: 600;
 }
+
+/**
+* About Us Page
+*/
+
+.about-us {
+   margin-top: 108px;
+}
+
+.title-about-us {
+    text-align: center;
+    padding: 0 0 20px 0;
+}
+
+.about-us p {
+    line-height: 2.5;
+}
+
