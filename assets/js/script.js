@@ -53,7 +53,7 @@ async function renderBitum() {
     const contentAboutUs = document.querySelector('#contentAboutUs');
     contentAboutUs.innerHTML = `<h2>${bitum.aboutUs.title}</h2>`;
     contentAboutUs.innerHTML += `<p class='content-about-us'>${bitum.aboutUs.description}</p>`;
-    contentAboutUs.innerHTML += `<a href='${bitum.navigation.aboutUs.linkAboutUs}'><button class='btn-about-us btn-primary'>Читати більше</button></a>`;
+    contentAboutUs.innerHTML += `<a href='${bitum.navigation.aboutUs.linkAboutUs}'><button class='btn btn-primary'>Читати більше</button></a>`;
 
     const imgAbout = new Image();
     imgAbout.alt = bitum.aboutUs.title;
@@ -65,7 +65,7 @@ async function renderBitum() {
     const contentArchive = document.querySelector('#contentArchive');
     contentArchive.innerHTML = `<h2>${bitum.navigation.archive.titleArchive}</h2>`;
     contentArchive.innerHTML += `<p class='content-about-us'>${bitum.aboutUs.description}</p>`;
-    contentArchive.innerHTML += `<a href='${bitum.navigation.archive.linkArchive}'><button class='btn-about-us btn-primary'>Читати більше</button></a>`;
+    contentArchive.innerHTML += `<a href='${bitum.navigation.archive.linkArchive}'><button class='btn btn-primary'>Читати більше</button></a>`;
 
     const imgArchive = new Image();
     imgArchive.alt = bitum.navigation.archive.titleArchive;
@@ -77,7 +77,7 @@ async function renderBitum() {
     const contentGallery = document.querySelector('#contentGallery');
     contentGallery.innerHTML = `<h2>${bitum.navigation.gallery.titleGallery}</h2>`;
     contentGallery.innerHTML += `<p class='content-about-us'>${bitum.aboutUs.description}</p>`;
-    contentGallery.innerHTML += `<a href='${bitum.navigation.gallery.linkGallery}'><button class='btn-about-us btn-primary'>Читати більше</button></a>`;
+    contentGallery.innerHTML += `<a href='${bitum.navigation.gallery.linkGallery}'><button class='btn btn-primary'>Читати більше</button></a>`;
 
     const imgGallery = new Image();
     imgGallery.alt = bitum.navigation.gallery.titleGallery;
@@ -89,7 +89,7 @@ async function renderBitum() {
     const contentMusic = document.querySelector('#contentMusic');
     contentMusic.innerHTML = `<h2>${bitum.navigation.music.titleMusic}</h2>`;
     contentMusic.innerHTML += `<p class='content-about-us'>${bitum.aboutUs.description}</p>`;
-    contentMusic.innerHTML += `<a href='${bitum.navigation.music.linkMusic}'><button class='btn-about-us btn-primary'>Читати більше</button></a>`;
+    contentMusic.innerHTML += `<a href='${bitum.navigation.music.linkMusic}'><button class='btn btn-primary'>Читати більше</button></a>`;
 
     const imgMusic = new Image();
     imgMusic.alt = bitum.navigation.music.titleMusic;
