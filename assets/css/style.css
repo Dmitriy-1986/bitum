@@ -179,6 +179,7 @@ header::before {
         justify-content: center;
         background-color: var(--color-light);
         padding: 10px;
+        line-height: 2.5;
     }
 
     .menu-show.burger-menu::after {
