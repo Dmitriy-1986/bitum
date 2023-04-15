@@ -35,7 +35,8 @@ async function renderBitum() {
     const blockImg = document.querySelector('.img-header-block');
     const img = new Image();
     img.alt = bitum.groupName;
-    img.src = `${bitum.headerImg}`;
+    //img.src = `${bitum.headerImg}`;
+    img.src = 'https://images.unsplash.com/photo-1681068420510-cb528c65d595?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1331&q=80';
     img.classList.add('img-header');
     blockImg.append(img);
 
