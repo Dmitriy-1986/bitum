@@ -175,8 +175,9 @@
     }
   ],
   "contacts": {
+    "title": "Контакти",
     "city": "Олександрія",
-    "maps-link": "google-maps..."
+    "mail": "bitum2003@gmail.com",
   },
   "blog": []
 }
