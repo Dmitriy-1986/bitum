@@ -62,6 +62,10 @@ a:hover {
     flex: 1 0 0%;
 }
 
+.block {
+    margin: 50px 0;
+}
+
 .block:nth-child(2n) {
     flex-direction: row-reverse;
 }
@@ -236,6 +240,10 @@ header::before {
     justify-content: center;
 }
 
+.block-content h2 {
+    text-transform: uppercase;
+}
+
 .content-about-us {
     line-height: 2;
 }
@@ -310,10 +318,6 @@ header::before {
     text-align: center;
     padding: 50px 0;
     padding: 10px;
-}
-
-.contacts h2 {
-    text-transform: capitalize;
 }
 
 /**
