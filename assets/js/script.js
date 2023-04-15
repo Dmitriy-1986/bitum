@@ -52,7 +52,7 @@ async function renderBitum() {
     const imgAboutUsBlock = document.querySelector('#imgAboutUs');
     const contentAboutUs = document.querySelector('#contentAboutUs');
     contentAboutUs.innerHTML = `<h2>${bitum.aboutUs.title}</h2>`;
-    contentAboutUs.innerHTML += `<p class='content-about-us'>${bitum.aboutUs.description}</p>`;
+    contentAboutUs.innerHTML += `<p class='content-about-us'>${bitum.aboutUs.description.slice(0, 200)}...</p>`;
     contentAboutUs.innerHTML += `<a href='${bitum.navigation.aboutUs.linkAboutUs}'><button class='btn btn-primary'>Читати більше</button></a>`;
 
     const imgAbout = new Image();
@@ -64,7 +64,7 @@ async function renderBitum() {
     const archive = document.querySelector('#archive');
     const contentArchive = document.querySelector('#contentArchive');
     contentArchive.innerHTML = `<h2>${bitum.navigation.archive.titleArchive}</h2>`;
-    contentArchive.innerHTML += `<p class='content-about-us'>${bitum.aboutUs.description}</p>`;
+    contentArchive.innerHTML += `<p class='content-about-us'>${bitum.aboutUs.description.slice(0, 200)}...</p>`;
     contentArchive.innerHTML += `<a href='${bitum.navigation.archive.linkArchive}'><button class='btn btn-primary'>Читати більше</button></a>`;
 
     const imgArchive = new Image();
@@ -76,7 +76,7 @@ async function renderBitum() {
     const gallery = document.querySelector('#gallery');
     const contentGallery = document.querySelector('#contentGallery');
     contentGallery.innerHTML = `<h2>${bitum.navigation.gallery.titleGallery}</h2>`;
-    contentGallery.innerHTML += `<p class='content-about-us'>${bitum.aboutUs.description}</p>`;
+    contentGallery.innerHTML += `<p class='content-about-us'>${bitum.aboutUs.description.slice(0, 200)}...</p>`;
     contentGallery.innerHTML += `<a href='${bitum.navigation.gallery.linkGallery}'><button class='btn btn-primary'>Читати більше</button></a>`;
 
     const imgGallery = new Image();
@@ -88,7 +88,7 @@ async function renderBitum() {
     const music = document.querySelector('#music');
     const contentMusic = document.querySelector('#contentMusic');
     contentMusic.innerHTML = `<h2>${bitum.navigation.music.titleMusic}</h2>`;
-    contentMusic.innerHTML += `<p class='content-about-us'>${bitum.aboutUs.description}</p>`;
+    contentMusic.innerHTML += `<p class='content-about-us'>${bitum.aboutUs.description.slice(0, 200)}...</p>`;
     contentMusic.innerHTML += `<a href='${bitum.navigation.music.linkMusic}'><button class='btn btn-primary'>Читати більше</button></a>`;
 
     const imgMusic = new Image();
