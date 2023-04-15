@@ -10,17 +10,17 @@
       "title": "Про Нас",
       "link": "about-us.html"
     },
-   {
-      "title": "Архів",
-      "link": "archive.html"
-    },
-    {
-      "title": "Галерея",
-      "link": "gallery.html"
-    },
     {
       "title": "Музика",
       "link": "music.html"
+    },
+    {
+      "title": "Фото",
+      "link": "gallery.html"
+    },
+    {
+      "title": "Архів",
+      "link": "archive.html"
     },
     {
       "title": "Контакти",
@@ -41,16 +41,12 @@
       "linkArchive": "archive.html"
     },
     "gallery": {
-      "titleGallery": "Галерея",
+      "titleGallery": "Фото",
       "linkGallery": "gallery.html"
     },
     "music": {
       "titleMusic": "Музика",
       "linkMusic": "music.html"
-    },
-    "blog": {
-      "titleBlog": "Блог",
-      "linkBlog": "blog.html"
     },
     "contacts": {
       "titleContacts": "Контакти",
