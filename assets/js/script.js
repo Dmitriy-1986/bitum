@@ -101,7 +101,7 @@ async function renderBitum() {
     const contentContacts = document.querySelector('#contentContacts p');
     contacts.innerHTML = `${bitum.contacts.title}`;
     contentContacts.innerHTML = `<p class='content-about-us'>${bitum.contacts.text}</p>`;
-    contentContacts.innerHTML += `<a href='mailto:${bitum.contacts.mail}'>${bitum.contacts.mail}</a>`;
+    contentContacts.innerHTML += `<a href='mailto:${bitum.contacts.mail}'><img src='./assets/img/icon-gmail.png' alt='Gmail' class='img-gmail'> ${bitum.contacts.mail}</a>`;
 
     // Footer
     const footerContent = document.querySelector('#footerContent');
