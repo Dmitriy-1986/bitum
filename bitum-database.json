@@ -36,6 +36,10 @@
       "titleAboutUs": "Про Нас",
       "linkAboutUs": "about-us.html"
     },
+    "archive": {
+      "titleArchive": "Архів",
+      "linkArchive": "archive.html"
+    },
     "gallery": {
       "titleGallery": "Галерея",
       "linkGallery": "gallery.html"
