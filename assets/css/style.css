@@ -307,7 +307,7 @@ header::before {
     color: #fff;
     background-color: #157347;
     border-color: #146c43;
-    box-shadow: 0 0 0 0.25rem rgba(60,153,110,.5);
+    box-shadow: 0 0 0 0.25rem rgba(60, 153, 110, .5);
 }
 
 /**
@@ -326,8 +326,11 @@ header::before {
 
 footer {
     border-top: 1px solid grey;
+    background-color: var(--color-gray);
 }
 
 footer p {
     padding: 10px;
+    color: var(--color-light);
+    font-weight: 600;
 }
