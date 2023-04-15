@@ -44,13 +44,6 @@ async function renderBitum() {
     // About Us
     const titleAboutUs = document.querySelector('#titleAboutUs');
     titleAboutUs.innerHTML = `${bitum.aboutUs.title}`;
-   /*  contentAboutUs.innerHTML += `<p class='content-about-us'>${bitum.aboutUs.description.slice(0, 200)}...</p>`;
-    contentAboutUs.innerHTML += `<a href='${bitum.navigation.aboutUs.linkAboutUs}'><button class='btn btn-primary'>Читати більше</button></a>`;
-
-    const imgAbout = new Image();
-    imgAbout.alt = bitum.aboutUs.title;
-    imgAbout.src = 'https://images.unsplash.com/photo-1681068420510-cb528c65d595?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1331&q=80';
-    imgAboutUsBlock.append(imgAbout); */
  
     // Footer
     const footerContent = document.querySelector('#footerContent');
