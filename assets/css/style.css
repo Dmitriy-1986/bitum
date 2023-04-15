@@ -27,7 +27,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
-    overflow-x: hidden;
 }
 
 body {
@@ -57,14 +56,11 @@ a:hover {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-top: calc(0 * -1);
-    margin-right: calc(1.5rem * -.5);
-    margin-left: calc(1.5rem * -.5);
-}
+} 
 
 .col {
     flex: 1 0 0%;
-}
+} 
 
 .block:nth-child(2n) {
     flex-direction: row-reverse;
@@ -227,7 +223,7 @@ header::before {
 **/
 
 .block-img img {
-    width: 550px;
+    width: 100%;
     padding: 10px;
 }
 
