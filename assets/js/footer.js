@@ -1,6 +1,3 @@
-'use strict';
-
-// Footer
 async function renderBitumFooter() {
     const bitum = await getBitum();
 
