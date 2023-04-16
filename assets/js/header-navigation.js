@@ -1,5 +1,3 @@
-'use strict';
-
 const header = document.querySelector(".header");
 const headerTop = header.getBoundingClientRect().top;
 
