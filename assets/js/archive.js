@@ -1,5 +1,3 @@
-'use strict';
-
 async function renderBitumArchive() {
     const bitum = await getBitum();
 
