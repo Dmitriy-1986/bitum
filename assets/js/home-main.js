@@ -1,3 +1,5 @@
+'use strict';
+
 async function renderBitumHomeMain() {
     const bitum = await getBitum();
 
