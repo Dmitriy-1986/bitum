@@ -367,6 +367,7 @@ footer p {
 .title-block {
     text-align: center;
     padding: 0 0 20px 0;
+    text-transform: uppercase;
 }
 
 .about-us p {
