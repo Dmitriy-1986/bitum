@@ -62,6 +62,10 @@ a:hover {
     flex: 1 0 0%;
 }
 
+.text-center {
+    text-align: center;
+}
+
 .block {
     margin: 50px 0;
 }
