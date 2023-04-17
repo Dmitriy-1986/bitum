@@ -88,24 +88,40 @@
   },
   "galleryImg": [
     {
-      "title": "title",
-      "linkPhoto": "/photo webp"
+      "title": "Бітум",
+      "linkPhoto": "https://bitum.pp.ua/assets/img/group/img-1.jpg"
     },
     {
-      "title": "title",
-      "linkPhoto": "/photo webp"
+      "title": "Бітум",
+      "linkPhoto": "https://bitum.pp.ua/assets/img/group/img-2.jpg"
     },
     {
-      "title": "title",
-      "linkPhoto": "/photo webp"
+      "title": "Бітум",
+      "linkPhoto": "https://bitum.pp.ua/assets/img/group/img-3.jpg"
     },
     {
-      "title": "title",
-      "linkPhoto": "/photo webp"
+      "title": "Бітум",
+      "linkPhoto": "https://bitum.pp.ua/assets/img/group/img-4.jpg"
     },
     {
-      "title": "title",
-      "linkPhoto": "/photo webp"
+      "title": "Wasp",
+      "linkPhoto": "https://bitum.pp.ua/assets/img/group/img-5.JPG"
+    },
+    {
+      "title": "Dema",
+      "linkPhoto": "https://bitum.pp.ua/assets/img/group/img-6.jpg"
+    },
+    {
+      "title": "NR",
+      "linkPhoto": "https://bitum.pp.ua/assets/img/group/img-7.jpg"
+    },
+    {
+      "title": "Oneal",
+      "linkPhoto": "https://bitum.pp.ua/assets/img/group/img-8.jpg"
+    },
+    {
+      "title": "Vlad",
+      "linkPhoto": "https://bitum.pp.ua/assets/img/group/img-9.jpg"
     }
   ],
   "musicList": [
