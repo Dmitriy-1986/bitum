@@ -14,7 +14,22 @@
 
 <body>
 
+    <!-- Header Navigation -->
+    <header class="header">
+        <div class="container-fluid">
+            <div class="container">
+                <div class="header-inner">
+                    <div id="logo" class="logo"></div>
+                    <button id="burgerMenu" class="burger-menu"></button>
+                    <nav class="nav">
+                        <ul id="navList" class="nav-list"></ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
 
+    <!-- Audio Player -->
     <audio id="myAudio" ontimeupdate="onTimeUpdate()">
         <source id="source-audio" src="" type="audio/mpeg">
         Your browser does not support the audio element.
@@ -65,8 +80,23 @@
         </div>
         <div class="playlist-ctn"></div>
     </div>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p id="footerContent"></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+     <!-- JavaScript -->
+    <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/header-navigation.js"></script>
     <script src="./assets/css/zdes-net-nachala.js"></script>
-
+    <script src="./assets/js/footer.js"></script>
 </body>
 
 </html>
