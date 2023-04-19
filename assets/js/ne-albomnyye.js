@@ -84,7 +84,7 @@ const listAudio = [
         duration: "03:19"
     },
     {
-        name: "Wasp тряпка",
+        name: "Тряпка",
         file: "https://bitum.pp.ua/assets/music/ne-albomnyye/12.Wasp-тряпка.mp3",
         duration: "03:51"
     },
