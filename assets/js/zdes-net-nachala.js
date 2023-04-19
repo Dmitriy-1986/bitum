@@ -31,92 +31,92 @@ const listAudio = [
     {
         name: "intro",
         file: "https://bitum.pp.ua/assets/music/zdes-net-nachala/01.%20intro.mp3",
-        duration: "00:0"
+        duration: "01:21"
     },
     {
         name: "Здесь нет начала....",
         file: "https://bitum.pp.ua/assets/music/zdes-net-nachala/02. БИТу.м. - здесь нет начала....mp3",
-        duration: "00:00"
+        duration: "04:15"
     },
     {
         name: "Свобода",
         file: "https://bitum.pp.ua/assets/music/zdes-net-nachala/03. БИТу.м. - свобода.mp3",
-        duration: "00:00"
+        duration: "03:13"
     },
     {
         name: "Суицид",
         file: "https://bitum.pp.ua/assets/music/zdes-net-nachala/04. БИТу.м. ,WASP,Системный Срыв - суицид.mp3",
-        duration: "00:00"
+        duration: "04:33"
     },
     {
         name: "Это про нас...",
         file: "https://bitum.pp.ua/assets/music/zdes-net-nachala/05. БИТу.м. - это про нас....mp3",
-        duration: "00:00"
+        duration: "02:42"
     },
     {
         name: "За тебя чувак",
         file: "https://bitum.pp.ua/assets/music/zdes-net-nachala/06. за тебя чувак(скит).mp3",
-        duration: "00:00"
+        duration: "00:48"
     },
     {
         name: "NRy",
         file: "https://bitum.pp.ua/assets/music/zdes-net-nachala/07. БИТу.м. - NRy.mp3",
-        duration: "00:00"
+        duration: "03:42"
     },
     {
         name: "Александрия",
         file: "https://bitum.pp.ua/assets/music/zdes-net-nachala/08. БИТу.м. - Александрия.mp3",
-        duration: "00:00"
+        duration: "04:02"
     },
     {
         name: "Нет места",
         file: "https://bitum.pp.ua/assets/music/zdes-net-nachala/09. БИТу.м. feat WASP - нет места.mp3",
-        duration: "00:00"
+        duration: "04:02"
     },
     {
         name: "Худшие моменты",
         file: "https://bitum.pp.ua/assets/music/zdes-net-nachala/10. БИТу.м. - худшие моменты.mp3",
-        duration: "00:00"
+        duration: "02:40"
     },
     {
         name: "Погоня за смертью",
         file: "https://bitum.pp.ua/assets/music/zdes-net-nachala/11. БИТу.м. - погоня за смертью.mp3",
-        duration: "00:00"
+        duration: "03:18"
     },
     {
         name: "Власть",
         file: "https://bitum.pp.ua/assets/music/zdes-net-nachala/12. БИТу.м. feat WASP - власть.mp3",
-        duration: "00:00"
+        duration: "03:43"
     },
     {
         name: "Мы не стоим на месте",
         file: "https://bitum.pp.ua/assets/music/zdes-net-nachala/13. БИТу.м. - мы не стоим на месте.mp3",
-        duration: "00:00"
+        duration: "04:08"
     },
     {
         name: "Одиноко",
         file: "https://bitum.pp.ua/assets/music/zdes-net-nachala/14. БИТу.м.(O_NEAL) - одиноко.mp3",
-        duration: "00:00"
+        duration: "04:05"
     },
     {
         name: "Идеал",
         file: "https://bitum.pp.ua/assets/music/zdes-net-nachala/15. БИТу.м. feat MC 0,5л - идеал.mp3",
-        duration: "00:00"
+        duration: "05:32"
     },
     {
         name: "Раз-два(скит)",
         file: "https://bitum.pp.ua/assets/music/zdes-net-nachala/16. раз-два(скит).mp3",
-        duration: "00:00"
+        duration: "01:35"
     },
     {
         name: "Рикошет",
         file: "https://bitum.pp.ua/assets/music/zdes-net-nachala/17. БИТу.м. feat WASP - рикошет(full version).mp3",
-        duration: "00:00"
+        duration: "05:17"
     },
     {
         name: "Оutro",
         file: "https://bitum.pp.ua/assets/music/zdes-net-nachala/18. outro.mp3",
-        duration: "00:00"
+        duration: "03:27"
     }
 ];
 
