@@ -122,3 +122,13 @@
     color: #ffffff;
     font-size: 20px;
 }
+
+@media (max-width: 450px) {
+    .player-ctn {
+        width: 350px;
+    }
+
+    #myProgress {
+        width: 330px;
+    }
+}
