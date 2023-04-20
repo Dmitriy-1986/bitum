@@ -5,6 +5,12 @@ async function renderBitumPhotoGallery() {
 
     document.title = `${bitum.groupName} | ${bitum.navigationMenu[3].title}`;
 
+    const breadcrumbGallery = document.querySelector('#breadcrumbGallery');
+    breadcrumbGallery.innerHTML = `<ol class="breadcrumb">
+                                       <li class="breadcrumb-item"><a href="${bitum.navigation.home.linkHome}">${bitum.navigation.home.titleHome} </a></li>
+                                       <li class="breadcrumb-item active">${bitum.navigation.gallery.titleGallery}</li>
+                                   </ol>`;
+    
     const titleGallery = document.querySelector('#titleGallery');
     titleGallery.innerHTML = bitum.navigation.gallery.titleGallery;
 
