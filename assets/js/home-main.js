@@ -53,7 +53,7 @@ async function renderBitumHomeMain() {
     const music = document.querySelector('#music');
     const contentMusic = document.querySelector('#contentMusic');
     contentMusic.innerHTML = `<h2>${bitum.navigation.music.titleMusic}</h2>`;
-    contentMusic.innerHTML += `<p class='content-about-us'>${bitum.aboutUs.description.slice(0, 200)}...</p>`;
+    contentMusic.innerHTML += `<p class='content-about-us'>${bitum.music.subdescription.slice(0, 200)}...</p>`;
     contentMusic.innerHTML += `<a href='${bitum.navigation.music.linkMusic}'><button class='btn btn-primary'>Читати більше</button></a>`;
 
     const imgMusic = new Image();
