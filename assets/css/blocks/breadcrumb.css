@@ -1,7 +1,15 @@
-.breadcrumb-block {}
+.breadcrumb-block {
 
-.breadcrumb {}
+}
 
-.breadcrumb-item {}
+.breadcrumb-block .breadcrumb {
 
-.breadcrumb-item .active {}
+}
+
+.breadcrumb-block.breadcrumb-item {
+
+}
+
+.breadcrumb-block .breadcrumb-item .active {
+
+}
