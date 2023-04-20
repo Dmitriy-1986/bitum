@@ -1,6 +1,7 @@
 @import url('./custom.css');
 @import url('./blocks/header.css');
 @import url('./blocks/navigation.css');
+@import url('./blocks/burger-menu.css');
 @import url('./blocks/breadcrumb.css');
 @import url('./blocks/images.css');
 @import url('./blocks/about-us.css');
