@@ -58,7 +58,7 @@ async function renderBitumHomeMain() {
 
     const imgMusic = new Image();
     imgMusic.alt = bitum.navigation.music.titleMusic;
-    imgMusic.src = 'https://images.unsplash.com/photo-1681068420510-cb528c65d595?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1331&q=80';
+    imgMusic.src = 'https://bitum.pp.ua/assets/img/music-home.jpg';
     music.append(imgMusic);
 
     // Contacts
