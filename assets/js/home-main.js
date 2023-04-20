@@ -22,7 +22,7 @@ async function renderBitumHomeMain() {
 
     const imgAbout = new Image();
     imgAbout.alt = bitum.aboutUs.title;
-    imgAbout.src = 'https://images.unsplash.com/photo-1681068420510-cb528c65d595?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1331&q=80';
+    imgAbout.src = 'https://bitum.pp.ua/assets/img/home-about-us.png';
     imgAboutUsBlock.append(imgAbout);
 
     // Archive
@@ -46,7 +46,7 @@ async function renderBitumHomeMain() {
 
     const imgGallery = new Image();
     imgGallery.alt = bitum.navigation.gallery.titleGallery;
-    imgGallery.src = 'https://images.unsplash.com/photo-1681068420510-cb528c65d595?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1331&q=80';
+    imgGallery.src = 'https://bitum.pp.ua/assets/img/home-photo.png';
     gallery.append(imgGallery);
 
     // Music
