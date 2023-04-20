@@ -64,6 +64,11 @@
     "subdescription": "Вашій увазі музичні альбоми реп гурту БІТУМ а також музичні композиції учасників гурту різних років творчості що не були включені в офіційні альбоми.",
     "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore fuga ducimus aperiam autem facilis quis voluptas eligendi ab adipisci odio at, deserunt iusto magni laborum natus ad, veniam et obcaecati...."
   },
+  "photo": {
+    "title": "Фото",
+    "subdescription": "Фото світлини реп гурту БІТУМ за весь час творчості, фото сети, гастрольні світлини й не формальні домашні фото.",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore fuga ducimus aperiam autem facilis quis voluptas eligendi ab adipisci odio at, deserunt iusto magni laborum natus ad, veniam et obcaecati...."
+  },
   "groupIdentity": {
     "Ruslan": {
       "name": "Ruslan",
