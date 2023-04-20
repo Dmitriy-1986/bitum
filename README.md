@@ -3,12 +3,7 @@
       Bitum Web Project
     </a>
 </h2>
-<!--
-
-bitum.pp.ua@gmail.com
-ddf110986 
-
--->
+<!-- bitum.pp.ua@gmail.com ddf110986 -->
 <nav>
     <ul>
         <li><a href="https://bitum.pp.ua/index.html">ГОЛОВНА</a></li>
