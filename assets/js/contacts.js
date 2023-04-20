@@ -5,6 +5,12 @@ async function renderBitumContacts() {
 
     document.title = `${bitum.groupName} | ${bitum.navigationMenu[5].title}`;
 
+    const breadcrumbContacts = document.querySelector('#breadcrumbContacts');
+    breadcrumbContacts.innerHTML = `<ol class="breadcrumb">
+                                       <li class="breadcrumb-item"><a href="${bitum.navigation.home.linkHome}">${bitum.navigation.home.titleHome} </a></li>
+                                       <li class="breadcrumb-item active">${bitum.navigation.contacts.titleContacts}</li>
+                                   </ol>`;
+    
     const titleContacts = document.querySelector('#titleContacts');
     titleContacts.innerHTML = bitum.navigation.contacts.titleContacts;
 
