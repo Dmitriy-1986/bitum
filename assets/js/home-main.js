@@ -41,7 +41,7 @@ async function renderBitumHomeMain() {
     const gallery = document.querySelector('#gallery');
     const contentGallery = document.querySelector('#contentGallery');
     contentGallery.innerHTML = `<h2>${bitum.navigation.gallery.titleGallery}</h2>`;
-    contentGallery.innerHTML += `<p class='content-about-us'>${bitum.aboutUs.description.slice(0, 200)}...</p>`;
+    contentGallery.innerHTML += `<p class='content-about-us'>${bitum.aboutUs.subdescription.slice(0, 200)}...</p>`;
     contentGallery.innerHTML += `<a href='${bitum.navigation.gallery.linkGallery}'><button class='btn btn-primary'>Читати більше</button></a>`;
 
     const imgGallery = new Image();
