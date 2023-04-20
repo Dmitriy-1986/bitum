@@ -82,4 +82,8 @@ a:hover {
     .block:nth-child(2n) {
         flex-direction: column;
     }
+    
+    .block-img img {
+        height: 400px;
+    }
 }
