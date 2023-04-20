@@ -1,0 +1,63 @@
+/**
+* Header
+**/
+
+.header {
+    z-index: 10;
+    padding: 1rem;
+    position: fixed;
+    inset: 0 0 auto 0;
+    color: var(--color-light);
+    background-color: rgba(51, 51, 51, 0.178);
+}
+
+header::before {
+    content: "";
+    inset: 0;
+    position: absolute;
+    transform: scaleY(0);
+    will-change: transform;
+    transition: transform 0.3s;
+    transform-origin: top center;
+    background-color: var(--color-light);
+}
+
+.is-sticky {
+    color: var(--color-dark);
+}
+
+.is-sticky::before {
+    transform: scaleY(1);
+}
+
+.header-inner {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.logo {
+    display: inline;
+    font-size: 40px;
+    font-weight: 1000;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px var(--color-dark);
+}
+
+.flag-Ukraine {
+    position: absolute;
+    top: -1px;
+    left: 2px;
+    width: 135px;
+}
+
+@media (max-width: 768px) {
+    .flag-Ukraine {
+        position: absolute;
+        top: 1px;
+        left: 2px;
+        width: 135px;
+    }
+}
