@@ -56,7 +56,12 @@
   "headerImg": "https://bitum.pp.ua/assets/img/bitum.jpg",
   "aboutUs": {
     "title": "Про Нас",
-   "subdescription": "Стислий опис історії реп гурту БІТУМ, та головних історичних подій учасників гурту з моменту заснування по нинішній час.",
+    "subdescription": "Стислий опис історії реп гурту БІТУМ, та головних історичних подій учасників гурту з моменту заснування по нинішній час.",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore fuga ducimus aperiam autem facilis quis voluptas eligendi ab adipisci odio at, deserunt iusto magni laborum natus ad, veniam et obcaecati...."
+  },
+  "music": {
+    "title": "Музика",
+    "subdescription": "Вашій увазі музичні альбоми реп гурту БІТУМ а також музичні композиції учасників гурту різних років творчості що не були включені в офіційні альбоми.",
     "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore fuga ducimus aperiam autem facilis quis voluptas eligendi ab adipisci odio at, deserunt iusto magni laborum natus ad, veniam et obcaecati...."
   },
   "groupIdentity": {
