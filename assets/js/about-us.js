@@ -8,8 +8,8 @@ async function renderBitumAboutUs() {
     // About Us
     const breadcrumbAboutUs = document.querySelector('#breadcrumbAboutUs');
     breadcrumbAboutUs.innerHTML = `<ol class="breadcrumb">
-                                       <li class="breadcrumb-item"><a href="${bitum.navigation.home.linkHome}">Головна </a></li>
-                                       <li class="breadcrumb-item active">Про Нас</li>
+                                       <li class="breadcrumb-item"><a href="${bitum.navigation.home.linkHome}">${bitum.navigation.home.titleHome} </a></li>
+                                       <li class="breadcrumb-item active">${bitum.navigation.aboutUs.titleAboutUs}</li>
                                    </ol>`;
     
     const titleAboutUs = document.querySelector('#titleAboutUs');
