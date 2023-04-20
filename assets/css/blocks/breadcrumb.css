@@ -11,7 +11,7 @@
   padding-right: 0.5rem;
   padding-left: 0.5rem;
   color: #6c757d;
-  content: var(--bs-breadcrumb-divider, "/");
+  content: "/";
 }
 
 .breadcrumb-item .active {
