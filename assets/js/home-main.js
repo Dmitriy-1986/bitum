@@ -22,7 +22,7 @@ async function renderBitumHomeMain() {
 
     const imgAbout = new Image();
     imgAbout.alt = bitum.aboutUs.title;
-    imgAbout.src = 'https://bitum.pp.ua/assets/img/home-about-us.png';
+    imgAbout.src = 'https://bitum.pp.ua/assets/img/home-about-us.jpg';
     imgAboutUsBlock.append(imgAbout);
 
     // Archive
@@ -34,7 +34,7 @@ async function renderBitumHomeMain() {
 
     const imgArchive = new Image();
     imgArchive.alt = bitum.navigation.archive.titleArchive;
-    imgArchive.src = 'https://bitum.pp.ua/assets/img/home-archive.png';
+    imgArchive.src = 'https://bitum.pp.ua/assets/img/home-archive.jpg';
     archive.append(imgArchive);
 
     // Gallery
@@ -46,7 +46,7 @@ async function renderBitumHomeMain() {
 
     const imgGallery = new Image();
     imgGallery.alt = bitum.navigation.gallery.titleGallery;
-    imgGallery.src = 'https://bitum.pp.ua/assets/img/home-photo.png';
+    imgGallery.src = 'https://bitum.pp.ua/assets/img/home-photo.jpg';
     gallery.append(imgGallery);
 
     // Music
@@ -58,7 +58,7 @@ async function renderBitumHomeMain() {
 
     const imgMusic = new Image();
     imgMusic.alt = bitum.navigation.music.titleMusic;
-    imgMusic.src = 'https://bitum.pp.ua/assets/img/home-music.png';
+    imgMusic.src = 'https://bitum.pp.ua/assets/img/home-music.jpg';
     music.append(imgMusic);
 
     // Contacts
