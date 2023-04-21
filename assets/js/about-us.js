@@ -14,6 +14,9 @@ async function renderBitumAboutUs() {
     
     const titleAboutUs = document.querySelector('#titleAboutUs');
     titleAboutUs.innerHTML = `${bitum.aboutUs.title}`;
+    
+    const aboutUsContent = document.querySelector('#aboutUsContent');
+    aboutUsContent.innerHTML = 'Розділ - "Про Нас" зараз в процесі розробки...';
  
 }
 
