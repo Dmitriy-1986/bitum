@@ -12,6 +12,7 @@
         <li><a href="https://bitum.pp.ua/about-us.html">ПРО НАС</a></li>
         <li><a href="https://bitum.pp.ua/music.html">МУЗИКА</a></li>
             <ul>
+                <li><a href="https://bitum.pp.ua/tishina-ne-spaset.html">ТИШИНА НЕ СПАСЕТ</a></li>
                 <li><a href="https://bitum.pp.ua/zdes-net-nachala.html">ЗДЕСЬ НЕТ НАЧАЛА</a></li>
                 <li><a href="https://bitum.pp.ua/ne-nazvannyy.html">НЕ НАЗВАННЫЙ</a></li>
                 <li><a href="https://bitum.pp.ua/ne-albomnyye.html">НЕ АЛЬБОМНЫЕ</a></li>
