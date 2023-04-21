@@ -15,7 +15,7 @@ async function renderBitumArchive() {
     titleArchive.innerHTML = bitum.navigation.archive.titleArchive;
 
     const archiveContent = document.querySelector('#archiveContent');
-    archiveContent.innerHTML = 'Розділ - "Архів" в процесі розробки, очікуйте інформацію за весь період творчості...';
+    archiveContent.innerHTML = 'Розділ - "Архів" зараз в процесі розробки...';
 
 }
 
