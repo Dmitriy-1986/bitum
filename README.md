@@ -1,5 +1,5 @@
 <h2>
-    <a href='https://dmitriy-1986.github.io/Bitum-web-project/'>
+    <a href='https://bitum.pp.ua/'>
       Bitum Web Project
     </a>
 </h2>
