@@ -29,12 +29,12 @@ async function renderBitumHeaderNavigation() {
     logo.innerHTML += `<a href="https://bitum.pp.ua"><img src='./assets/img/ukraine-flag.png' alt='Ukraine' class='flag-Ukraine'></a>`;
 
     const navList = document.querySelector('#navList');
-    navList.innerHTML  =  `<li><a href='${navigation.home.linkHome}'>${navigation.home.titleHome}</a></li>`;
-    navList.innerHTML +=  `<li><a href='${navigation.aboutUs.linkAboutUs}'>${navigation.aboutUs.titleAboutUs}</a></li>`;
-    navList.innerHTML +=  `<li><a href='${navigation.archive.linkArchive}'>${navigation.archive.titleArchive}</a></li>`;
-    navList.innerHTML +=  `<li><a href='${navigation.gallery.linkGallery}'>${navigation.gallery.titleGallery}</a></li>`;
-    navList.innerHTML +=  `<li><a href='${navigation.music.linkMusic}'>${navigation.music.titleMusic}</a></li>`;
-    navList.innerHTML +=  `<li><a href='${navigation.contacts.linkContacts}'>${navigation.contacts.titleContacts}</a></li>`;
+    navList.innerHTML  =  `<li><a id='titleHome' href='${navigation.home.linkHome}'>${navigation.home.titleHome}</a></li>`;
+    navList.innerHTML +=  `<li><a id='titleAboutUs' href='${navigation.aboutUs.linkAboutUs}'>${navigation.aboutUs.titleAboutUs}</a></li>`;
+    navList.innerHTML +=  `<li><a id='titleArchive' href='${navigation.archive.linkArchive}'>${navigation.archive.titleArchive}</a></li>`;
+    navList.innerHTML +=  `<li><a id='titleGallery' href='${navigation.gallery.linkGallery}'>${navigation.gallery.titleGallery}</a></li>`;
+    navList.innerHTML +=  `<li><a id='titleMusic' href='${navigation.music.linkMusic}'>${navigation.music.titleMusic}</a></li>`;
+    navList.innerHTML +=  `<li><a id='titleContacts' href='${navigation.contacts.linkContacts}'>${navigation.contacts.titleContacts}</a></li>`;
     
     /*
     let html = '';
