@@ -11,7 +11,7 @@
     transition: color 1s;
 }
 
-.nav a.active {
+.active {
     color: var(--color-indigo);
 }
 
