@@ -11,8 +11,8 @@ async function renderBitumPhotoGallery() {
                                        <li class="breadcrumb-item active">${bitum.navigation.gallery.titleGallery}</li>
                                    </ol>`;
     
-    const titleGallery = document.querySelector('#titleGallery');
-    titleGallery.innerHTML = bitum.navigation.gallery.titleGallery;
+    const titleMainGallery = document.querySelector('#titleMainGallery');
+    titleMainGallery.innerHTML = bitum.navigation.gallery.titleGallery;
 
     const galleryBlock = document.querySelector('#galleryBlock');
     let gallery = '';
