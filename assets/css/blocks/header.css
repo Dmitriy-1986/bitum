@@ -45,6 +45,7 @@
     text-transform: uppercase;
     color: var(--color-light);
     text-shadow: 1px 1px 2px var(--color-dark);
+    font-family: "Comforter";
 }
 
 .is-sticky .logo h1 {
