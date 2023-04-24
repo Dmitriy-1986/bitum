@@ -29,10 +29,11 @@ async function renderBitumHeaderNavigation() {
     logo.innerHTML += `<a href="https://bitum.pp.ua"><img src='./assets/img/ukraine-flag.png' alt='Ukraine' class='flag-Ukraine'></a>`;
 
     const navList = document.querySelector('#navList');
-    let html = '';
+    let html = [];
     bitum.navigationMenu.forEach(nav => {
         let htmlSegment = `<li><a href='${nav.link}'>${nav.title}</a></li>`;
         html += htmlSegment;
+        console.log(html);
     });
     navList.innerHTML = html;
 }
