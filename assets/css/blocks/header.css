@@ -56,6 +56,7 @@ header::before {
     top: 0px;
     left: 2px;
     width: 135px;
+    z-index: -1;
 }
 
 @media (max-width: 768px) {
