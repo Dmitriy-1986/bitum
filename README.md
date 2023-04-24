@@ -1,4 +1,7 @@
-<!-- Web Developer: Dovgal Dima -->
+<!-- 
+Web Developer: Dovgal Dima 
+Web Site: dovgaldima.pp.ua
+-->
 
 <h2>
     <a href='https://bitum.pp.ua/'>
