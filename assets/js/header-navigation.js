@@ -25,9 +25,10 @@ async function renderBitumHeaderNavigation() {
     const bitum = await getBitum();
 
     const logo = document.querySelector('.logo');
-    logo.innerHTML = `<h1>${bitum.groupName}</h1>`;
-    logo.innerHTML += `<a href="https://bitum.pp.ua"><img src='./assets/img/ukraine-flag.png' alt='Ukraine' class='flag-Ukraine'></a>`;
-
+    //logo.innerHTML = `<h1>${bitum.groupName}</h1>`; 
+    //logo.innerHTML += `<a href="https://bitum.pp.ua"><img src='./assets/img/ukraine-flag.png' alt='Ukraine' class='flag-Ukraine'></a>`;
+    logo.innerHTML = `<a href="https://bitum.pp.ua"><img src='./assets/img/new-bitum-logotype.png' alt='Бітум'></a>`;
+    
     const navList = document.querySelector('#navList');
     navList.innerHTML  =   `<li><a id='titleHome' href='${bitum.navigation.home.linkHome}'>${bitum.navigation.home.titleHome}</a></li>
                             <li><a id='titleAboutUs' href='${bitum.navigation.aboutUs.linkAboutUs}'>${bitum.navigation.aboutUs.titleAboutUs}</a></li>
