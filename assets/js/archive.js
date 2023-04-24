@@ -11,8 +11,8 @@ async function renderBitumArchive() {
                                        <li class="breadcrumb-item active">${bitum.navigation.archive.titleArchive}</li>
                                    </ol>`;
     
-    const titleArchive = document.querySelector('#titleArchive');
-    titleArchive.innerHTML = bitum.navigation.archive.titleArchive;
+    const titleMainArchive = document.querySelector('#titleMainArchive');
+    titleMainArchive.innerHTML = bitum.navigation.archive.titleArchive;
 
     const archiveContent = document.querySelector('#archiveContent');
     archiveContent.innerHTML = 'Розділ - "Архів" зараз в процесі розробки...';
