@@ -31,9 +31,9 @@ async function renderBitumHeaderNavigation() {
     const navList = document.querySelector('#navList');
     navList.innerHTML  =   `<li><a id='titleHome' href='${bitum.navigation.home.linkHome}'>${bitum.navigation.home.titleHome}</a></li>
                             <li><a id='titleAboutUs' href='${bitum.navigation.aboutUs.linkAboutUs}'>${bitum.navigation.aboutUs.titleAboutUs}</a></li>
-                            <li><a id='titleArchive' href='${bitum.navigation.archive.linkArchive}'>${bitum.navigation.archive.titleArchive}</a></li>
-                            <li><a id='titleGallery' href='${bitum.navigation.gallery.linkGallery}'>${bitum.navigation.gallery.titleGallery}</a></li>
                             <li><a id='titleMusic' href='${bitum.navigation.music.linkMusic}'>${bitum.navigation.music.titleMusic}</a></li>
+                            <li><a id='titleGallery' href='${bitum.navigation.gallery.linkGallery}'>${bitum.navigation.gallery.titleGallery}</a></li>
+                            <li><a id='titleArchive' href='${bitum.navigation.archive.linkArchive}'>${bitum.navigation.archive.titleArchive}</a></li>
                             <li><a id='titleContacts' href='${bitum.navigation.contacts.linkContacts}'>${bitum.navigation.contacts.titleContacts}</a></li>`;
     
     /*
