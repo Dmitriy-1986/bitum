@@ -1,4 +1,5 @@
 <!-- 
+Country: Ukraine
 Web Developer: Dovgal Dima 
 Web Site: dovgaldima.pp.ua
 -->
