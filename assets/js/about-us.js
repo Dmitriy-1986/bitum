@@ -12,8 +12,8 @@ async function renderBitumAboutUs() {
                                        <li class="breadcrumb-item active">${bitum.navigation.aboutUs.titleAboutUs}</li>
                                    </ol>`;
     
-    const titleAboutUs = document.querySelector('#titleAboutUs');
-    titleAboutUs.innerHTML = `${bitum.aboutUs.title}`;
+    const titleMainAboutUs = document.querySelector('#titleMainAboutUs');
+    titleMainAboutUs.innerHTML = `${bitum.aboutUs.title}`;
     
     const aboutUsContent = document.querySelector('#aboutUsContent');
     aboutUsContent.innerHTML = `<p class="alert-content">
