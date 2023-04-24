@@ -11,8 +11,8 @@ async function renderBitumContacts() {
                                        <li class="breadcrumb-item active">${bitum.navigation.contacts.titleContacts}</li>
                                    </ol>`;
     
-    const titleContacts = document.querySelector('#titleContacts');
-    titleContacts.innerHTML = bitum.navigation.contacts.titleContacts;
+    const titleMainContacts = document.querySelector('#titleMainContacts');
+    titleMainContacts.innerHTML = bitum.navigation.contacts.titleContacts;
 
     const contactsBlock = document.querySelector('#contactsBlock');
     contactsBlock.innerHTML  = `<p class='text-center'>${bitum.contacts.text}</p>`;
