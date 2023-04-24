@@ -7,7 +7,7 @@ body.appendChild(btn);
 
 let iconBtn = document.createElement('img');
 iconBtn.classList.add('top-btn-img');
-iconBtn.src = "./images/up-arrow_icon-icons.com_63400.svg";
+iconBtn.src = "./assets/img/back-to-top.png";
 iconBtn.setAttribute('alt', 'GoTop');
 btn.appendChild(iconBtn);
 
