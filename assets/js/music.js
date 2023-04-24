@@ -11,8 +11,8 @@ async function renderBitumMusic() {
                                        <li class="breadcrumb-item active">${bitum.navigation.music.titleMusic}</li>
                                    </ol>`;
     
-    const titleMusic = document.querySelector('#titleMusic');
-    titleMusic.innerHTML = bitum.navigation.music.titleMusic;
+    const titleMainMusic = document.querySelector('#titleMainMusic');
+    titleMainMusic.innerHTML = bitum.navigation.music.titleMusic;
     
 }
 
