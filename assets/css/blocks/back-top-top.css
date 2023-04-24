@@ -1,0 +1,19 @@
+.scrollToTopBtn {
+    position: fixed;
+    bottom: 174px;
+    right: 37px;
+    display: none;
+    padding: 8px 4px;
+    cursor: pointer;
+    transition: transform .8s ease-in-out;
+}
+
+.scrollToTopBtn:hover  {
+     filter: brightness(120%);
+}
+
+@media (max-height: 390px) {
+    .scrollToTopBtn {
+	 display: none !important;    
+    }
+}
