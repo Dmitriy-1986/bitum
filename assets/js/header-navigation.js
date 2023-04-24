@@ -48,6 +48,4 @@ async function renderBitumHeaderNavigation() {
 
 renderBitumHeaderNavigation();
 
-function addActive(idLink) {
-    idLink.classList.add('active');
-}
+
