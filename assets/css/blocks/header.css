@@ -38,6 +38,11 @@
 
 }
 
+.img-logotype {
+     width: '111px';
+}
+
+/*
 .logo h1 {
     display: inline;
     font-size: 40px;
@@ -68,3 +73,4 @@
         width: 135px;
     }
 }
+*/
