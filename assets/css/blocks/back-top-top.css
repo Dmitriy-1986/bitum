@@ -12,6 +12,7 @@
 
 .scrollToTopBtn:hover  {
      filter: brightness(120%);
+     border: 1px solid grey;
 }
 
 .top-btn-img {
