@@ -6,6 +6,8 @@
     padding: 8px 4px;
     cursor: pointer;
     transition: transform .8s ease-in-out;
+    width: 53px;
+    border: none;
 }
 
 .scrollToTopBtn:hover  {
@@ -13,7 +15,7 @@
 }
 
 .top-btn-img {
-    width: 15px;
+    width: 50px;
 }
 
 @media (max-height: 390px) {
