@@ -78,7 +78,7 @@
   flex-direction: column;
 }
 
-.card.list-btn  {
+.card.card-list-row  {
   display: flex;
   flex-direction: row;
   max-width: 100%;
