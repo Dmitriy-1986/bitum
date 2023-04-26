@@ -78,13 +78,13 @@
   flex-direction: column;
 }
 
-.list-btn.card  {
+.card.list-btn  {
   display: flex;
   flex-direction: row;
   max-width: 100%;
 }
 
-.list-img.card-img {
+.card-img.list-img {
   width: 300px;
 }
 
