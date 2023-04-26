@@ -14,7 +14,7 @@ async function renderBitumMusic() {
     const titleMainMusic = document.querySelector('#titleMainMusic');
     titleMainMusic.innerHTML = bitum.navigation.music.titleMusic;
     
-    const cardBlock = document.querySelector('#cardBlock');
+    /*const cardBlock = document.querySelector('#cardBlock');
     cardBlock.innerHTML = `<div class="card">
                             <!-- https://picsum.photos/400/300 -->
                             <a href="https://bitum.pp.ua/tishina-ne-spaset.html">
@@ -62,7 +62,7 @@ async function renderBitumMusic() {
                                 які з тих чи інших причин не потрапили до складу жодного з альбомів, але є невід'ємною
                                 частиною творчого шляху гурту БІТУМ.</p>
                             </div>
-                          </div>`;
+                          </div>`;*/
     
 }
 
