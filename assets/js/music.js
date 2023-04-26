@@ -70,7 +70,7 @@ renderBitumMusic();
 
 /**
 * Btn List or Cards
-*/
+
 const btnList = document.querySelector('#btnList');
     const cardBlock = document.querySelector('#cardBlock');
     const cards = document.querySelectorAll('.card');
@@ -90,3 +90,4 @@ btnList.addEventListener('click', () => {
   });
 
 });
+*/
