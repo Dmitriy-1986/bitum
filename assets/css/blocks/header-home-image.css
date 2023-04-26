@@ -1,15 +1,15 @@
 /**
 * Header Home Image
 **/
-/*
+
 .img-header {
     display: block;
     width: 100%;
     object-fit: cover;
     filter: contrast(135%);
 }
-*/
-.header-bgimg {
+
+/*.header-bgimg {
     position: relative;
     background-attachment: fixed;
     background-position: center;
@@ -18,3 +18,4 @@
     min-height: 90vh;
     width: 100%;
 }
+*/
