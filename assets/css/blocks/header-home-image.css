@@ -31,6 +31,6 @@
 }
 
 .bitum-logotype {
-
     width: 300px;
+    filter: drop-shadow(8px 6px 4px black);
 }
