@@ -26,7 +26,7 @@
     filter: drop-shadow(8px 6px 4px var(--color-dark));   
 }
 
-
+/*
 .bitum-logotype:hover {
    animation-name: rotate-bitum;
     animation-iteration-count: 1;
@@ -57,4 +57,4 @@
     -o-transform: perspective(500px) rotateY(-42deg);
   }
 }
-
+*/
