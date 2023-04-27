@@ -23,13 +23,22 @@
 
 .bitum-logotype {
     width: 300px;
-    filter: drop-shadow(8px 6px 4px var(--color-dark));
-    
+    filter: drop-shadow(8px 6px 4px var(--color-dark));   
+}
+
+
+.bitum-logotype:hover {
+   transform: perspective(500px) rotateY(-42deg);
+}
+
+
+/*
+
     animation-name: rotate-windows;
     animation-iteration-count: infinite;
     animation-duration: 3s;
     animation-fill-mode: forwards;
-}
+
 
 @keyframes rotate-windows {
   0% {
@@ -54,3 +63,4 @@
     -o-transform: perspective(500px) rotateY(-42deg);
   }
 }
+*/
