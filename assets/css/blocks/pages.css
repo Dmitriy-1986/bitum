@@ -91,7 +91,8 @@
 * About Us Page
 */
 
-.about-us {
+.article {
+   min-height: 100vh;
    margin-top: 150px;
 }
 
@@ -101,10 +102,6 @@
     text-transform: uppercase;
 }
 
-.about-us p {
+.article p {
     line-height: 2.5;
-}
-
-article {
-    min-height: 100vh;
 }
