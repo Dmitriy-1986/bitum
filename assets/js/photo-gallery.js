@@ -12,7 +12,7 @@ async function renderBitumPhotoGallery() {
                                    </ol>`;
     
     const titleMainGallery = document.querySelector('#titleMainGallery');
-    titleMainGallery.innerHTML = bitum.navigation.gallery.titleGallery;
+    titleMainGallery.innerHTML = `<h2>${bitum.navigation.gallery.titleGallery}</h2>`;
 
     const galleryBlock = document.querySelector('#galleryBlock');
     let gallery = '';
