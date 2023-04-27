@@ -63,9 +63,9 @@ async function renderBitumHomeMain() {
     music.append(imgMusic);
 
     // Contacts
-    const contacts = document.querySelector('#contentContacts h2');
+    const contactTitle = document.querySelector('#contactTitle');
     const contentContacts = document.querySelector('#contentContacts p');
-    contacts.innerHTML = `${bitum.contacts.title}`;
+    contactTitle.innerHTML = `<h2>${bitum.contacts.title}</h2>`;
     contentContacts.innerHTML = `<p class='content-about-us'>${bitum.contacts.text}</p>`;
     contentContacts.innerHTML += `<a href='mailto:${bitum.contacts.mail}'><img src='./assets/img/icon-gmail.png' alt='Gmail' class='img-gmail'> ${bitum.contacts.mail}</a>`;
 
