@@ -18,3 +18,19 @@
     width: 100%;
     background-size: cover;
 }
+
+/**
+* Parallax Logotype
+*/
+.parallax-logotype {
+    position: relative;
+    top: 40vh;
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+}
+
+.bitum-logotype {
+
+    width: 300px;
+}
