@@ -89,7 +89,7 @@
 }
 
 @media (max-width: 768px) {
-  .breadcrumb-btn-lists {
+  .btn-list-or-table {
     display: none;
   }
 }
