@@ -13,7 +13,8 @@
 .header-bgimg { 
     background: url('https://images.unsplash.com/photo-1681068420510-cb528c65d595?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1331&q=80');
     background-attachment: fixed;
-    height: 100vh;
+    background-position: center;
+    height: 90vh;
     width: 100%;
     background-size: cover;
 }
