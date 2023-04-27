@@ -12,7 +12,7 @@ async function renderBitumContacts() {
                                    </ol>`;
     
     const titleMainContacts = document.querySelector('#titleMainContacts');
-    titleMainContacts.innerHTML = bitum.navigation.contacts.titleContacts;
+    titleMainContacts.innerHTML = `<h2>${bitum.navigation.contacts.titleContacts}</h2>`;
 
     const contactsBlock = document.querySelector('#contactsBlock');
     contactsBlock.innerHTML  = `<p class='text-center'>${bitum.contacts.text}</p>`;
