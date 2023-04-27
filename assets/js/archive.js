@@ -12,7 +12,7 @@ async function renderBitumArchive() {
                                    </ol>`;
     
     const titleMainArchive = document.querySelector('#titleMainArchive');
-    titleMainArchive.innerHTML = bitum.navigation.archive.titleArchive;
+    titleMainArchive.innerHTML = `<h2>${bitum.navigation.archive.titleArchive}</h2`;
 
     const archiveContent = document.querySelector('#archiveContent');
     archiveContent.innerHTML = 'Розділ - "Архів" зараз в процесі розробки...';
