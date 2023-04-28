@@ -16,7 +16,7 @@ Web Site: dovgaldima.pp.ua
 
 <nav>
     <ul>
-        <li><a href="https://bitum.pp.ua/index.html">ГОЛОВНА</a> | <a href="https://github.com/Dmitriy-1986/Bitum-web-project">Код</a></li>
+        <li><a href="https://bitum.pp.ua/index.html">ГОЛОВНА</a> | <a href="https://github.com/Dmitriy-1986/Bitum-web-project/blob/master/index.html">Код</a></li>
         <li><a href="https://bitum.pp.ua/about-us.html">ПРО НАС</a></li>
         <li><a href="https://bitum.pp.ua/music.html">МУЗИКА</a></li>
             <ul>
