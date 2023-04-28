@@ -19,7 +19,7 @@ Web Site: dovgaldima.pp.ua
         <li><a href="https://bitum.pp.ua/about-us.html">ПРО НАС</a> | <a href="https://github.com/Dmitriy-1986/Bitum-web-project/blob/master/about-us.html">Код</a></li>
         <li><a href="https://bitum.pp.ua/music.html">МУЗИКА</a> | <a href="https://github.com/Dmitriy-1986/Bitum-web-project/blob/master/music.html">Код</a> </li>
             <ul>
-                <li><a href="https://bitum.pp.ua/tishina-ne-spaset.html">ТИШИНА НЕ СПАСЕТ</a> | <a href="https://github.com/Dmitriy-1986/Bitum-web-project/blob/master/index.html">Код</a> </li>
+                <li><a href="https://bitum.pp.ua/tishina-ne-spaset.html">ТИШИНА НЕ СПАСЕТ</a> | <a href="https://github.com/Dmitriy-1986/Bitum-web-project/blob/master/tishina-ne-spaset.html">Код</a> </li>
                 <li><a href="https://bitum.pp.ua/zdes-net-nachala.html">ЗДЕСЬ НЕТ НАЧАЛА</a> | <a href="https://github.com/Dmitriy-1986/Bitum-web-project/blob/master/index.html">Код</a> </li>
                 <li><a href="https://bitum.pp.ua/ne-nazvannyy.html">НЕ НАЗВАННЫЙ</a> | <a href="https://github.com/Dmitriy-1986/Bitum-web-project/blob/master/index.html">Код</a> </li>
                 <li><a href="https://bitum.pp.ua/ne-albomnyye.html">НЕ АЛЬБОМНЫЕ</a> | <a href="https://github.com/Dmitriy-1986/Bitum-web-project/blob/master/index.html">Код</a> </li>
