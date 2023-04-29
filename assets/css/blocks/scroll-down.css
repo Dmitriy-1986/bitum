@@ -8,9 +8,9 @@
     margin: 0 auto;
     width: 35px;
     height: 60px;
-    border: 2px solid rgb(40 199 210);
+    border: 2px solid var(--color-indigo);
     border-radius: 50px;
-    box-shadow: 0px 0px 35px -5px rgba(109, 245, 222, 0.781);
+    box-shadow: 0px 0px 35px -5px var(--color-indigo);
 }
   
 .scroll-indicator::before {
@@ -20,11 +20,11 @@
     left: 50%;
     width: 15px;
     height: 15px;
-    background-color: rgb(40 199 210);
+    background-color: var(--color-indigo);
     border-radius: 50%;
     transform: translate(-50%, 0);
     animation: scrollAnim 1.8s .5s infinite ease-in;
-    box-shadow: 0px 0px 35px -5px rgba(70, 255, 224, 0.781);
+    box-shadow: 0px 0px 35px -5px var(--color-indigo);
 }
   
 /* Animation Scroll Down */
