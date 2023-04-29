@@ -31,7 +31,8 @@ async function renderBitumHeaderNavigation() {
     logo.innerHTML += `<div style='font-size:12px; position: relative;'>
                             <span style='position:absolute; top:-10px; left: 2px; color: black; font-weight: bold;letter-spacing:2px; width:160px; filter: drop-shadow(2px 4px 3px white);'>творче об\'єднання</span>
                        </div>`;
-
+    logo.innerHTML += `<img src="./assets/img/stop-war-in-ukraine.png" alt="Stop War" class="stop-war">`;
+    
     const navList = document.querySelector('#navList');
     navList.innerHTML  =   `<li><a id='titleHome' href='${bitum.navigation.home.linkHome}'>${bitum.navigation.home.titleHome}</a></li>
                             <li><a id='titleAboutUs' href='${bitum.navigation.aboutUs.linkAboutUs}'>${bitum.navigation.aboutUs.titleAboutUs}</a></li>
