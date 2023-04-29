@@ -7,7 +7,7 @@ Web Site: dovgaldima.pp.ua
 
 <h2>
     <a href='https://bitum.pp.ua/'>
-      Творче об'єднання Бітум
+      Творче об'єднання - Бітум
     </a>
 </h2>
 
