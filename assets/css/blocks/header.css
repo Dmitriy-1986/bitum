@@ -43,6 +43,12 @@
      filter: drop-shadow(2px 4px 3px white);
 }
 
+.stop-war {
+    position: relative;
+    left: -402px;
+    top: -26px;
+}
+
 /*
 .logo h1 {
     display: inline;
