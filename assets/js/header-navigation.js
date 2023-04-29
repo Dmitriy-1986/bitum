@@ -29,7 +29,7 @@ async function renderBitumHeaderNavigation() {
     //logo.innerHTML += `<a href="https://bitum.pp.ua"><img src='./assets/img/ukraine-flag.png' alt='Ukraine' class='flag-Ukraine'></a>`;
     logo.innerHTML  = `<a href="https://bitum.pp.ua"><img src='./assets/img/new-bitum-logotype.png' alt='Бітум' class='img-logotype'></a>`;
     logo.innerHTML += `<div style='font-size:12px; position: relative;'>
-                            <span style='position:absolute; top:-10px; left: 2px; color: black; font-weight: bold;letter-spacing:2px; width:160px;'>творче об\'єднання</span>
+                            <span style='position:absolute; top:-10px; left: 2px; color: black; font-weight: bold;letter-spacing:2px; width:160px; filter: drop-shadow(2px 4px 3px white);'>творче об\'єднання</span>
                        </div>`;
 
     const navList = document.querySelector('#navList');
