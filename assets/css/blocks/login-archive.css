@@ -53,6 +53,7 @@
     display: block;
     text-align: center;
     color: var(--color-red);
+    margin-top: 15px;
 }
 
 .password-valid {
