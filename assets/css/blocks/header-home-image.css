@@ -29,11 +29,11 @@
 }
 
 .bitum-logotype:hover {
-   transform: scale(1.6);
+   transform: scale(1.5);
 }
 
 @media (max-width: 768px) {
-    transform: scale(1.4);
+    transform: scale(1.1);
 }
 
 /*
