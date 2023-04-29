@@ -7,7 +7,7 @@ Web Site: dovgaldima.pp.ua
 
 <h2>
     <a href='https://bitum.pp.ua/'>
-      Bitum Web Project
+      Бітум
     </a>
 </h2>
 
