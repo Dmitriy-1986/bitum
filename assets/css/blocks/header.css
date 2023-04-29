@@ -44,9 +44,10 @@
 }
 
 .stop-war {
-    position: relative;
-    left: -410px;
+    position: absolute;
+    left: -100px;
     top: -26px;
+    width: 70px;
 }
 
 /*
