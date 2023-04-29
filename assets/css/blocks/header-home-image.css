@@ -33,7 +33,9 @@
 }
 
 @media (max-width: 768px) {
-    transform: scale(1.1);
+    .bitum-logotype:hover {
+        transform: scale(1.1);
+    }
 }
 
 /*
