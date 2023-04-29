@@ -1,4 +1,4 @@
-function createTrackItem(index, name, duration) {
+function createTrackItem(index, name, duration, link) {
     var trackItem = document.createElement('div');
     trackItem.setAttribute("class", "playlist-track-ctn");
     trackItem.setAttribute("id", "ptc-" + index);
@@ -26,6 +26,16 @@ function createTrackItem(index, name, duration) {
     trackDurationItem.setAttribute("class", "playlist-duration");
     trackDurationItem.innerHTML = duration
     document.querySelector("#ptc-" + index).appendChild(trackDurationItem);
+    
+    var trackDownload = document.createElement('div');
+    trackDownload.innerHTML = `<a href='${link}' download >
+                                <i class='fas fa-download' 
+                                    style='padding-top: 7px;
+                                    padding-bottom: 7px;
+                                    color: #fdfdfd;
+                                    font-size: 14px;
+                                    pointer-events: none;'></i></a>`;
+    document.querySelector("#ptc-" + index).appendChild(trackDownload);
 }
 const listAudio = [
     {
@@ -111,7 +121,7 @@ const listAudio = [
 ];
 
 for (var i = 0; i < listAudio.length; i++) {
-    createTrackItem(i, listAudio[i].name, listAudio[i].duration);
+    createTrackItem(i, listAudio[i].name, listAudio[i].duration, listAudio[i].file);
 }
 var indexAudio = 0;
 
