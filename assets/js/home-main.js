@@ -75,4 +75,10 @@ async function renderBitumHomeMain() {
                                     referrerpolicy="no-referrer-when-downgrade"></iframe>`;
 }
 
+const mainContent = document.querySelector('#mainContent');
+window.addEventListener('load', () => {
+     mainContent.classList.remove('main-cont-none');
+     mainContent.classList.add('main-cont-block'); 
+});
+
 renderBitumHomeMain();
