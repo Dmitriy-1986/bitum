@@ -89,6 +89,7 @@
 .main {
     margin-top: 70px;
     margin-bottom: 5px;
+    overflow: hidden;
 }
 
 .article {
