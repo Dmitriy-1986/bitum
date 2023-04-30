@@ -24,6 +24,7 @@
     line-height: 2;
 }
 
+/* Btn */
 .btn {
     display: inline-block;
     font-weight: 400;
@@ -46,6 +47,7 @@
     box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
 }
 
+/* Btn Primary */
 .btn-primary {
     color: #fff;
     background-color: var(--color-blue);
@@ -65,27 +67,7 @@
     box-shadow: 0 0 0 0.25rem rgba(49, 132, 253, 0.5);
 }
 
-/* Btn Succes */
-/*
-.btn-success {
-    color: #fff;
-    background-color: #198754;
-    border-color: #198754;
-}
-
-.btn-success:active {
-    color: #fff;
-    background-color: #146c43;
-    border-color: #13653f;
-}
-
-.btn-success:focus {
-    color: #fff;
-    background-color: #157347;
-    border-color: #146c43;
-    box-shadow: 0 0 0 0.25rem rgba(60, 153, 110, .5);
-}
-*/
+/* Main page */
 .main {
     margin-top: 70px;
     margin-bottom: 5px;
