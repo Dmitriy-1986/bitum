@@ -19,3 +19,8 @@ btnArchive.addEventListener('click', (e) => {
     result.innerHTML = '<b class="password-error">Ви ввели неправильний пароль</b>';
   }
 });
+
+/**
+* MD5
+* https://lig-membres.imag.fr/donsez/cours/exemplescourstechnoweb/js_securehash/
+*/
