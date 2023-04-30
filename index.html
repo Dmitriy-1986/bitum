@@ -31,6 +31,25 @@ Web Site: dovgaldima.pp.ua
     <link rel="stylesheet" href="./assets/libs/AOS/aos.css"> 
     
     <style>
+        .wrapper-loader {
+            position: fixed;
+            inset: 0;
+            z-index: 9999;
+            background-color: #000;
+            display: grid;
+            place-items: center;
+            transition: opacity 0.25s, visibility 1s;
+        }
+
+        .fade {
+            opacity: 0;
+            visibility: hidden;
+        }
+
+        .loader img {
+            width: 300px;
+        }
+        
         #titleHome {
             color: var(--color-indigo);
         }
@@ -46,7 +65,13 @@ Web Site: dovgaldima.pp.ua
 </head>
 
 <body>
-
+    <!-- Preloader -->
+    <div class="wrapper-loader">
+        <div class="loader">
+            <img src="./preloader.gif" alt="">
+        </div>
+    </div>
+    
     <header class="header">
         <div class="container-fluid">
             <div class="container">
@@ -165,6 +190,12 @@ Web Site: dovgaldima.pp.ua
     <script src="./assets/libs/AOS/aos.js"></script>
     <script src="./assets/js/aos-settings.js"></script> 
     
+    <script>
+        window.addEventListener('load', () => {
+            const wrapperLoader = document.querySelector('.wrapper-loader');
+            wrapperLoader.classList.add('fade');
+        });
+    </script>
     
 </body>
 
