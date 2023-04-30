@@ -180,7 +180,16 @@
   <script src="./assets/js/footer.js"></script>
   <script src="./assets/js/back-to-top.js"></script>
   <script src="./assets/js/scrollIndicator.js"></script>
-
+  
+  <!-- Preloader -->
+  <script>
+        window.addEventListener('load', () => {
+            const wrapperLoader = document.querySelector('.wrapper-loader');
+            wrapperLoader.classList.add('fade');
+        });
+  </script>
+  
+  <!--Btn List or Cards -->
   <script>
     const btnList = document.querySelector('#btnList');
     const cardBlock = document.querySelector('#cardBlock');
