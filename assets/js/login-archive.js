@@ -8,7 +8,7 @@ btnArchive.addEventListener('click', (e) => {
   if(passwordArchive.value === '111') {
     formArchive.style.display = 'none';
     result.innerHTML = `<p class="password-valid">Вітаю, ви увійшли в Архів 
-                          <b id="logOut" class="log-out"> Вийти </b></p>`;
+                          <b id="logOut" class="log-out"> | Вийти </b></p>`;
     
       const logOut = document.querySelector('#logOut');
       logOut.addEventListener('click', () => {
