@@ -178,6 +178,7 @@ a:hover {
 }
 
 @media (max-width: 1150px) {
+    
     .block:nth-child(1n) {
         flex-direction: column;
     }
@@ -186,7 +187,4 @@ a:hover {
         flex-direction: column;
     }
     
-    /*.block-img img {
-        height: 400px;
-    }*/
 }
