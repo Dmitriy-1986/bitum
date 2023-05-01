@@ -77,6 +77,11 @@ ul {
     font-size: 2.5rem;
 }
 
+.tab-content__title {
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+}
+
 .tab__desc {
     line-height: 1.75;
 }
