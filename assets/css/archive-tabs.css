@@ -17,7 +17,7 @@ ul {
 
 .header__art-box {
     color: white;
-    background-color: #1c7ed6;
+    background-color: #343a40;
     display: grid;
     place-content: center;
     text-align: center;
@@ -63,7 +63,7 @@ ul {
 
 .header__btn-box.active {
     color: white;
-    background-color: #1c7ed6;
+    background-color: #343a40;
 }
 
 .tab {
