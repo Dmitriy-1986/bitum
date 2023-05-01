@@ -17,6 +17,8 @@ ul {
 
 .header__art-box {
     color: white;
+    background-image: url(../img/home-archive.jpg);
+    background-position: center;
     background-color: #343a40;
     display: grid;
     place-content: center;
