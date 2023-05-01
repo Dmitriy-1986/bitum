@@ -78,3 +78,15 @@ ul {
 .tab__desc {
     line-height: 1.75;
 }
+
+@media (max-width: 480px) {
+    .header__btn-box>button {
+        padding: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .header__btn-box>button {
+        padding: .7rem;
+    }
+}
