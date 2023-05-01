@@ -12,17 +12,24 @@ btnArchive.addEventListener('click', (e) => {
     result.innerHTML = `<p class="password-valid">Вітаю, ви увійшли в Архів 
                           <b id="logOut" class="log-out"> | Вийти </b></p>`;
     
-    const logOut = document.querySelector('#logOut');
+    /*const logOut = document.querySelector('#logOut');
     logOut.addEventListener('click', () => {
         location.reload()
-    });
+    });*/
     
+    logOutArchive();
     archiveTabs();
     
   } else {
     result.innerHTML = '<b class="password-error">Ви ввели неправильний пароль</b>';
   }
 });
+
+function logOutArchive() {
+    document.querySelector('#logOut').onclick = function(){
+      location.reload()
+    };
+}
 
 function archiveTabs() {
     result.innerHTML += `<div class="header-tabs">
