@@ -17,6 +17,117 @@ btnArchive.addEventListener('click', (e) => {
         location.reload()
     });*/
     
+    function logOutArchive() {
+        document.querySelector('#logOut').onclick = function(){
+          location.reload()
+        };
+    }
+
+    function archiveTabs() {
+       result.innerHTML += `<div class="header-tabs">
+
+                                <ul class="header__articles">
+                                    <li class="header__art-box active" data-id="1">
+                                        <article class="tab">
+                                            <h1 class="tab__title">Афіши</h1>
+                                            <p class="tab__desc">В цій категорії розміщені афіши</p>
+                                        </article>
+                                    </li>
+                                    <li class="header__art-box" data-id="2">
+                                        <article class="tab">
+                                            <h1 class="tab__title">Преса</h1>
+                                            <p class="tab__desc">В цій категорії розміщена преса</p>
+                                        </article>
+                                    </li>
+                                    <li class="header__art-box" data-id="3">
+                                        <article class="tab">
+                                            <h1 class="tab__title">Грамоти</h1>
+                                            <p class="tab__desc">В цій категорії грамоти</p>
+                                        </article>
+                                    </li>
+                                    <li class="header__art-box" data-id="4">
+                                        <article class="tab">
+                                            <h1 class="tab__title">Відео</h1>
+                                            <p class="tab__desc">В цій категорії ви знайдете архівні відео</p>
+                                        </article>
+                                    </li>
+                                    <li class="header__art-box" data-id="5">
+                                        <article class="tab">
+                                            <h1 class="tab__title">Фото</h1>
+                                            <p class="tab__desc">В цій категорії ви знайдете архівні Фото</p>
+                                        </article>
+                                    </li>
+                                </ul>
+
+                                <ul class="header__btns">
+                                    <li class="header__btn-box active" data-id="1">
+                                        <button>Афіши</button>
+                                    </li>
+                                    <li class="header__btn-box" data-id="2">
+                                        <button>Преса</button>
+                                    </li>
+                                    <li class="header__btn-box" data-id="3">
+                                        <button>Грамоти</button>
+                                    </li>
+                                    <li class="header__btn-box" data-id="4">
+                                        <button>Відео</button>
+                                    </li>
+                                    <li class="header__btn-box" data-id="5">
+                                        <button>Фото</button>
+                                    </li>
+                                </ul>
+
+                                <ul class="header__articles">
+                                    <li class="header__content-box active" data-id="1">
+                                        <article class="tab">
+                                            <h2 class="tab__title">Афіши</h2>
+                                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur a
+                                                voluptatibus reiciendis quos soluta nostrum saepe? Sit pariatur similique
+                                                recusandae ad, voluptatibus praesentium illum enim eligendi itaque nulla
+                                                animi dolores!</p>
+                                        </article>
+                                    </li>
+                                    <li class="header__content-box" data-id="2">
+                                        <article class="tab">
+                                            <h1 class="tab__title">Преса</h1>
+                                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur a
+                                                voluptatibus reiciendis quos soluta nostrum saepe? Sit pariatur similique
+                                                recusandae ad, voluptatibus praesentium illum enim eligendi itaque nulla
+                                                animi dolores!</p>
+                                        </article>
+                                    </li>
+                                    <li class="header__content-box" data-id="3">
+                                        <article class="tab">
+                                            <h1 class="tab__title">Грамоти</h1>
+                                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur a
+                                                voluptatibus reiciendis quos soluta nostrum saepe? Sit pariatur similique
+                                                recusandae ad, voluptatibus praesentium illum enim eligendi itaque nulla
+                                                animi dolores!</p>
+                                        </article>
+                                    </li>
+                                    <li class="header__content-box" data-id="4">
+                                        <article class="tab">
+                                            <h1 class="tab__title">Відео</h1>
+                                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur a
+                                                voluptatibus reiciendis quos soluta nostrum saepe? Sit pariatur similique
+                                                recusandae ad, voluptatibus praesentium illum enim eligendi itaque nulla
+                                                animi dolores!</p>
+                                        </article>
+                                    </li>
+                                    <li class="header__content-box" data-id="5">
+                                        <article class="tab">
+                                            <h1 class="tab__title">Фото</h1>
+                                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur a
+                                                voluptatibus reiciendis quos soluta nostrum saepe? Sit pariatur similique
+                                                recusandae ad, voluptatibus praesentium illum enim eligendi itaque nulla
+                                                animi dolores!</p>
+                                        </article>
+                                    </li>
+                                </ul>
+
+                          </div>`;
+    }
+
     logOutArchive();
     archiveTabs();
     
@@ -25,116 +136,6 @@ btnArchive.addEventListener('click', (e) => {
   }
 });
 
-function logOutArchive() {
-    document.querySelector('#logOut').onclick = function(){
-      location.reload()
-    };
-}
-
-function archiveTabs() {
-    result.innerHTML += `<div class="header-tabs">
-
-                      <ul class="header__articles">
-                          <li class="header__art-box active" data-id="1">
-                              <article class="tab">
-                                  <h1 class="tab__title">Афіши</h1>
-                                  <p class="tab__desc">В цій категорії розміщені афіши</p>
-                              </article>
-                          </li>
-                          <li class="header__art-box" data-id="2">
-                              <article class="tab">
-                                  <h1 class="tab__title">Преса</h1>
-                                  <p class="tab__desc">В цій категорії розміщена преса</p>
-                              </article>
-                          </li>
-                          <li class="header__art-box" data-id="3">
-                              <article class="tab">
-                                  <h1 class="tab__title">Грамоти</h1>
-                                  <p class="tab__desc">В цій категорії грамоти</p>
-                              </article>
-                          </li>
-                          <li class="header__art-box" data-id="4">
-                              <article class="tab">
-                                  <h1 class="tab__title">Відео</h1>
-                                  <p class="tab__desc">В цій категорії ви знайдете архівні відео</p>
-                              </article>
-                          </li>
-                          <li class="header__art-box" data-id="5">
-                              <article class="tab">
-                                  <h1 class="tab__title">Фото</h1>
-                                  <p class="tab__desc">В цій категорії ви знайдете архівні Фото</p>
-                              </article>
-                          </li>
-                      </ul>
-
-                      <ul class="header__btns">
-                          <li class="header__btn-box active" data-id="1">
-                              <button>Афіши</button>
-                          </li>
-                          <li class="header__btn-box" data-id="2">
-                              <button>Преса</button>
-                          </li>
-                          <li class="header__btn-box" data-id="3">
-                              <button>Грамоти</button>
-                          </li>
-                          <li class="header__btn-box" data-id="4">
-                              <button>Відео</button>
-                          </li>
-                          <li class="header__btn-box" data-id="5">
-                              <button>Фото</button>
-                          </li>
-                      </ul>
-
-                      <ul class="header__articles">
-                          <li class="header__content-box active" data-id="1">
-                              <article class="tab">
-                                  <h2 class="tab__title">Афіши</h2>
-                                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur a
-                                      voluptatibus reiciendis quos soluta nostrum saepe? Sit pariatur similique
-                                      recusandae ad, voluptatibus praesentium illum enim eligendi itaque nulla
-                                      animi dolores!</p>
-                              </article>
-                          </li>
-                          <li class="header__content-box" data-id="2">
-                              <article class="tab">
-                                  <h1 class="tab__title">Преса</h1>
-                                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur a
-                                      voluptatibus reiciendis quos soluta nostrum saepe? Sit pariatur similique
-                                      recusandae ad, voluptatibus praesentium illum enim eligendi itaque nulla
-                                      animi dolores!</p>
-                              </article>
-                          </li>
-                          <li class="header__content-box" data-id="3">
-                              <article class="tab">
-                                  <h1 class="tab__title">Грамоти</h1>
-                                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur a
-                                      voluptatibus reiciendis quos soluta nostrum saepe? Sit pariatur similique
-                                      recusandae ad, voluptatibus praesentium illum enim eligendi itaque nulla
-                                      animi dolores!</p>
-                              </article>
-                          </li>
-                          <li class="header__content-box" data-id="4">
-                              <article class="tab">
-                                  <h1 class="tab__title">Відео</h1>
-                                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur a
-                                      voluptatibus reiciendis quos soluta nostrum saepe? Sit pariatur similique
-                                      recusandae ad, voluptatibus praesentium illum enim eligendi itaque nulla
-                                      animi dolores!</p>
-                              </article>
-                          </li>
-                          <li class="header__content-box" data-id="5">
-                              <article class="tab">
-                                  <h1 class="tab__title">Фото</h1>
-                                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur a
-                                      voluptatibus reiciendis quos soluta nostrum saepe? Sit pariatur similique
-                                      recusandae ad, voluptatibus praesentium illum enim eligendi itaque nulla
-                                      animi dolores!</p>
-                              </article>
-                          </li>
-                      </ul>
-
-                  </div>`;
-}
 
 /**
 * MD5
