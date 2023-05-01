@@ -25,31 +25,31 @@ btnArchive.addEventListener('click', (e) => {
                                     <li class="header__art-box active" data-id="1">
                                         <article class="tab">
                                             <h1 class="tab__title">Афіши</h1>
-                                            <p class="tab__desc">В цій категорії розміщені афіши</p>
+                                            <p class="tab__desc">Категорія афіши</p>
                                         </article>
                                     </li>
                                     <li class="header__art-box" data-id="2">
                                         <article class="tab">
                                             <h1 class="tab__title">Преса</h1>
-                                            <p class="tab__desc">В цій категорії розміщена преса</p>
+                                            <p class="tab__desc">Категорія преса</p>
                                         </article>
                                     </li>
                                     <li class="header__art-box" data-id="3">
                                         <article class="tab">
                                             <h1 class="tab__title">Грамоти</h1>
-                                            <p class="tab__desc">В цій категорії грамоти</p>
+                                            <p class="tab__desc">Категорія грамоти</p>
                                         </article>
                                     </li>
                                     <li class="header__art-box" data-id="4">
                                         <article class="tab">
                                             <h1 class="tab__title">Відео</h1>
-                                            <p class="tab__desc">В цій категорії ви знайдете архівні відео</p>
+                                            <p class="tab__desc">Категорія відео</p>
                                         </article>
                                     </li>
                                     <li class="header__art-box" data-id="5">
                                         <article class="tab">
                                             <h1 class="tab__title">Фото</h1>
-                                            <p class="tab__desc">В цій категорії ви знайдете архівні Фото</p>
+                                            <p class="tab__desc">Категорія Фото</p>
                                         </article>
                                     </li>
                                 </ul>
