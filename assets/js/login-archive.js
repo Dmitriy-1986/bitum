@@ -12,10 +12,12 @@ btnArchive.addEventListener('click', (e) => {
     result.innerHTML = `<p class="password-valid">Вітаю, ви увійшли в Архів 
                           <b id="logOut" class="log-out"> | Вийти </b></p>`;
     
-      const logOut = document.querySelector('#logOut');
-      logOut.addEventListener('click', () => {
-          location.reload()
-      });
+    const logOut = document.querySelector('#logOut');
+    logOut.addEventListener('click', () => {
+        location.reload()
+    });
+    
+    archiveTabs();
     
   } else {
     result.innerHTML = '<b class="password-error">Ви ввели неправильний пароль</b>';
