@@ -75,7 +75,7 @@ btnArchive.addEventListener('click', (e) => {
                                 <ul class="header__articles">
                                     <li class="header__content-box active" data-id="1">
                                         <article class="tab">
-                                            <h2 class="tab__title">Афіши</h2>
+                                            <h2 class="tab-content__title">Афіши</h2>
                                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur a
                                                 voluptatibus reiciendis quos soluta nostrum saepe? Sit pariatur similique
                                                 recusandae ad, voluptatibus praesentium illum enim eligendi itaque nulla
@@ -84,7 +84,7 @@ btnArchive.addEventListener('click', (e) => {
                                     </li>
                                     <li class="header__content-box" data-id="2">
                                         <article class="tab">
-                                            <h1 class="tab__title">Преса</h1>
+                                            <h1 class="tab-content__title">Преса</h1>
                                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur a
                                                 voluptatibus reiciendis quos soluta nostrum saepe? Sit pariatur similique
                                                 recusandae ad, voluptatibus praesentium illum enim eligendi itaque nulla
@@ -93,7 +93,7 @@ btnArchive.addEventListener('click', (e) => {
                                     </li>
                                     <li class="header__content-box" data-id="3">
                                         <article class="tab">
-                                            <h1 class="tab__title">Грамоти</h1>
+                                            <h1 class="tab-content__title">Грамоти</h1>
                                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur a
                                                 voluptatibus reiciendis quos soluta nostrum saepe? Sit pariatur similique
                                                 recusandae ad, voluptatibus praesentium illum enim eligendi itaque nulla
@@ -102,7 +102,7 @@ btnArchive.addEventListener('click', (e) => {
                                     </li>
                                     <li class="header__content-box" data-id="4">
                                         <article class="tab">
-                                            <h1 class="tab__title">Відео</h1>
+                                            <h1 class="tab-content__title">Відео</h1>
                                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur a
                                                 voluptatibus reiciendis quos soluta nostrum saepe? Sit pariatur similique
                                                 recusandae ad, voluptatibus praesentium illum enim eligendi itaque nulla
@@ -111,7 +111,7 @@ btnArchive.addEventListener('click', (e) => {
                                     </li>
                                     <li class="header__content-box" data-id="5">
                                         <article class="tab">
-                                            <h1 class="tab__title">Фото</h1>
+                                            <h1 class="tab-content__title">Фото</h1>
                                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur a
                                                 voluptatibus reiciendis quos soluta nostrum saepe? Sit pariatur similique
                                                 recusandae ad, voluptatibus praesentium illum enim eligendi itaque nulla
