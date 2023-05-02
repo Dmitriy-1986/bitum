@@ -4,7 +4,8 @@ async function renderBitumFooter() {
     const bitum = await getBitum();
 
     const btnShare = document.querySelector('#btnShare');
-    btnShare.innerHTML = `<ul class="share">
+    btnShare.innerHTML = `<h3>Поділитись сторінкою</h3>`;
+    btnShare.innerHTML += `<ul class="share">
                                 <li class="social-btn">
                                     <a class="social-link" href="https://www.facebook.com/sharer.php?u=${window.location.href}">
                                         <img class="icon-facebook" src="./assets/img/social-icon/facebook.svg" alt="Facebook">
