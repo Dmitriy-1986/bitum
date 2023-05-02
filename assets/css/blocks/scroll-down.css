@@ -1,5 +1,7 @@
 /* Scroll Down */
 .scroll-indicator {
+    position: relative;
+    top: 50vh;    
     display: block;
     margin: 0 auto;
     width: 84px;
