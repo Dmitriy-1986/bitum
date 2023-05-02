@@ -7,6 +7,12 @@ footer {
     background-color: #232629;
 }
 
+footer h3 {
+    text-align: center; 
+    color: white; 
+    margin-bottom: 20px;
+}
+
 footer p {
     padding: 60px 0 0;
     color: var(--color-light);
