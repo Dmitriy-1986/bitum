@@ -3,9 +3,7 @@
 async function renderBitumFooter() {
     const bitum = await getBitum();
 
-    const footerContent = document.querySelector('#footerContent');
-    
-    const btnShare = document.createElement('div');
+    const btnShare = document.querySelector('#btnShare');
     btnShare.innerHTML = `<ul class="share">
                                 <li class="social-btn">
                                     <a class="social-link" href="https://www.facebook.com/sharer.php?u=${window.location.href}">
@@ -33,7 +31,8 @@ async function renderBitumFooter() {
                                     </a>
                                 </li>
                             </ul>`;
-    footerContent.append(btnShare);
+    
+    const footerContent = document.querySelector('#footerContent');
     footerContent.innerHTML  = `Copyright &copy `; 
     footerContent.innerHTML += new Date().getFullYear();
     footerContent.innerHTML += ` ${bitum.groupName}`;
