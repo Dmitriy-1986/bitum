@@ -23,20 +23,33 @@
 
 .share li:nth-child(1) a {
     background-color: #1877F2;
+    transition: filter 1s;
 }
 
 .share li:nth-child(2) a {
     background-color: #1DA1F2;
+    transition: filter 1s;
 }
 
 .share li:nth-child(3) a {
     background-color: #0088cc;
+    transition: filter 1s;
 }
 
 .share li:nth-child(4) a {
     background-color: #25D366;
+    transition: filter 1s;
 }
 
 .share li:nth-child(5) a {
     background-color: #7360f2;
+    transition: filter 1s;
+}
+
+.share li:nth-child(1) a:hover,
+.share li:nth-child(2) a:hover,
+.share li:nth-child(3) a:hover,
+.share li:nth-child(4) a:hover,
+.share li:nth-child(5) a:hover {
+    filter: brightness(.80);
 }
