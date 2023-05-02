@@ -1,9 +1,8 @@
 .scrollToTopBtn {
     position: fixed;
-    bottom: 70px;
-    left: 37px;
+    bottom: 25px;
+    left: 25px;
     display: none;
-   /* padding: 8px 4px; */
     cursor: pointer;
     transition: all .8s ease-in-out;
     width: 53px;
