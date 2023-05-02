@@ -1,54 +1,23 @@
 /* Scroll Down */
 .scroll-indicator {
-    position: relative;
-    top: 50vh;
-    text-decoration: none;
-    cursor: pointer;
     display: block;
     margin: 0 auto;
-    width: 35px;
-    height: 60px;
-    border: 3px solid var(--color-indigo);
-    border-radius: 50px;
-   /* box-shadow: 0px 0px 35px -5px var(--color-indigo); */  
+    width: 84px;
+    height: 42px;
+    cursor: pointer;
+    animation-name: animateArrow;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
 }
-  
-.scroll-indicator::before {
-    content: '';
-    position: absolute;
-    top: .5em;
-    left: 50%;
-    width: 15px;
-    height: 15px;
-    background-color: var(--color-indigo);
-    border-radius: 50%;
-    transform: translate(-50%, 0);
-    animation: scrollAnim 1.8s .5s infinite ease-in;
-    /* box-shadow: 0px 0px 35px -5px var(--color-indigo); */
-}
-  
-/* Animation Scroll Down */
-@keyframes scrollAnim {
+ 
+@keyframes animateArrow {
     0% {
-      transform: translate(-50%, 0) rotateX(0);
-      opacity: 0;
+        transform: translateY(0px);
     }
-  
-    5% {
-      opacity: .5;
+    50% {
+        transform: translateY(25px);
     }
-  
-    15% {
-      opacity: 1;
-    }
-  
-    90%,
     100% {
-      opacity: 0;
-    }
-  
-    100% {
-      transform: translate(-50%, 30px) rotateX(30deg);
+        transform: translateY(0px);
     }
 }
-/* Animation Scroll Down */
