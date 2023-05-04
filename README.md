@@ -30,9 +30,9 @@ Web Site: dovgaldima.pp.ua
              <ul>
                 <li><a href="https://bitum.pp.ua/katehoriia-afishy.html">АФІШИ</a> | <a href="https://github.com/Dmitriy-1986/Bitum-web-project/blob/master/katehoriia-afishy.html">Код</a> </li>
                 <li><a href="https://bitum.pp.ua/katehoriia-presy.html">ПРЕСА</a> | <a href="https://github.com/Dmitriy-1986/Bitum-web-project/blob/master/katehoriia-presy.html">Код</a> </li>
-                <li><a href="https://bitum.pp.ua/katehoriia-hramoty.html">ГРАМОТИ</a> | <a href="https://github.com/Dmitriy-1986/Bitum-web-project/blob/master/ ">Код</a> </li>
-                <li><a href="https://bitum.pp.ua/katehoriia-video.html">ВІДЕО</a> | <a href="https://github.com/Dmitriy-1986/Bitum-web-project/blob/master/ ">Код</a> </li>
-                <li><a href="https://bitum.pp.ua/katehoriia-photo.html">ФОТО</a> | <a href="https://github.com/Dmitriy-1986/Bitum-web-project/blob/master/ ">Код</a> </li>
+                <li><a href="https://bitum.pp.ua/katehoriia-hramoty.html">ГРАМОТИ</a> | <a href="https://github.com/Dmitriy-1986/Bitum-web-project/blob/master/katehoriia-hramoty.html">Код</a> </li>
+                <li><a href="https://bitum.pp.ua/katehoriia-video.html">ВІДЕО</a> | <a href="https://github.com/Dmitriy-1986/Bitum-web-project/blob/master/katehoriia-video.html">Код</a> </li>
+                <li><a href="https://bitum.pp.ua/katehoriia-photo.html">ФОТО</a> | <a href="https://github.com/Dmitriy-1986/Bitum-web-project/blob/master/katehoriia-photo.html">Код</a> </li>
             </ul>
         <li><a href="https://bitum.pp.ua/contacts.html">КОНТАКТИ</a> | <a href="https://github.com/Dmitriy-1986/Bitum-web-project/blob/master/contacts.html">Код</a> </li>
     </ul>
