@@ -80,6 +80,8 @@ btnArchive.addEventListener('click', (e) => {
                                                 voluptatibus reiciendis quos soluta nostrum saepe? Sit pariatur similique
                                                 recusandae ad, voluptatibus praesentium illum enim eligendi itaque nulla
                                                 animi dolores!</p>
+                                                
+                                                <a href="katehoriia-afishy.html"><button class="btn btn-primary">Читати більше</button></a>
                                         </article>
                                     </li>
                                     <li class="header__content-box" data-id="2">
@@ -89,6 +91,8 @@ btnArchive.addEventListener('click', (e) => {
                                                 voluptatibus reiciendis quos soluta nostrum saepe? Sit pariatur similique
                                                 recusandae ad, voluptatibus praesentium illum enim eligendi itaque nulla
                                                 animi dolores!</p>
+                                                
+                                                <a href="katehoriia-presy.html"><button class="btn btn-primary">Читати більше</button></a>
                                         </article>
                                     </li>
                                     <li class="header__content-box" data-id="3">
@@ -98,6 +102,8 @@ btnArchive.addEventListener('click', (e) => {
                                                 voluptatibus reiciendis quos soluta nostrum saepe? Sit pariatur similique
                                                 recusandae ad, voluptatibus praesentium illum enim eligendi itaque nulla
                                                 animi dolores!</p>
+                                                
+                                                <a href="katehoriia-hramoty.html"><button class="btn btn-primary">Читати більше</button></a>
                                         </article>
                                     </li>
                                     <li class="header__content-box" data-id="4">
@@ -107,6 +113,8 @@ btnArchive.addEventListener('click', (e) => {
                                                 voluptatibus reiciendis quos soluta nostrum saepe? Sit pariatur similique
                                                 recusandae ad, voluptatibus praesentium illum enim eligendi itaque nulla
                                                 animi dolores!</p>
+                                                
+                                                <a href="katehoriia-video.html"><button class="btn btn-primary">Читати більше</button></a>
                                         </article>
                                     </li>
                                     <li class="header__content-box" data-id="5">
@@ -116,6 +124,8 @@ btnArchive.addEventListener('click', (e) => {
                                                 voluptatibus reiciendis quos soluta nostrum saepe? Sit pariatur similique
                                                 recusandae ad, voluptatibus praesentium illum enim eligendi itaque nulla
                                                 animi dolores!</p>
+                                                
+                                                <a href="katehoriia-photo.html"><button class="btn btn-primary">Читати більше</button></a>
                                         </article>
                                     </li>
                                 </ul>
