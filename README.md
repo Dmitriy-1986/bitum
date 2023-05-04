@@ -29,7 +29,7 @@ Web Site: dovgaldima.pp.ua
         <li><a href="https://bitum.pp.ua/archive.html">АРХІВ</a> | <a href="https://github.com/Dmitriy-1986/Bitum-web-project/blob/master/archive.html">Код</a> </li>
              <ul>
                 <li><a href="https://bitum.pp.ua/katehoriia-afishy.html">АФІШИ</a> | <a href="https://github.com/Dmitriy-1986/Bitum-web-project/blob/master/tishina-ne-spaset.html">Код</a> </li>
-                <li><a href="https://bitum.pp.ua/zdes-net-nachala.html">ЗДЕСЬ НЕТ НАЧАЛА</a> | <a href="https://github.com/Dmitriy-1986/Bitum-web-project/blob/master/zdes-net-nachala.html">Код</a> </li>
+                <li><a href="https://bitum.pp.ua/katehoriia-presy.html">ПРЕСА</a> | <a href="https://github.com/Dmitriy-1986/Bitum-web-project/blob/master/zdes-net-nachala.html">Код</a> </li>
                 <!--<li><a href="https://bitum.pp.ua/ne-nazvannyy.html">НЕ НАЗВАННЫЙ</a> | <a href="https://github.com/Dmitriy-1986/Bitum-web-project/blob/master/ne-nazvannyy.html">Код</a> </li>
                 <li><a href="https://bitum.pp.ua/ne-albomnyye.html">НЕ АЛЬБОМНЫЕ</a> | <a href="https://github.com/Dmitriy-1986/Bitum-web-project/blob/master/ne-albomnyye.html">Код</a> </li>-->
             </ul>
