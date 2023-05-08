@@ -83,10 +83,9 @@ async function renderBitumArchive() {
                                     <li class="header__content-box" data-id="2">
                                         <article class="tab">
                                             <h1 class="tab-content__title">Преса</h1>
-                                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur a
-                                                voluptatibus reiciendis quos soluta nostrum saepe? Sit pariatur similique
-                                                recusandae ad, voluptatibus praesentium illum enim eligendi itaque nulla
-                                                animi dolores!</p>
+                                            <p>
+                                                У категорії "Преса" зібрані знімки газет, тут ви можете знайти статті, пов'язані з творчістю колективу реп гурту Бітум.
+                                            </p>
                                                 
                                                 <a href="katehoriia-presy.html"><button class="btn btn-primary">Читати більше</button></a>
                                         </article>
