@@ -69,10 +69,7 @@ async function renderBitumArchive() {
                                     <li class="header__content-box active" data-id="1">
                                         <article class="tab">
                                             <h2 class="tab-content__title">Афіши</h2>
-                                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur a
-                                                voluptatibus reiciendis quos soluta nostrum saepe? Sit pariatur similique
-                                                recusandae ad, voluptatibus praesentium illum enim eligendi itaque nulla
-                                                animi dolores!</p>
+                                            <p>Категорія "Афіші" є архівом подій, тут ви знайдете повну інформацію про заходи, що відбулися групою Бітум</p>
                                                 
                                                 <a href="katehoriia-afishy.html"><button class="btn btn-primary">Читати більше</button></a>
                                         </article>
