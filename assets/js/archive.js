@@ -19,8 +19,8 @@ async function renderBitumArchive() {
                                 <ul class="header__articles">
                                     <li class="header__art-box active" data-id="1">
                                         <article class="tab">
-                                            <h1 class="tab__title">Афіши</h1>
-                                            <!-- <p class="tab__desc">Категорія афіши</p> -->
+                                            <h1 class="tab__title">Афіші</h1>
+                                            <!-- <p class="tab__desc">Категорія афіші</p> -->
                                         </article>
                                     </li>
                                     <li class="header__art-box" data-id="2">
@@ -50,7 +50,7 @@ async function renderBitumArchive() {
                                 </ul>
                                 <ul class="header__btns">
                                     <li class="header__btn-box active" data-id="1">
-                                        <button>Афіши</button>
+                                        <button>Афіші</button>
                                     </li>
                                     <li class="header__btn-box" data-id="2">
                                         <button>Преса</button>
@@ -68,10 +68,10 @@ async function renderBitumArchive() {
                                 <ul class="header__articles">
                                     <li class="header__content-box active" data-id="1">
                                         <article class="tab">
-                                            <h2 class="tab-content__title">Афіши</h2>
+                                            <h2 class="tab-content__title">Афіші</h2>
                                             <p>
                                                 У категорії "Афіші" представлений невичерпний архів подій, 
-                                                в котрих приймав участь наш гурт за період існування.  
+                                                в котрих брав участь наш гурт за період існування.  
                                                 Бітум були учасниками багатьох фестивалів, конкурсів та святкувань, 
                                                 хедлайнерами вечірок та організаторами івентів. 
                                                 В цьому розділі ви можете ознайомитись з частиною з них.
