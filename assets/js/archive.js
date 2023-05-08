@@ -93,10 +93,10 @@ async function renderBitumArchive() {
                                     <li class="header__content-box" data-id="3">
                                         <article class="tab">
                                             <h1 class="tab-content__title">Грамоти</h1>
-                                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur a
-                                                voluptatibus reiciendis quos soluta nostrum saepe? Sit pariatur similique
-                                                recusandae ad, voluptatibus praesentium illum enim eligendi itaque nulla
-                                                animi dolores!</p>
+                                            <p>
+                                            Категорія "Грамоти" призначена для того, щоб показати досягнення, здобуті колективом за час своєї діяльності.
+                                            Тут ви знайдете опис та фотографії грамот, дипломів, які були вручені групі Бітум за досягнення у музичній індустрії.
+                                            </p>
                                                 
                                                 <a href="katehoriia-hramoty.html"><button class="btn btn-primary">Читати більше</button></a>
                                         </article>
