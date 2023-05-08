@@ -24,13 +24,13 @@
 }
 
 .nav ul {
-    gap: 1rem;
     display: flex;
     align-items: center;
 }
 
 .nav ul li {
     list-style-type: none;
+    margin: 0 5px 0 5px;
 }
 
 .burger-menu {
