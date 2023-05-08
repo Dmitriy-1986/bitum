@@ -104,23 +104,19 @@ async function renderBitumArchive() {
                                     <li class="header__content-box" data-id="4">
                                         <article class="tab">
                                             <h1 class="tab-content__title">Відео</h1>
-                                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur a
-                                                voluptatibus reiciendis quos soluta nostrum saepe? Sit pariatur similique
-                                                recusandae ad, voluptatibus praesentium illum enim eligendi itaque nulla
-                                                animi dolores!</p>
-                                                
-                                                <a href="katehoriia-video.html"><button class="btn btn-primary">Читати більше</button></a>
+                                            
+                                            <p class="alert-content">Архівні Відео Бітума зараз в процесі розробки...</p>
+                                            
+                                            <!--<a href="katehoriia-video.html"><button class="btn btn-primary">Читати більше</button></a>-->
                                         </article>
                                     </li>
                                     <li class="header__content-box" data-id="5">
                                         <article class="tab">
                                             <h1 class="tab-content__title">Фото</h1>
-                                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur a
-                                                voluptatibus reiciendis quos soluta nostrum saepe? Sit pariatur similique
-                                                recusandae ad, voluptatibus praesentium illum enim eligendi itaque nulla
-                                                animi dolores!</p>
+                                            
+                                            <p class="alert-content">Архівні Фото Бітума зараз в процесі розробки...</p>
                                                 
-                                                <a href="katehoriia-photo.html"><button class="btn btn-primary">Читати більше</button></a>
+                                            <!--<a href="katehoriia-photo.html"><button class="btn btn-primary">Читати більше</button></a>-->
                                         </article>
                                     </li>
                                 </ul>
