@@ -18,4 +18,5 @@ footer p {
     color: var(--color-light);
     font-weight: 600;
     text-align: center;
+    font-size: 12px;
 }
