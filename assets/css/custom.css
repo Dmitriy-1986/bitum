@@ -152,7 +152,7 @@ a:hover {
 
 .article {
     min-height: 100vh;
-    margin: 150px 0 50px 0;
+    margin-top: 150px;
 }
 
 .title-block {
