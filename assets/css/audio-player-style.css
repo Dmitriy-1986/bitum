@@ -132,3 +132,19 @@
         width: 330px;
     }
 }
+
+@media (max-width: 350px) {
+
+    .player-ctn {
+
+        width: 250px;
+
+    }
+
+    #myProgress {
+
+        width: 230px;
+
+    }
+
+}
