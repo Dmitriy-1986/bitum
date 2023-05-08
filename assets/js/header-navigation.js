@@ -27,7 +27,7 @@ async function renderBitumHeaderNavigation() {
     const logo = document.querySelector('.logo');
     logo.innerHTML  = `<a href="https://bitum.pp.ua"><img src='./assets/img/new-bitum-logotype.png' alt='Бітум' class='img-logotype'></a>`;
     logo.innerHTML += `<div style='font-size:12px; position: relative;'>
-                            <span style='position:absolute; top:-10px; left: 2px; color: black; font-weight: bold;letter-spacing:2px; width:160px; filter: drop-shadow(2px 4px 3px white);'>творче об\'єднання</span>
+                            <span style='position:absolute; top:-10px; left: 2px; color: black; font-weight: bold;letter-spacing:2px; width:200px; filter: drop-shadow(2px 4px 3px white);'>творче об\'єднання</span>
                        </div>`;
     logo.innerHTML += `<img src="./assets/img/stop-war-in-ukraine.png" alt="Stop War" class="stop-war">`;
     
