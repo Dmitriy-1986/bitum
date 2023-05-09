@@ -7,5 +7,5 @@
   color: #842029;
   background-color: #f8d7da;
   border-color: #f5c2c7;
-  line-height: 1;
+  line-height: 1 !important;
 }
