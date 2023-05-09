@@ -39,6 +39,10 @@
 }
 
 @media (max-width: 350px) {
+    .parallax-logotype {
+        width: 250px;
+    }
+    
     .bitum-logotype {
         width: 250px;
     }
