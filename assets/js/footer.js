@@ -34,7 +34,7 @@ async function renderBitumFooter() {
                             </ul>`;
     
     const footerContent = document.querySelector('#footerContent');
-    footerContent.innerHTML = ` ${bitum.groupName}`;
+    footerContent.innerHTML = ` ${bitum.bitumAbbreviated}`;
     footerContent.innerHTML += ` <a href="mailto:bitum2003@gmail.com" title="Gmail">
                                     <img src="./assets/img/icon-gmail.png" alt="Gmail" class="img-gmail">
                                  </a><br>`;
