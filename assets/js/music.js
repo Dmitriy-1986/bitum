@@ -3,7 +3,7 @@
 async function renderBitumMusic() {
     const bitum = await getBitum();
 
-    document.title = `${bitum.groupName} | ${bitum.navigationMenu[2].title}`;
+    document.title = `${bitum.groupName} | ${bitum.navigationMenu[2].title}`
     
     const breadcrumbMusic = document.querySelector('#breadcrumbMusic');
     breadcrumbMusic.innerHTML = `<ol class="breadcrumb">
@@ -12,7 +12,7 @@ async function renderBitumMusic() {
                                    </ol>`;
     
     const titleMainMusic = document.querySelector('#titleMainMusic');
-    titleMainMusic.innerHTML = `<h2>${bitum.navigation.music.titleMusic}</h2>`;
+    titleMainMusic.innerHTML = `<h2>${bitum.navigation.music.titleMusic}</h2>`
     
     /*const cardBlock = document.querySelector('#cardBlock');
     cardBlock.innerHTML = `<div class="card">
