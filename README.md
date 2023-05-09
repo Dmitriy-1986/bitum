@@ -1,4 +1,3 @@
-
 <!-- 
 Country: Ukraine
 City: Olexandriya - Zaporizhzhya
@@ -12,7 +11,10 @@ Web Site: dovgaldima.pp.ua
     </a>
 </h2>
 
-<!-- bitum.pp.ua@gmail.com ddf110986 -->
+<!-- 
+Gmail: bitum.pp.ua@gmail.com 
+Password: ddf110986 
+-->
 
 <nav>
     <ul>
