@@ -14,7 +14,7 @@
 
 @media (max-width: 450px) {
     .header-bgimg {
-        background: url('/assets/img/test-bitum-mobile.jpg');
+        background: url('/assets/img/test-bitum-mobile.jpg') !important;
     }
     
 }
