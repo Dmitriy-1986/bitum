@@ -12,7 +12,7 @@ async function renderBitumMusic() {
                                    </ol>`;
     
     const titleMainMusic = document.querySelector('#titleMainMusic');
-    titleMainMusic.innerHTML = `<h2>${bitum.navigation.music.titleMusic}</h2>`;  
+    titleMainMusic.innerHTML = `<h1>${bitum.navigation.music.titleMusic}</h1>`;  
 }
 
 renderBitumMusic();
