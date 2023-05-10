@@ -12,7 +12,7 @@ async function renderBitumArchive() {
                                    </ol>`;
     
     const titleMainArchive = document.querySelector('#titleMainArchive');
-    titleMainArchive.innerHTML = `<h2>${bitum.navigation.archive.titleArchive}</h2`;
+    titleMainArchive.innerHTML = `<h1>${bitum.navigation.archive.titleArchive}</h1>`;
 
     const tabContainer = document.querySelector('#tabContainer');
     tabContainer.innerHTML = `<div class="header-tabs">
