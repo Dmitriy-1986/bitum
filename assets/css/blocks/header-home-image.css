@@ -11,13 +11,14 @@
     width: 100% !important;
     background-size: cover !important;
 }
-
+/*
 @media (max-width: 450px) {
     .header-bgimg {
         background: url('/assets/img/test-bitum-mobile.jpg') !important;
     }
     
 }
+*/
 
 /**
 * Parallax Logotype
