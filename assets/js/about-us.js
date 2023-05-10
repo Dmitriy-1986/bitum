@@ -13,7 +13,7 @@ async function renderBitumAboutUs() {
                                    </ol>`;
     
     const titleMainAboutUs = document.querySelector('#titleMainAboutUs');
-    titleMainAboutUs.innerHTML = `<h2>${bitum.aboutUs.title}</h2>`;
+    titleMainAboutUs.innerHTML = `<h1>${bitum.aboutUs.title}</h1>`;
     
     const aboutUsContent = document.querySelector('#aboutUsContent');
     aboutUsContent.innerHTML = `<p class="alert-content">
