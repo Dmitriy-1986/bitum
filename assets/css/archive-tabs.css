@@ -7,11 +7,14 @@ ul {
 }
 
 .header-tabs {
+    display: -ms-grid;
     display: grid;
+    -ms-grid-rows: 10em auto;
     grid-template-rows: 10em auto;
 }
 
 .header__articles {
+    display: -ms-grid;
     display: grid;
 }
 
@@ -20,6 +23,7 @@ ul {
     background-image: url(../img/home-archive.jpg);
     background-position: center;
     background-color: #343a40;
+    display: -ms-grid;
     display: grid;
     place-content: center;
     text-align: center;
@@ -28,6 +32,7 @@ ul {
 .header__content-box {
     color: rgb(0, 0, 0);
     background-color: #ffffff;
+    display: -ms-grid;
     display: grid;
     place-content: center;
     text-align: center;
@@ -43,11 +48,15 @@ ul {
 
 .header__btns {
     background-color: #dee2e6;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
 .header__btn-box {
-    flex: 1;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
 }
 
 .header__btn-box>button {
@@ -94,7 +103,10 @@ ul {
 
 @media (max-width: 400px) {
     .header__btns {
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
     }
     /*.header__btn-box>button {
         font-size: 11px;
