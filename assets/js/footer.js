@@ -32,7 +32,7 @@ btnShare.innerHTML += `<ul class="share">
 
 const footerContent = document.querySelector('#footerContent');
 footerContent.innerHTML = `Бітум`;
-footerContent.innerHTML += ` <a href="mailto:${homMain.contactMain.mail}" title="Gmail">
+footerContent.innerHTML += ` <a href="mailto:bitum2003@gmail.com" title="Gmail">
                                 <img src="./assets/img/icon-gmail.png" alt="Gmail" class="img-gmail">
                                 </a><br>`;
 footerContent.innerHTML += `Copyright &copy `; 
