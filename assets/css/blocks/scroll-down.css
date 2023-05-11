@@ -7,20 +7,41 @@
     width: 84px;
     height: 42px;
     cursor: pointer;
-    animation-name: animateArrow;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
+    -webkit-animation-name: animateArrow;
+            animation-name: animateArrow;
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+}
+ 
+@-webkit-keyframes animateArrow {
+    0% {
+        -webkit-transform: translateY(0px);
+                transform: translateY(0px);
+    }
+    50% {
+        -webkit-transform: translateY(25px);
+                transform: translateY(25px);
+    }
+    100% {
+        -webkit-transform: translateY(0px);
+                transform: translateY(0px);
+    }
 }
  
 @keyframes animateArrow {
     0% {
-        transform: translateY(0px);
+        -webkit-transform: translateY(0px);
+                transform: translateY(0px);
     }
     50% {
-        transform: translateY(25px);
+        -webkit-transform: translateY(25px);
+                transform: translateY(25px);
     }
     100% {
-        transform: translateY(0px);
+        -webkit-transform: translateY(0px);
+                transform: translateY(0px);
     }
 }
 
@@ -29,4 +50,3 @@
           width: 50px;
      }
 }
-
