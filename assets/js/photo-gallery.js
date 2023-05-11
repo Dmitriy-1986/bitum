@@ -1,33 +1,67 @@
 'use strict';
 
-async function renderBitumPhotoGallery() {
-    const bitum = await getBitum();
+document.title = `Творче об'єднання Бітум | Фото`;
 
-    document.title = `${bitum.groupName} | ${bitum.navigationMenu[3].title}`;
+const breadcrumbGallery = document.querySelector('#breadcrumbGallery');
+breadcrumbGallery.innerHTML = `<ol class="breadcrumb">
+                                    <li class="breadcrumb-item"><a href="index.html">Головна </a></li>
+                                    <li class="breadcrumb-item active">Фото</li>
+                                </ol>`;
 
-    const breadcrumbGallery = document.querySelector('#breadcrumbGallery');
-    breadcrumbGallery.innerHTML = `<ol class="breadcrumb">
-                                       <li class="breadcrumb-item"><a href="${bitum.navigation.home.linkHome}">${bitum.navigation.home.titleHome} </a></li>
-                                       <li class="breadcrumb-item active">${bitum.navigation.gallery.titleGallery}</li>
-                                   </ol>`;
-    
-    const titleMainGallery = document.querySelector('#titleMainGallery');
-    titleMainGallery.innerHTML = `<h2>${bitum.navigation.gallery.titleGallery}</h2>`;
+const titleMainGallery = document.querySelector('#titleMainGallery');
+titleMainGallery.innerHTML = `<h2>Фото</h2>`;
 
-    const galleryBlock = document.querySelector('#galleryBlock');
-    let gallery = '';
-    bitum.galleryImg.forEach(photo => {
-        let gallerySegment = `<div class="card">
-                                <div class="card-image">
-                                    <a data-fancybox="gallery" data-caption="${photo.title}" 
-                                                            href="${photo.linkPhoto}">
-                                        <img src="${photo.linkPhoto}"></a>
-                                </div>
-                            </div>`;
-        gallery += gallerySegment;
-    });
-    galleryBlock.innerHTML = gallery;
+const galleryBlock = document.querySelector('#galleryBlock');
 
-}
+const galleryImg = [
+    {
+        "title": "Бітум",
+        "linkPhoto": "./assets/img/group/img-1.jpg"
+    },
+    {
+        "title": "Бітум",
+        "linkPhoto": "./assets/img/group/img-2.jpg"
+    },
+    {
+        "title": "Бітум",
+        "linkPhoto": "./assets/img/group/img-3.jpg"
+    },
+    {
+        "title": "Бітум",
+        "linkPhoto": "./assets/img/group/img-4.jpg"
+    },
+    {
+        "title": "Wasp",
+        "linkPhoto": "./assets/img/group/img-5.JPG"
+    },
+    {
+        "title": "Dёma",
+        "linkPhoto": "./assets/img/group/img-6.jpg"
+    },
+    {
+        "title": "Dima",
+        "linkPhoto": "./assets/img/group/img-7.jpg"
+    },
+    {
+        "title": "Oneal",
+        "linkPhoto": "./assets/img/group/img-8.jpg"
+    },
+    {
+        "title": "Vlad",
+        "linkPhoto": "./assets/img/group/img-9.jpg"
+    }
+];
 
-renderBitumPhotoGallery();
+let gallery = '';
+galleryImg.forEach(photo => {
+    let gallerySegment = `<div class="card">
+                            <div class="card-image">
+                                <a data-fancybox="gallery" data-caption="${photo.title}" 
+                                                        href="${photo.linkPhoto}">
+                                    <img src="${photo.linkPhoto}"></a>
+                            </div>
+                        </div>`;
+    gallery += gallerySegment;
+});
+
+galleryBlock.innerHTML = gallery;
