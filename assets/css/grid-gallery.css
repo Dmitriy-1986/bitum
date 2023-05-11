@@ -1,11 +1,13 @@
 .gg-box{
+  display: -ms-grid;
   display: grid;
   grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
   grid-auto-rows: 200px;
   grid-gap: 8px;
 }
 .gg-element img{
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   cursor: pointer;
   width: 100%;
   height: 100%;
@@ -29,9 +31,15 @@
 }
 #gg-screen .gg-image{
   height: 100%;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
   display: inline-flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 #gg-screen .gg-image img{
   max-width: 100%;
@@ -48,13 +56,13 @@
   vertical-align: middle;
   display: inline-block;
   cursor: pointer;
-  -moz-transition: all .4s ease;
   -o-transition: all .4s ease;
   -webkit-transition: all .4s ease;
   transition: all .4s ease;
   font-size: 25px;
   border: 1px solid rgba(0,0,0,0.05);
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 .gg-bt:hover{
   background: rgba(255,255,255,0.8);
@@ -78,6 +86,7 @@
 }
 @media (min-width:478px){
   .gg-element:nth-child(3n+0){
+    -ms-grid-row-span: 2;
     grid-row-end: span 2;
   }
 }
