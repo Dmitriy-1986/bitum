@@ -163,6 +163,10 @@ a:hover {
     overflow-x: hidden;
 }
 
+main h1 {
+    text-transform: uppercase;
+}
+
 .main-cont-none {
     display: none;
 }
