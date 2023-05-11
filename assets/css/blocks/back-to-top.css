@@ -4,6 +4,8 @@
     left: 25px;
     display: none;
     cursor: pointer;
+    -webkit-transition: all .8s ease-in-out;
+    -o-transition: all .8s ease-in-out;
     transition: all .8s ease-in-out;
     width: 53px;
     border: none;
@@ -11,8 +13,10 @@
 }
 
 .scrollToTopBtn:hover  {
-     filter: brightness(120%);
-     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+     -webkit-filter: brightness(120%);
+             filter: brightness(120%);
+     -webkit-box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+             box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
 }
 
 .top-btn-img {
