@@ -93,7 +93,10 @@ ul {
 }
 
 @media (max-width: 400px) {
-    .header__btn-box>button {
-        font-size: 11px;
+    .header__btns {
+        flex-direction: column;
     }
+    /*.header__btn-box>button {
+        font-size: 11px;
+    }*/
 }
