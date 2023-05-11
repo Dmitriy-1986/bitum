@@ -60,6 +60,7 @@
      width: 140px;
      -webkit-filter: drop-shadow(2px 4px 3px white);
              filter: drop-shadow(2px 4px 3px white);
+    margin-left: 40px;
 }
 
 .stop-war {
