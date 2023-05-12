@@ -1,6 +1,6 @@
 'use strict';
 
-document.title = `Творче об'єднання Бітум | Про Нас`;
+document.title = `Творче об'єднання Бітум | Про Нас - стислий опис історії реп гурту БІТУМ, та головних історичних подій`;
 
 // About Us
 const breadcrumbAboutUs = document.querySelector('#breadcrumbAboutUs');
