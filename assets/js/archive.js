@@ -1,6 +1,6 @@
 'use strict';
 
-document.title = `Творче об'єднання Бітум | Архів`;
+document.title = `Творче об'єднання Бітум | Архів - світлини, афіші, згадки в газетах та інші архівні файли`;
 
 const breadcrumbArchive = document.querySelector('#breadcrumbArchive');
 breadcrumbArchive.innerHTML = `<ol class="breadcrumb">
