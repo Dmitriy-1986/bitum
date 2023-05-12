@@ -1,6 +1,6 @@
 'use strict';
 
-document.title = `Творче об'єднання Бітум | Музика`;
+document.title = `Творче об'єднання Бітум | Музика - альбоми, а також музичні композиції учасників гурту`;
 
 const breadcrumbMusic = document.querySelector('#breadcrumbMusic');
 breadcrumbMusic.innerHTML = `<ol class="breadcrumb">
