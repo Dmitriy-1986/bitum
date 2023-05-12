@@ -1,6 +1,6 @@
 'use strict';
 
-document.title = `Творче об'єднання Бітум | Контакти`;
+document.title = `Творче об'єднання Бітум | Контакти - ви можете надіслати лист `;
 
 const breadcrumbContacts = document.querySelector('#breadcrumbContacts');
 breadcrumbContacts.innerHTML = `<ol class="breadcrumb">
