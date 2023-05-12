@@ -40,82 +40,82 @@ function createTrackItem(index, name, duration, link) {
 const listAudio = [
     {
         name: "Дощі",
-        file: "https://bitum.pp.ua/assets/music/ne-albomnyye/1.Дощі.mp3",
+        file: "./assets/music/ne-albomnyye/1.Дощі.mp3",
         duration: "04:02"
     },
     {
         name: "По улицам где нет добра",
-        file: "https://bitum.pp.ua/assets/music/ne-albomnyye/2.По-улицам-где-нет-добра.mp3",
+        file: "./music/ne-albomnyye/2.По-улицам-где-нет-добра.mp3",
         duration: "03:09"
     },
     {
         name: "Утекла",
-        file: "https://bitum.pp.ua/assets/music/ne-albomnyye/3.Утекла.mp3",
+        file: "./assets/music/ne-albomnyye/3.Утекла.mp3",
         duration: "05:24"
     },
     {
         name: "Unbelievable life",
-        file: "https://bitum.pp.ua/assets/music/ne-albomnyye/4.Unbelievable-life.mp3",
+        file: "./assets/music/ne-albomnyye/4.Unbelievable-life.mp3",
         duration: "04:24"
     },
     {
         name: "Гонки на выживание",
-        file: "https://bitum.pp.ua/assets/music/ne-albomnyye/5.Гонки-на-выживание.mp3",
+        file: "./assets/music/ne-albomnyye/5.Гонки-на-выживание.mp3",
         duration: "03:21"
     },
     {
         name: "Каждый прожитый день",
-        file: "https://bitum.pp.ua/assets/music/ne-albomnyye/6.Каждый-прожитый-день.mp3",
+        file: "./assets/music/ne-albomnyye/6.Каждый-прожитый-день.mp3",
         duration: "04:16"
     },
     {
         name: "Не жди",
-        file: "https://bitum.pp.ua/assets/music/ne-albomnyye/7.Не-жди.mp3",
+        file: "./assets/music/ne-albomnyye/7.Не-жди.mp3",
         duration: "03:40"
     },
     {
         name: "Отдельным особям",
-        file: "https://bitum.pp.ua/assets/music/ne-albomnyye/8.Отдельным-особям.mp3",
+        file: "./assets/music/ne-albomnyye/8.Отдельным-особям.mp3",
         duration: "03:11"
     },
     {
         name: "Палата нумер п*ять",
-        file: "https://bitum.pp.ua/assets/music/ne-albomnyye/9.Палата-нумер-п*ять.mp3",
+        file: "./assets/music/ne-albomnyye/9.Палата-нумер-п*ять.mp3",
         duration: "03:30"
     },
     {
         name: "Попробуй все",
-        file: "https://bitum.pp.ua/assets/music/ne-albomnyye/10.Попробуй-все.mp3",
+        file: "./assets/music/ne-albomnyye/10.Попробуй-все.mp3",
         duration: "03:07"
     },
     {
         name: "Мечты и план",
-        file: "https://bitum.pp.ua/assets/music/ne-albomnyye/11.Мечты-и-план.mp3",
+        file: "./assets/music/ne-albomnyye/11.Мечты-и-план.mp3",
         duration: "03:19"
     },
     {
         name: "Тряпка",
-        file: "https://bitum.pp.ua/assets/music/ne-albomnyye/12.Wasp-тряпка.mp3",
+        file: "./assets/music/ne-albomnyye/12.Wasp-тряпка.mp3",
         duration: "03:51"
     },
     {
         name: "Все что в наших силах",
-        file: "https://bitum.pp.ua/assets/music/ne-albomnyye/13.Все-что-в-наших-силах.mp3",
+        file: "./assets/music/ne-albomnyye/13.Все-что-в-наших-силах.mp3",
         duration: "03:52"
     },
     {
         name: "Почему не позвола",
-        file: "https://bitum.pp.ua/assets/music/ne-albomnyye/14.Почему-не-позвола.mp3",
+        file: "./assets/music/ne-albomnyye/14.Почему-не-позвола.mp3",
         duration: "04:29"
     },
     {
         name: "Спокойная ночь",
-        file: "https://bitum.pp.ua/assets/music/ne-albomnyye/15.Спокойная-ночь.mp3",
+        file: "./assets/music/ne-albomnyye/15.Спокойная-ночь.mp3",
         duration: "03:43"
     },
     {
         name: "Мечта",
-        file: "https://bitum.pp.ua/assets/music/ne-albomnyye/16.Мечта.mp3",
+        file: "./assets/music/ne-albomnyye/16.Мечта.mp3",
         duration: "03:32"
     }
 ];
