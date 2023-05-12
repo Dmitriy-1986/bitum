@@ -1,6 +1,6 @@
 'use strict';
 
-document.title = `Творче об'єднання Бітум | Фото`;
+document.title = `Творче об'єднання Бітум | Фото - світлини, фото сети, гастрольні світлини й не формальні домашні фото`;
 
 const breadcrumbGallery = document.querySelector('#breadcrumbGallery');
 breadcrumbGallery.innerHTML = `<ol class="breadcrumb">
