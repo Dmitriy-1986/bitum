@@ -31,7 +31,7 @@ const imgAboutUsBlock = document.querySelector('#imgAboutUs');
 const contentAboutUs = document.querySelector('#contentAboutUs');
 contentAboutUs.innerHTML = `<h2>${homMain.aboutMain.title}</h2>`;
 contentAboutUs.innerHTML += `<p class='content-about-us'>${homMain.aboutMain.subdescription.slice(0, 200)}...</p>`;
-contentAboutUs.innerHTML += `<a href='${navigationMenu.aboutUs.linkAboutUs}'><button class='btn btn-primary'>Читати більше</button></a>`;
+contentAboutUs.innerHTML += `<a href='./about-us.html'><button class='btn btn-primary'>Читати більше</button></a>`;
 
 const imgAbout = new Image();
 imgAbout.alt = homMain.aboutMain.title;
@@ -43,7 +43,7 @@ const archive = document.querySelector('#archive');
 const contentArchive = document.querySelector('#contentArchive');
 contentArchive.innerHTML = `<h2>${homMain.archiveMain.title}</h2>`;
 contentArchive.innerHTML += `<p class='content-about-us'>${homMain.archiveMain.subdescription.slice(0, 200)}...</p>`;
-contentArchive.innerHTML += `<a href='${navigationMenu.archive.linkArchive}'><button class='btn btn-primary'>Читати більше</button></a>`;
+contentArchive.innerHTML += `<a href='./archive.html'><button class='btn btn-primary'>Читати більше</button></a>`;
 
 const imgArchive = new Image();
 imgArchive.alt = homMain.archiveMain.title;
@@ -55,7 +55,7 @@ const gallery = document.querySelector('#gallery');
 const contentGallery = document.querySelector('#contentGallery');
 contentGallery.innerHTML = `<h2>${homMain.photoMain.title}</h2>`;
 contentGallery.innerHTML += `<p class='content-about-us'>${homMain.photoMain.subdescription.slice(0, 200)}...</p>`;
-contentGallery.innerHTML += `<a href='${navigationMenu.gallery.linkGallery}'><button class='btn btn-primary'>Читати більше</button></a>`;
+contentGallery.innerHTML += `<a href='./gallery.html'><button class='btn btn-primary'>Читати більше</button></a>`;
 
 const imgGallery = new Image();
 imgGallery.alt = homMain.photoMain.title;
@@ -67,7 +67,7 @@ const music = document.querySelector('#music');
 const contentMusic = document.querySelector('#contentMusic');
 contentMusic.innerHTML = `<h2>${homMain.musicMain.title}</h2>`;
 contentMusic.innerHTML += `<p class='content-about-us'>${homMain.musicMain.subdescription.slice(0, 200)}...</p>`;
-contentMusic.innerHTML += `<a href='${navigationMenu.music.linkMusic}'><button class='btn btn-primary'>Читати більше</button></a>`;
+contentMusic.innerHTML += `<a href='./music.html'><button class='btn btn-primary'>Читати більше</button></a>`;
 
 const imgMusic = new Image();
 imgMusic.alt = homMain.musicMain.title;
