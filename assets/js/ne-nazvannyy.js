@@ -41,77 +41,77 @@ function createTrackItem(index, name, duration, link) {
 const listAudio = [
     {
         name: "intro",
-        file: "https://bitum.pp.ua/assets/music/ne-nazvannyy/1.Интро.mp3",
+        file: "./assets/music/ne-nazvannyy/1.Интро.mp3",
         duration: "00:11"
     },
     {
         name: "25 лет жизни",
-        file: "https://bitum.pp.ua/assets/music/ne-nazvannyy/2.25-лет-жизни.mp3",
+        file: "./assets/music/ne-nazvannyy/2.25-лет-жизни.mp3",
         duration: "03:10"
     },
     {
         name: "Все что в наших силах",
-        file: "https://bitum.pp.ua/assets/music/ne-nazvannyy/3.Все-что-в-наших-силах.mp3",
+        file: "./assets/music/ne-nazvannyy/3.Все-что-в-наших-силах.mp3",
         duration: "03:53"
     },
     {
         name: "Спокойная ночь",
-        file: "https://bitum.pp.ua/assets/music/ne-nazvannyy/4.Спокойная-ночь.mp3",
+        file: "./assets/music/ne-nazvannyy/4.Спокойная-ночь.mp3",
         duration: "03:44"
     },
     {
         name: "Если сказано",
-        file: "https://bitum.pp.ua/assets/music/ne-nazvannyy/5.Если-сказано.mp3",
+        file: "./assets/music/ne-nazvannyy/5.Если-сказано.mp3",
         duration: "04:05"
     },
     {
         name: "Ошибки",
-        file: "https://bitum.pp.ua/assets/music/ne-nazvannyy/6.Ошибки.mp3",
+        file: "./assets/music/ne-nazvannyy/6.Ошибки.mp3",
         duration: "04:43"
     },
     {
         name: "О чем не скажешь",
-        file: "https://bitum.pp.ua/assets/music/ne-nazvannyy/7.О-чем-не-скажешь.mp3",
+        file: "./assets/music/ne-nazvannyy/7.О-чем-не-скажешь.mp3",
         duration: "03:45"
     },
     {
         name: "Вперед",
-        file: "https://bitum.pp.ua/assets/music/ne-nazvannyy/8.Вперед.mp3",
+        file: "./assets/music/ne-nazvannyy/8.Вперед.mp3",
         duration: "03:45"
     },
     {
         name: "Когда уходит любовь",
-        file: "https://bitum.pp.ua/assets/music/ne-nazvannyy/9.Когда-уходит-любовь.mp3",
+        file: "./assets/music/ne-nazvannyy/9.Когда-уходит-любовь.mp3",
         duration: "03:56"
     },
     {
         name: "Гламурные девчонки",
-        file: "https://bitum.pp.ua/assets/music/ne-nazvannyy/10.Гламурные-девчонки.mp3",
+        file: "./assets/music/ne-nazvannyy/10.Гламурные-девчонки.mp3",
         duration: "03:00"
     },
     {
         name: "Ночной город",
-        file: "https://bitum.pp.ua/assets/music/ne-nazvannyy/11.Ночной-город.mp3",
+        file: "./assets/music/ne-nazvannyy/11.Ночной-город.mp3",
         duration: "03:21"
     },
     {
         name: "Игра без правил",
-        file: "https://bitum.pp.ua/assets/music/ne-nazvannyy/12.Игра-без-правил.mp3",
+        file: "./assets/music/ne-nazvannyy/12.Игра-без-правил.mp3",
         duration: "03:06"
     },
     {
         name: "Зло и ненависть",
-        file: "https://bitum.pp.ua/assets/music/ne-nazvannyy/13.Зло-и-ненависть.mp3",
+        file: "./assets/music/ne-nazvannyy/13.Зло-и-ненависть.mp3",
         duration: "03:16"
     },
     {
         name: "Забыто",
-        file: "https://bitum.pp.ua/assets/music/ne-nazvannyy/14.Забыто.mp3",
+        file: "./assets/music/ne-nazvannyy/14.Забыто.mp3",
         duration: "03:38"
     },
     {
         name: "Тряпка",
-        file: "https://bitum.pp.ua/assets/music/ne-nazvannyy/15.Тряпка.mp3",
+        file: "./assets/music/ne-nazvannyy/15.Тряпка.mp3",
         duration: "03:18"
     }
 ];
