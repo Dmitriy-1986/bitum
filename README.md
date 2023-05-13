@@ -11,8 +11,8 @@ Web Site: dovgaldima.pp.ua
     </a>
 </h2>
 
-<!-- 
 Gmail: bitum.pp.ua@gmail.com 
+<!-- 
 Password: ddf110986 
 -->
 
