@@ -142,17 +142,15 @@
 }
 
 @media (max-width: 350px) {
-
+    .playlist-track-ctn {
+       font-size: 12px;
+    }
+    
     .player-ctn {
-
         width: 250px;
-
     }
 
     #myProgress {
-
         width: 230px;
-
     }
-
 }
