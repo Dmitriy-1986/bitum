@@ -162,11 +162,11 @@ a:hover {
     margin-bottom: 5px;
     overflow-x: hidden;
 }
-/*
-main h1 {
-    text-transform: uppercase;
+
+#mainContent h1 {
+    margin: 100px 0 50px 0;
 }
-*/
+
 .main-cont-none {
     display: none;
 }
