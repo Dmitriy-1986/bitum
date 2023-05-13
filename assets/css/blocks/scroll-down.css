@@ -46,6 +46,10 @@
 }
 
 @media only screen and (max-width: 350px) {
+     .scroll-indicator {
+         width: 50px;
+    }
+    
      .scroll-indicator img {
           width: 50px;
      }
