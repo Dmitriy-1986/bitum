@@ -79,7 +79,7 @@ const contactTitle = document.querySelector('#contactTitle');
 const contentContacts = document.querySelector('#contentContacts p');
 const googleMaps = document.querySelector('#googleMaps');
 
-contactTitle.innerHTML = `<h2>${homMain.contactMain.title}</h2>`;
+contactTitle.innerHTML = `<h2>${homeMain.contactMain.title}</h2>`;
 contentContacts.innerHTML = `<p class='content-about-us'>${homeMain.contactMain.subdescription}</p>`;
 contentContacts.innerHTML += `<a href='mailto:${homeMain.contactMain.mail}'>
                                    <img src='./assets/img/icon-gmail.png' alt='Gmail' class='img-gmail'> 
