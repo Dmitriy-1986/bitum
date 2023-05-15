@@ -132,10 +132,11 @@
 }
 
 @media (max-width: 450px) {
-    .playlist-track-ctn {
-       font-size: 10px;
+    .playlist-info-track,
+    .playlist-duration {
+        font-size: 10px;
     }
-    
+
     .player-ctn {
         width: 350px;
     }
