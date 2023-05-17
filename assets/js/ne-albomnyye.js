@@ -45,7 +45,7 @@ const listAudio = [
     },
     {
         name: "По улицам где нет добра",
-        file: "./music/ne-albomnyye/2.По-улицам-где-нет-добра.mp3",
+        file: "./assets/music/ne-albomnyye/2.По-улицам-где-нет-добра.mp3",
         duration: "03:09"
     },
     {
