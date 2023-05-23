@@ -102,9 +102,9 @@ tabContainer.innerHTML = `<div class="header-tabs">
                                     <article class="tab">
                                         <h1 class="tab-content__title">Відео</h1>
                                         
-                                        <p class="alert-content">Архівні Відео Бітума зараз в процесі розробки...</p>
+                                        <p>Архівні Відео реп гурту Бітум</p>
                                         
-                                        <!--<a href="katehoriia-video.html"><button class="btn btn-primary">Читати більше</button></a>-->
+                                        <a href="katehoriia-video.html"><button class="btn btn-primary">Читати більше</button></a>
                                     </article>
                                 </li>
                                 <li class="header__content-box" data-id="5">
