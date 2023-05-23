@@ -2,33 +2,36 @@
 <html lang="uk">
 
 <head>
-    <!-- bgcolor theme brozer-->
-    <meta name="msapplication-TileColor" content="#000">
-    <meta name="theme-color" content="#000">
-    <!-- end bgcolor theme -->
-    
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- bgcolor theme brozer-->
+  <meta name="msapplication-TileColor" content="#000">
+  <meta name="theme-color" content="#000">
+  <!-- end bgcolor theme -->
 
-    <!-- Open Graph data-->
-    <meta property="og:title" content="Творче об'єднання - Бітум">
-    <meta property="og:description" content="Бітум | Про Нас - тут ви зможете знайти стислий опис історії реп гурту БІТУМ, та головних історичних подій учасників гурту з моменту заснування по нинішній час">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://bitum.pp.ua/">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content="https://bitum.pp.ua/assets/img/bitum-logo.jpg">
-    <meta property="og:image" content="https://bitum.pp.ua/assets/img/bitum-logo.jpg">
-    <!--End Open Graph data-->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="title" content="Творче об'єднання - Бітум">
-    <meta name="description" content="Бітум | Про Нас - тут ви зможете знайти стислий опис історії реп гурту БІТУМ, та головних історичних подій учасників гурту з моменту заснування по нинішній час">
-    <meta name="keywords" content="Бітум | Про Нас - тут ви зможете знайти стислий опис історії реп гурту БІТУМ, та головних історичних подій учасників гурту з моменту заснування по нинішній час">
-    
-    <title>Творче об'єднання - Бітум</title>
+  <!-- Open Graph data-->
+  <meta property="og:title" content="Творче об'єднання - Бітум">
+  <meta property="og:description"
+    content="Бітум | Про Нас - тут ви зможете знайти стислий опис історії реп гурту БІТУМ, та головних історичних подій учасників гурту з моменту заснування по нинішній час">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://bitum.pp.ua/">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://bitum.pp.ua/assets/img/bitum-logo.jpg">
+  <meta property="og:image" content="https://bitum.pp.ua/assets/img/bitum-logo.jpg">
+  <!--End Open Graph data-->
 
-    <!-- Schema.org -->
-    <script type="application/ld+json">
+  <meta name="title" content="Творче об'єднання - Бітум">
+  <meta name="description"
+    content="Бітум | Про Нас - тут ви зможете знайти стислий опис історії реп гурту БІТУМ, та головних історичних подій учасників гурту з моменту заснування по нинішній час">
+  <meta name="keywords"
+    content="Бітум | Про Нас - тут ви зможете знайти стислий опис історії реп гурту БІТУМ, та головних історичних подій учасників гурту з моменту заснування по нинішній час">
+
+  <title>Творче об'єднання - Бітум</title>
+
+  <!-- Schema.org -->
+  <script type="application/ld+json">
         {
           "@context": "https://schema.org",
           "@type": "Organization",
@@ -55,349 +58,343 @@
         }
     </script>
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="./assets/css/style.css">
+  <!-- CSS -->
+  <link rel="stylesheet" href="./assets/css/style.css">
 
-    <!-- Owl Carousel -->
-    <link rel="stylesheet" href="./assets/libs/OwlCarousel/owl.carousel.min.css">
-    <link rel="stylesheet" href="./assets/libs/OwlCarousel/owl.theme.default.min.css">
-    
-    <style>
-        .wrapper-loader {
-            position: fixed;
-            inset: 0;
-            z-index: 9999;
-            background-color: #000;
-            display: grid;
-            place-items: center;
-            transition: opacity 0.25s, visibility 1s;
-            height: 100%;
-            width: 100%;
-        }
+  <!-- Owl Carousel -->
+  <link rel="stylesheet" href="./assets/libs/OwlCarousel/owl.carousel.min.css">
+  <link rel="stylesheet" href="./assets/libs/OwlCarousel/owl.theme.default.min.css">
 
-        .fade {
-            opacity: 0;
-            visibility: hidden;
-        }
+  <style>
+    .wrapper-loader {
+      position: fixed;
+      inset: 0;
+      z-index: 9999;
+      background-color: #000;
+      display: grid;
+      place-items: center;
+      transition: opacity 0.25s, visibility 1s;
+      height: 100%;
+      width: 100%;
+    }
 
-        .loader img {
-            width: 30px;
-        }
-        
-        #titleAboutUs {
-            color: var(--color-indigo);
-        }
-    </style>
-    
-    <!-- Style Card -->
-    <style>
-        .card {
-            position: relative;
-            width: 280px; 
-            height: 380px; 
-            background: #262626;
-            overflow: hidden;
-            font-family: sans-serif;
-        }
-        .imgBx img {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
-        
-        input, .toggle {
-            position: absolute;
-            width: 50px;
-            height: 50px;
-            bottom: 20px;
-            right: 20px;
-            outline: none;
-            z-index: 9;
-        }
-        
-        input {
-            opacity: 0;
-        }
-        
-        .toggle {
-            pointer-events: none;
-            border-radius: 50%;
-            background: #fff;
-            transition: 0.5s;
-            text-align: center;
-            line-height: 50px;
-            font-size: 36px;
-            box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-        }
-        
-        input:checked ~ .toggle {
-            box-shadow: 0 0 0 500px #00887a; /*ganti #00887a dengan warna yang kalian sukai*/
-            transform: rotate(225deg);
-        }
-        
-        .imgBx, .details {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-        }
-        
-        .details {
-            padding: 20px;
-            box-sizing: border-box;
-            z-index: 9;
-            pointer-events: none;
-            transition: 0.5s;
-            opacity: 0;
-            margin: auto;
-        }
-        
-        input:checked ~ .details {
-            opacity: 1;
-            transition-delay: 0.5s;
-        }
-        
-        .details h2 {
-            margin-bottom: 5px;
-            color: #fff;
-        }
-        
-        .details p {
-            margin: 0;
-            padding: 0;
-            color: #fff;
-        }
-        
-        .details h2  {
-          margin: 0
-        }
-    </style>
-    
-    <!--favicon.ico-->
-    <link rel="shortcut icon" href="./assets/img/favicon-bitum-web.svg">
-    <link rel="apple-touch-icon" href="./assets/img/favicon-bitum-web.svg">
-    
+    .fade {
+      opacity: 0;
+      visibility: hidden;
+    }
+
+    .loader img {
+      width: 30px;
+    }
+
+    #titleAboutUs {
+      color: var(--color-indigo);
+    }
+  </style>
+
+  <!-- Style Card -->
+  <style>
+    .card {
+      position: relative;
+      width: 280px;
+      height: 380px;
+      background: #262626;
+      overflow: hidden;
+      font-family: sans-serif;
+    }
+
+    .imgBx img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    input,
+    .toggle {
+      position: absolute;
+      width: 50px;
+      height: 50px;
+      bottom: 20px;
+      right: 20px;
+      outline: none;
+      z-index: 9;
+    }
+
+    input {
+      opacity: 0;
+    }
+
+    .toggle {
+      pointer-events: none;
+      border-radius: 50%;
+      background: #fff;
+      transition: 0.5s;
+      text-align: center;
+      line-height: 50px;
+      font-size: 36px;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    }
+
+    input:checked~.toggle {
+      box-shadow: 0 0 0 500px #00887a;
+      /*ganti #00887a dengan warna yang kalian sukai*/
+      transform: rotate(225deg);
+    }
+
+    .imgBx,
+    .details {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    .details {
+      padding: 20px;
+      box-sizing: border-box;
+      z-index: 9;
+      pointer-events: none;
+      transition: 0.5s;
+      opacity: 0;
+      margin: auto;
+    }
+
+    input:checked~.details {
+      opacity: 1;
+      transition-delay: 0.5s;
+    }
+
+    .details h2 {
+      margin-bottom: 5px;
+      color: #fff;
+    }
+
+    .details p {
+      margin: 0;
+      padding: 0;
+      color: #fff;
+    }
+
+    .details h2 {
+      margin: 0
+    }
+  </style>
+
+  <!--favicon.ico-->
+  <link rel="shortcut icon" href="./assets/img/favicon-bitum-web.svg">
+  <link rel="apple-touch-icon" href="./assets/img/favicon-bitum-web.svg">
+
 </head>
 
 <body>
-    <!-- Preloader -->
-    <div class="wrapper-loader">
-        <div class="loader">
-            <img src="./assets/img/ajax-loader.gif" alt="Loading">
-        </div>
+  <!-- Preloader -->
+  <div class="wrapper-loader">
+    <div class="loader">
+      <img src="./assets/img/ajax-loader.gif" alt="Loading">
     </div>
-    
-    <header class="header">
-        <div class="container-fluid">
-            <div class="container">
-                <div class="header-inner">
-                    <div id="logo" class="logo"></div>
-                    <button id="burgerMenu" class="burger-menu"></button>
-                    <nav class="nav">
-                        <ul id="navList" class="nav-list"></ul>
-                    </nav>
-                </div>
-            </div>
+  </div>
+
+  <header class="header">
+    <div class="container-fluid">
+      <div class="container">
+        <div class="header-inner">
+          <div id="logo" class="logo"></div>
+          <button id="burgerMenu" class="burger-menu"></button>
+          <nav class="nav">
+            <ul id="navList" class="nav-list"></ul>
+          </nav>
         </div>
-    </header>
+      </div>
+    </div>
+  </header>
 
-    <!-- Main Content -->
-    <article class="article">
-        <div class="container-fluid">
-            <div class="container">
+  <!-- Main Content -->
+  <article class="article">
+    <div class="container-fluid">
+      <div class="container">
 
-                <div class="row">
-                    <div class="col ">
-                        
-                        <nav id="breadcrumbAboutUs"></nav>
-                        
-                        <div id="titleMainAboutUs" class="title-block">
-                            <h1>Про Нас</h1>
-                        </div>
-                        
-                         </div>
-                   </div>
-                                
-                               <style>
-                                   .item {
-                                       width: 250px;
-                                       height: 150px;
-                                       background: #666;
-                                   }
-                                </style>
-                        
-                                <!-- Owl Carousel and Cards -->
-                               
-                                      <div class="loop owl-carousel owl-theme">
-                                          
-                                          <div class="item">
-                                              <!-- Руслан Трушкін -->
-                                              <div class="card">
-                                                    <input type="checkbox">
-                                                    <div class="toggle">+</div>
+        <div class="row">
+          <div class="col ">
 
-                                                    <div class="imgBx">
-                                                        <img src="https://tinypic.host/images/2022/12/19/img_avatar.png"/>
-                                                    </div>
-                                                    <div class="details">
-                                                        <h2>Руслан Трушкін</h2>
-                                                        <p>Короткий опис участнника гурту</p>
-                                                    </div>
-                                              </div>
-                                          </div>
-                                          
-                                         <div class="item">
-                                            <!-- Петренко Влад -->
-                                            <div class="card">
-                                                <input type="checkbox">
-                                                <div class="toggle">+</div>
+            <nav id="breadcrumbAboutUs"></nav>
 
-                                                <div class="imgBx">
-                                                    <img src="https://tinypic.host/images/2022/12/19/img_avatar.png"/>
-                                                </div>
-                                                <div class="details">
-                                                    <h2>Петренко Влад</h2>
-                                                    <p>Короткий опис участнника гурту</p>
-                                                </div>
-                                           </div>
-                                         </div>
-                                          
-                                          <div class="item">
-                                                <!-- Довгаль Дмитро -->
-                                                <div class="card">
-                                                    <input type="checkbox">
-                                                    <div class="toggle">+</div>
-
-                                                    <div class="imgBx">
-                                                        <img src="https://tinypic.host/images/2022/12/19/img_avatar.png"/>
-                                                    </div>
-                                                    <div class="details">
-                                                    <h2>Довгаль Дмитро</h2>
-                                                    <p>Короткий опис участнника гурту</p>
-                                                    </div>
-                                             </div>
-                                          </div>
-                                          
-                                          <div class="item">
-                                            <!-- Юрій -->
-                                            <div class="card">
-                                                    <input type="checkbox">
-                                                    <div class="toggle">+</div>
-
-                                                    <div class="imgBx">
-                                                        <img src="https://tinypic.host/images/2022/12/19/img_avatar.png"/>
-                                                    </div>
-                                                    <div class="details">
-                                                    <h2>Юрій</h2>
-                                                    <p>Короткий опис участнника гурту</p>
-                                                    </div>
-                                              </div>
-                                          </div>
-                                          
-                                          <div class="item">
-                                            <!-- Количев Дмитро -->
-                                            <div class="card">
-                                                    <input type="checkbox">
-                                                    <div class="toggle">+</div>
-
-                                                    <div class="imgBx">
-                                                        <img src="https://tinypic.host/images/2022/12/19/img_avatar.png"/>
-                                                    </div>
-                                                    <div class="details">
-                                                    <h2>Количев Дмитро</h2>
-                                                    <p>Короткий опис участнника гурту</p>
-                                                    </div>
-                                              </div>
-                                          </div>
-                                          
-                                         <div class="item">
-                                            <!-- Maksym Vasylyk -->
-                                            <div class="card">
-                                                <input type="checkbox">
-                                                <div class="toggle">+</div>
-
-                                                <div class="imgBx">
-                                                    <img src="https://tinypic.host/images/2022/12/19/img_avatar.png"/>
-                                                </div>
-                                                <div class="details">
-                                                <h2>Maksym Vasylyk</h2>
-                                                <p>Короткий опис участнника гурту</p>
-                                                </div>
-                                           </div>
-                                         </div>
-                                          
-                                    </div>
-                               
-                       <div id="aboutUsContent"></div>
-
+            <div id="titleMainAboutUs" class="title-block">
+              <h1>Про Нас</h1>
             </div>
-        </div>
-    </article>
 
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <div id="btnShare"></div>
-                    <p id="footerContent"></p>
-                </div>
+          </div>
+        </div>
+        <!-- Owl Carousel and Cards -->
+        <div class="loop owl-carousel owl-theme">
+
+          <div class="item">
+            <!-- Руслан Трушкін -->
+            <div class="card">
+              <input type="checkbox">
+              <div class="toggle">+</div>
+
+              <div class="imgBx">
+                <img src="https://tinypic.host/images/2022/12/19/img_avatar.png" />
+              </div>
+              <div class="details">
+                <h2>Руслан Трушкін</h2>
+                <p>Короткий опис участнника гурту</p>
+              </div>
             </div>
-        </div>
-    </footer>
+          </div>
 
-     <!-- Libs -->
-     <script src="./assets/libs/OwlCarousel/jquery.min.js"></script>
-     <script src="./assets/libs/OwlCarousel/owl.carousel.js"></script>
-    
-    <!-- JavaScript -->
-    <script defer src="./assets/js/script.js"></script>
-    <script defer src="./assets/js/header-navigation.js"></script>
-    <script defer src="./assets/js/about-us.js"></script>
-    <script defer src="./assets/js/footer.js"></script>
-    <script defer src="./assets/js/back-to-top.js"></script> 
-    <script defer src="./assets/js/scrollIndicator.js"></script>
-    
-    <script>
-       jQuery(document).ready(function ($) {
-            $('.loop').owlCarousel({
-              center: true,
-              items: 2,
-              loop: true,
-              margin: 10,
-              responsive: {
-                600: {
-                  items: 4
-                }
-              },
-              autoplay: true,
-              autoplayTimeout: 1500,
-              autoplayHoverPause: true
-            });
-            $('.nonloop').owlCarousel({
-              center: true,
-              items: 2,
-              loop: false,
-              margin: 10,
-              responsive: {
-                600: {
-                  items: 4
-                }
-              }
-            });
-          });
-    </script>
-    
-     <script>
-            window.addEventListener('load', () => {
-                const wrapperLoader = document.querySelector('.wrapper-loader');
-                wrapperLoader.classList.add('fade');
-            });
-     </script>  
-    
+          <div class="item">
+            <!-- Петренко Влад -->
+            <div class="card">
+              <input type="checkbox">
+              <div class="toggle">+</div>
+
+              <div class="imgBx">
+                <img src="https://tinypic.host/images/2022/12/19/img_avatar.png" />
+              </div>
+              <div class="details">
+                <h2>Петренко Влад</h2>
+                <p>Короткий опис участнника гурту</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <!-- Довгаль Дмитро -->
+            <div class="card">
+              <input type="checkbox">
+              <div class="toggle">+</div>
+
+              <div class="imgBx">
+                <img src="https://tinypic.host/images/2022/12/19/img_avatar.png" />
+              </div>
+              <div class="details">
+                <h2>Довгаль Дмитро</h2>
+                <p>Короткий опис участнника гурту</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <!-- Юрій -->
+            <div class="card">
+              <input type="checkbox">
+              <div class="toggle">+</div>
+
+              <div class="imgBx">
+                <img src="https://tinypic.host/images/2022/12/19/img_avatar.png" />
+              </div>
+              <div class="details">
+                <h2>Юрій</h2>
+                <p>Короткий опис участнника гурту</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <!-- Количев Дмитро -->
+            <div class="card">
+              <input type="checkbox">
+              <div class="toggle">+</div>
+
+              <div class="imgBx">
+                <img src="https://tinypic.host/images/2022/12/19/img_avatar.png" />
+              </div>
+              <div class="details">
+                <h2>Количев Дмитро</h2>
+                <p>Короткий опис участнника гурту</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <!-- Maksym Vasylyk -->
+            <div class="card">
+              <input type="checkbox">
+              <div class="toggle">+</div>
+
+              <div class="imgBx">
+                <img src="https://tinypic.host/images/2022/12/19/img_avatar.png" />
+              </div>
+              <div class="details">
+                <h2>Maksym Vasylyk</h2>
+                <p>Короткий опис участнника гурту</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div id="aboutUsContent"></div>
+
+      </div>
+    </div>
+  </article>
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div id="btnShare"></div>
+          <p id="footerContent"></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Libs -->
+  <script src="./assets/libs/OwlCarousel/jquery.min.js"></script>
+  <script src="./assets/libs/OwlCarousel/owl.carousel.js"></script>
+
+  <!-- JavaScript -->
+  <script defer src="./assets/js/script.js"></script>
+  <script defer src="./assets/js/header-navigation.js"></script>
+  <script defer src="./assets/js/about-us.js"></script>
+  <script defer src="./assets/js/footer.js"></script>
+  <script defer src="./assets/js/back-to-top.js"></script>
+  <script defer src="./assets/js/scrollIndicator.js"></script>
+
+  <script>
+    jQuery(document).ready(function ($) {
+      $('.loop').owlCarousel({
+        center: true,
+        items: 2,
+        loop: true,
+        margin: 10,
+        responsive: {
+          600: {
+            items: 4
+          }
+        },
+        autoplay: true,
+        autoplayTimeout: 1500,
+        autoplayHoverPause: true
+      });
+      $('.nonloop').owlCarousel({
+        center: true,
+        items: 2,
+        loop: false,
+        margin: 10,
+        responsive: {
+          600: {
+            items: 4
+          }
+        }
+      });
+    });
+  </script>
+
+  <script>
+    window.addEventListener('load', () => {
+      const wrapperLoader = document.querySelector('.wrapper-loader');
+      wrapperLoader.classList.add('fade');
+    });
+  </script>
+
 </body>
 
 </html>
