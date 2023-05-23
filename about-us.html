@@ -347,7 +347,15 @@
      <script src="./assets/libs/OwlCarousel/jquery.min.js"></script>
      <script src="./assets/libs/OwlCarousel/owl.carousel.min.js"></script>
     
-     <script>
+    <!-- JavaScript -->
+    <script defer src="./assets/js/script.js"></script>
+    <script defer src="./assets/js/header-navigation.js"></script>
+    <script defer src="./assets/js/about-us.js"></script>
+    <script defer src="./assets/js/footer.js"></script>
+    <script defer src="./assets/js/back-to-top.js"></script> 
+    <script defer src="./assets/js/scrollIndicator.js"></script>
+    
+    <script>
         $(document).ready(function () {
             $(".owl-carousel").owlCarousel({
                 items: 5,
@@ -372,20 +380,12 @@
         });
     </script>
     
-    <!-- JavaScript -->
-    <script defer src="./assets/js/script.js"></script>
-    <script defer src="./assets/js/header-navigation.js"></script>
-    <script defer src="./assets/js/about-us.js"></script>
-    <script defer src="./assets/js/footer.js"></script>
-    <script defer src="./assets/js/back-to-top.js"></script> 
-    <script defer src="./assets/js/scrollIndicator.js"></script>
-    
-  <script>
-        window.addEventListener('load', () => {
-            const wrapperLoader = document.querySelector('.wrapper-loader');
-            wrapperLoader.classList.add('fade');
-        });
-  </script>  
+     <script>
+            window.addEventListener('load', () => {
+                const wrapperLoader = document.querySelector('.wrapper-loader');
+                wrapperLoader.classList.add('fade');
+            });
+     </script>  
     
 </body>
 
