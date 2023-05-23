@@ -357,13 +357,6 @@
     <script defer src="./assets/libs/OwlCarousel/owl.carousel.js"></script>
     
     <script>
-        window.addEventListener('load', () => {
-            const wrapperLoader = document.querySelector('.wrapper-loader');
-            wrapperLoader.classList.add('fade');
-        });
-    </script>    
-    
-    <script>
         jQuery(document).ready(function($) {
           $('.loop').owlCarousel({
             center: true,
@@ -392,6 +385,13 @@
           });
         });
   </script>
+    
+  <script>
+        window.addEventListener('load', () => {
+            const wrapperLoader = document.querySelector('.wrapper-loader');
+            wrapperLoader.classList.add('fade');
+        });
+  </script>  
     
 </body>
 
