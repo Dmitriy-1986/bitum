@@ -223,10 +223,49 @@
                             <div class="row">
                                
                                 <!-- Owl Carousel and Cards -->
-                                <div class="owl-carousel owl-theme">
-                                    
+                               
+                                      <div class="loop owl-carousel owl-theme">
+                                          <div class="item">
+                                            <h4>1</h4>
+                                          </div>
+                                          <div class="item">
+                                            <h4>2</h4>
+                                          </div>
+                                          <div class="item">
+                                            <h4>3</h4>
+                                          </div>
+                                          <div class="item">
+                                            <h4>4</h4>
+                                          </div>
+                                          <div class="item">
+                                            <h4>5</h4>
+                                          </div>
+                                          <div class="item">
+                                            <h4>6</h4>
+                                          </div>
+                                          <div class="item">
+                                            <h4>7</h4>
+                                          </div>
+                                          <div class="item">
+                                            <h4>8</h4>
+                                          </div>
+                                          <div class="item">
+                                            <h4>9</h4>
+                                          </div>
+                                          <div class="item">
+                                            <h4>10</h4>
+                                          </div>
+                                          <div class="item">
+                                            <h4>11</h4>
+                                          </div>
+                                          <div class="item">
+                                            <h4>12</h4>
+                                          </div>
+                                        </div>
+                                <!--  <div class="owl-carousel owl-theme"> -->
                                         <!-- Руслан Трушкін -->
-                                        <div class="card">
+                                     <!-- 
+                                          <div class="card">
                                                 <input type="checkbox">
                                                 <div class="toggle">+</div>
 
@@ -238,10 +277,11 @@
                                                 <p>Короткий опис участнника гурту</p>
                                                 </div>
                                           </div>
-                                    
+                                    -->
 
                                    
                                         <!-- Петренко Влад -->
+                                    <!--
                                         <div class="card">
                                                 <input type="checkbox">
                                                 <div class="toggle">+</div>
@@ -254,10 +294,11 @@
                                                 <p>Короткий опис участнника гурту</p>
                                                 </div>
                                           </div>
-                                      
+                                      -->
 
                                    
                                         <!-- Довгаль Дмитро -->
+                                    <!--
                                         <div class="card">
                                                 <input type="checkbox">
                                                 <div class="toggle">+</div>
@@ -270,10 +311,11 @@
                                                 <p>Короткий опис участнника гурту</p>
                                                 </div>
                                           </div>
-                                 
+                                 -->
 
                                  
                                         <!-- Юрій -->
+                                    <!--
                                         <div class="card">
                                                 <input type="checkbox">
                                                 <div class="toggle">+</div>
@@ -286,10 +328,11 @@
                                                 <p>Короткий опис участнника гурту</p>
                                                 </div>
                                           </div>
-                                
+                                -->
 
                              
                                         <!-- Количев Дмитро -->
+                                    <!--
                                         <div class="card">
                                                 <input type="checkbox">
                                                 <div class="toggle">+</div>
@@ -302,10 +345,11 @@
                                                 <p>Короткий опис участнника гурту</p>
                                                 </div>
                                           </div>
-                                
+                                -->
 
                                 
                                         <!-- Maksym Vasylyk -->
+                                    <!--
                                         <div class="card">
                                                 <input type="checkbox">
                                                 <div class="toggle">+</div>
@@ -318,9 +362,9 @@
                                                 <p>Короткий опис участнника гурту</p>
                                                 </div>
                                          </div>
-                              
+                              -->
                                 
-                                 </div>   
+                                 <!-- </div> -->
                             </div>
                         </div>
                         
@@ -345,7 +389,7 @@
 
      <!-- Libs -->
      <script src="./assets/libs/OwlCarousel/jquery.min.js"></script>
-     <script src="./assets/libs/OwlCarousel/owl.carousel.min.js"></script>
+     <script src="./assets/libs/OwlCarousel/owl.carousel.js"></script>
     
     <!-- JavaScript -->
     <script defer src="./assets/js/script.js"></script>
@@ -356,28 +400,33 @@
     <script defer src="./assets/js/scrollIndicator.js"></script>
     
     <script>
-        $(document).ready(function () {
-            $(".owl-carousel").owlCarousel({
-                items: 5,
-                loop: true,
-                nav: true,
-                margin: 10,
-                autoplay: true,
-                autoplayTimeout: 3000,
-                autoplayHoverPause: true,
-                responsive: {
-                    0: {
-                        items: 1
-                    },
-                    600: {
-                        items: 3
-                    },
-                    1000: {
-                        items: 5
-                    }
+       jQuery(document).ready(function ($) {
+            $('.loop').owlCarousel({
+              center: true,
+              items: 2,
+              loop: true,
+              margin: 10,
+              responsive: {
+                600: {
+                  items: 4
                 }
+              },
+              autoplay: true,
+              autoplayTimeout: 1500,
+              autoplayHoverPause: true
             });
-        });
+            $('.nonloop').owlCarousel({
+              center: true,
+              items: 2,
+              loop: false,
+              margin: 10,
+              responsive: {
+                600: {
+                  items: 4
+                }
+              }
+            });
+          });
     </script>
     
      <script>
