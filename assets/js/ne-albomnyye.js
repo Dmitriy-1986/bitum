@@ -117,7 +117,13 @@ const listAudio = [
         name: "Мечта",
         file: "./assets/music/ne-albomnyye/16.Мечта.mp3",
         duration: "03:32"
+    },
+    {
+        name: "Продолжаем Yura WasP",
+        file: "./assets/music/ne-albomnyye/17. Продолжаем-by-Yura WasP.mp3",
+        duration: "03:12"
     }
+    
 ];
 
 for (var i = 0; i < listAudio.length; i++) {
