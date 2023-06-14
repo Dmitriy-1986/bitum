@@ -15,7 +15,7 @@ https://bitum.pp.ua/Berdiansk_VODOkrut_2006_2007.html
 
 
 
-https://bitum.pp.ua/berdyansk_vodovorot_2006_screenshot.html
+https://bitum.pp.ua/Berdyansk_vodovorot_2006_screenshot.html
 
 <i> Gmail: bitum.pp.ua@gmail.com </i>
 <!-- 
