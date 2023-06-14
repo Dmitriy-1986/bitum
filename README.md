@@ -11,6 +11,8 @@ Web Site: dovgaldima.pp.ua
     </a>
 </h2>
 
+https://bitum.pp.ua/Berdiansk_VODOkrut_2006_2007.html
+
 <i> Gmail: bitum.pp.ua@gmail.com </i>
 <!-- 
 Password: ddf110986 
