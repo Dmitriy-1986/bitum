@@ -25,7 +25,7 @@ https://bitum.pp.ua/berdiansk_vodokrut_2006_2007.html
 https://bitum.pp.ua/berdiansk_vodokrut_2006_screenshot.html
 
 
-https://bitum.pp.ua/berdiansk_vodokrut_2006_screenshot.html
+https://bitum.pp.ua/berdiansk_vodokrut_2007_screenshot.html
 
 
 <hr>
