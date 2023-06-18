@@ -30,6 +30,7 @@ https://bitum.pp.ua/berdiansk_vodokrut_2007_screenshot.html
 
 https://bitum.pp.ua/den_molodi_olexandriya_2004.html
 
+https://bitum.pp.ua/studvesna_dnipro_diit_2005.html
 
 <hr>
 
