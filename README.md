@@ -28,6 +28,9 @@ https://bitum.pp.ua/berdiansk_vodokrut_2006_screenshot.html
 https://bitum.pp.ua/berdiansk_vodokrut_2007_screenshot.html
 
 
+https://bitum.pp.ua/den_molodi_olexandriya_2004.html
+
+
 <hr>
 
 <nav>
