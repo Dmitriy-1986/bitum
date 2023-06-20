@@ -5,11 +5,11 @@ Web Developer: Dovgal Dima
 Web Site: dovgaldima.pp.ua
 -->
 
-<h2>
+<h3>
     <a href='https://bitum.pp.ua/'>
       Творче об'єднання - Бітум
     </a>
-</h2>
+</h3>
 
 <i> Gmail: bitum.pp.ua@gmail.com </i>
 <!-- 
