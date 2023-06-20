@@ -122,6 +122,11 @@ const listAudio = [
         name: "Продолжаем Yura WasP",
         file: "./assets/music/ne-albomnyye/17. Продолжаем-by-Yura WasP.mp3",
         duration: "03:12"
+    },
+    {
+        name: "ONEAL ft Sam - мой мир",
+        file: "./assets/music/ne-albomnyye/18. ONEAL ft Sam - мой мир.mp3",
+        duration: "03:38"
     }
     
 ];
