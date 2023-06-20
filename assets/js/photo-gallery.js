@@ -64,4 +64,4 @@ galleryImg.forEach(photo => {
     gallery += gallerySegment;
 });
 
-galleryBlock.innerHTML = gallery;
+//galleryBlock.innerHTML = gallery;
