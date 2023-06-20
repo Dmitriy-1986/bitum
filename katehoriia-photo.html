@@ -32,6 +32,37 @@
     <link rel="stylesheet" href="./assets/css/grid-gallery.css">
     
     <style>
+        .p-20 {
+            padding: 20px;
+        }
+        
+        .gallery-block {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: flex-start;
+            flex-wrap: wrap;
+        }
+        
+        .g-element {
+            width: 300px;
+            margin: 8px;
+        }
+        
+        .i-element img {
+            -o-object-fit: cover;
+            object-fit: cover;
+            cursor: pointer;
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.02);
+            border-radius: 10px;
+        }
+        
+        .p-element p {
+            font-family: sans-serif;
+            font-size: 14px;
+        }
         .wrapper-loader {
             position: fixed;
             inset: 0;
@@ -88,8 +119,7 @@
 
     <!-- Main Content -->
     <article class="article">
-        <div class="container-fluid">
-            <div class="container">
+        <div class="container-fluid p-20">
 
                 <div class="row">
                     <div class="col ">
@@ -105,70 +135,40 @@
                         <div id="titleMainArchive" class="title-block">
                             <h1>Фото</h1>
                         </div>
-
-                        <div id="gg-screen"></div>
                         
-                        <div class="gg-box">
-                            <div class="gg-element">
-                              <img src="https://picsum.photos/1600/1300/?random">
+                        <div class="gallery-block">
+                             <!-- Block -->
+                            <div class="g-element">
+                                <div class="i-element">
+                                    <a href="neoficiyni_foto.html">
+                                        <img src="/assets/img/photo-gallery.jpg" alt="IMG">
+                                    </a>
+                                </div>
+                                <div class="p-element">
+                                    <a href="neoficiyni_foto.html">
+                                        <p class="img-title">
+                                            Неофіційні Фото
+                                        </p>
+                                    </a>
+                                </div>
                             </div>
-                            <div class="gg-element">
-                              <img src="https://picsum.photos/1600/1200/?random">
+            
+                            <!-- Block -->
+                            <div class="g-element">
+                                <div class="i-element">
+                                    <a href="inshy_vistupi.html">
+                                        <img src="/assets/img/photo-gallery.jpg" alt="IMG">
+                                    </a>
+                                </div>
+                                <div class="p-element">
+                                    <a href="inshy_vistupi.html">
+                                        <p class="img-title">
+                                            Інші Виступи
+                                        </p>
+                                    </a>
+                                </div>
                             </div>
-                            <div class="gg-element">
-                              <img src="https://picsum.photos/1200/1600/?random">
-                            </div>
-                            <div class="gg-element">
-                              <img src="https://picsum.photos/1600/1201/?random">
-                            </div>
-                            <div class="gg-element">
-                              <img src="https://picsum.photos/1200/1601/?random">
-                            </div>
-                            <div class="gg-element">
-                              <img src="https://picsum.photos/1201/1600/?random">
-                            </div>
-                            <div class="gg-element">
-                              <img src="https://picsum.photos/1600/1310/?random">
-                            </div>
-                            <div class="gg-element">
-                              <img src="https://picsum.photos/1602/1311/?random">
-                            </div>
-                            <div class="gg-element">
-                              <img src="https://picsum.photos/1603/1311/?random">
-                            </div>
-                            <div class="gg-element">
-                              <img src="https://picsum.photos/1602/1312/?random">
-                            </div>
-                            <div class="gg-element">
-                              <img src="https://picsum.photos/1201/1601/?random">
-                            </div>
-                            <div class="gg-element">
-                              <img src="https://picsum.photos/1201/1602/?random">
-                            </div>
-                            <div class="gg-element">
-                              <img src="https://picsum.photos/1602/1313/?random">
-                            </div>
-                            <div class="gg-element">
-                              <img src="https://picsum.photos/1602/1314/?random">
-                            </div>
-                            <div class="gg-element">
-                              <img src="https://picsum.photos/1602/1315/?random">
-                            </div>
-                            <div class="gg-element">
-                              <img src="https://picsum.photos/1602/1316/?random">
-                            </div>
-                            <div class="gg-element">
-                              <img src="https://picsum.photos/1203/1602/?random">
-                            </div>
-                            <div class="gg-element">
-                              <img src="https://picsum.photos/1605/1312/?random">
-                            </div>
-                            <div class="gg-element">
-                              <img src="https://picsum.photos/1204/1602/?random">
-                            </div>
-                            <div class="gg-element">
-                              <img src="https://picsum.photos/1205/1602/?random">
-                            </div>
+
                         </div>
 
                     </div>
@@ -204,6 +204,12 @@
             const wrapperLoader = document.querySelector('.wrapper-loader');
             wrapperLoader.classList.add('fade');
         });
+    </script>
+    
+     <!-- Обрезаем img title -->
+    <script>
+        const imgTitle = document.querySelectorAll('.img-title');
+        imgTitle.forEach(e => e.innerHTML = e.textContent.slice(0, 70) + '...');
     </script>
     
 </body>
