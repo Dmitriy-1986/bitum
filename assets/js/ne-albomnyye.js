@@ -130,7 +130,7 @@ const listAudio = [
     },
     {
         name: "БІТУМ (ONEAL) - Душа больна тобой",
-        file: "./assets/music/ne-albomnyye/19. БІТУМ (ONEAL) - Душа больна тобой",
+        file: "./assets/music/ne-albomnyye/19. БІТУМ (ONEAL) - Душа больна тобой.mp3",
         duration: "02:14"
     },
     {
