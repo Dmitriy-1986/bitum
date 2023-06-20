@@ -127,6 +127,11 @@ const listAudio = [
         name: "ONEAL ft Sam - мой мир",
         file: "./assets/music/ne-albomnyye/18. ONEAL ft Sam - мой мир.mp3",
         duration: "03:38"
+    },
+    {
+        name: "БІТУМ (ONEAL) - Душа больна тобой",
+        file: "./assets/music/ne-albomnyye/19. БІТУМ (ONEAL) - Душа больна тобой",
+        duration: "02:14"
     }
     
 ];
