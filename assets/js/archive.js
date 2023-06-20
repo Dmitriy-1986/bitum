@@ -111,9 +111,9 @@ tabContainer.innerHTML = `<div class="header-tabs">
                                     <article class="tab">
                                         <h1 class="tab-content__title">Фото</h1>
                                         
-                                        <p class="alert-content">Архівні Фото Бітума зараз в процесі розробки...</p>
+                                        <p class="alert-content">У категорії "Фото" зібрані Архівні Фото реп гурту Бітум</p>
                                             
-                                        <!--<a href="katehoriia-photo.html"><button class="btn btn-primary">Читати більше</button></a>-->
+                                        <a href="katehoriia-photo.html"><button class="btn btn-primary">Читати більше</button></a>
                                     </article>
                                 </li>
                             </ul>
