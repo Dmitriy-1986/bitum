@@ -4,7 +4,7 @@ City: Olexandriya - Zaporizhzhya
 Web Developer: Dovgal Dima 
 Web Site: dovgaldima.pp.ua
 -->
-MatherFuckas
+
 <h2>
     <a href='https://bitum.pp.ua/'>
       Творче об'єднання - Бітум
