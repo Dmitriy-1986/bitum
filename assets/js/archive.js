@@ -40,7 +40,7 @@ tabContainer.innerHTML = `<div class="header-tabs">
                                 </li>
                                 <li class="header__art-box" data-id="5">
                                     <article class="tab">
-                                        <h1 class="tab__title">Фото</h1>
+                                        <h1 class="tab__title">Архівні Фото</h1>
                                         <!-- <p class="tab__desc">Категорія Фото</p> -->
                                     </article>
                                 </li>
@@ -59,7 +59,7 @@ tabContainer.innerHTML = `<div class="header-tabs">
                                     <button>Відео</button>
                                 </li>
                                 <li class="header__btn-box" data-id="5">
-                                    <button>Фото</button>
+                                    <button>Архівні Фото</button>
                                 </li>
                             </ul>
                             <ul class="header__articles">
@@ -109,9 +109,9 @@ tabContainer.innerHTML = `<div class="header-tabs">
                                 </li>
                                 <li class="header__content-box" data-id="5">
                                     <article class="tab">
-                                        <h1 class="tab-content__title">Фото</h1>
+                                        <h1 class="tab-content__title">Архівні Фото</h1>
                                         
-                                        <p>У категорії "Фото" зібрані Архівні Фото реп гурту Бітум</p>
+                                        <p>У данній категорії зібрані Архівні Фото реп гурту Бітум</p>
                                             
                                         <a href="katehoriia-photo.html"><button class="btn btn-primary">Читати більше</button></a>
                                     </article>
