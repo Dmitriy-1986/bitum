@@ -132,8 +132,12 @@ const listAudio = [
         name: "БІТУМ (ONEAL) - Душа больна тобой",
         file: "./assets/music/ne-albomnyye/19. БІТУМ (ONEAL) - Душа больна тобой",
         duration: "02:14"
+    },
+    {
+        name: "БІТУМ - Утекла  (demo)",
+        file: "./assets/music/ne-albomnyye/20. БІТУМ - Утекла (demo).mp3",
+        duration: "04:43"
     }
-    
 ];
 
 for (var i = 0; i < listAudio.length; i++) {
