@@ -119,22 +119,22 @@ const listAudio = [
         duration: "03:32"
     },
     {
-        name: "Продолжаем Yura WasP",
+        name: "Продолжаем",
         file: "./assets/music/ne-albomnyye/17. Продолжаем-by-Yura WasP.mp3",
         duration: "03:12"
     },
     {
-        name: "ONEAL ft Sam - мой мир",
+        name: "Мой мир",
         file: "./assets/music/ne-albomnyye/18. ONEAL ft Sam - мой мир.mp3",
         duration: "03:38"
     },
     {
-        name: "БІТУМ (ONEAL) - Душа больна тобой",
+        name: "Душа больна тобой",
         file: "./assets/music/ne-albomnyye/19. БІТУМ (ONEAL) - Душа больна тобой.mp3",
         duration: "02:14"
     },
     {
-        name: "БІТУМ - Утекла  (demo)",
+        name: "Утекла  (demo)",
         file: "./assets/music/ne-albomnyye/20. БІТУМ - Утекла (demo).mp3",
         duration: "04:43"
     }
