@@ -2,15 +2,21 @@
 * Header Home Image
 */
 .header-bgimg { 
-    background: url('../../img/bitum-header.jpg') !important;
-    /*background: url('../../img/bitum-header-image.jpg') !important;*/
-    /*background: url('https://fastly.picsum.photos/id/115/1330/750.jpg?hmac=GBSfsf3iwkTb8JNMmpZ5c__r4LR4sU7zTLQkyyXgVm8') !important;
-    background: url('https://images.unsplash.com/photo-1681068420510-cb528c65d595?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1331&q=80') !important;*/
-    background-attachment: fixed !important;
-    background-position: center !important;
-    height: 100vh !important;
-    width: 100% !important;
-    background-size: cover !important;
+    position: relative;
+	background: transparent;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+    
+    /*
+        background: url('../../img/bitum-header.jpg') !important;
+        background-attachment: fixed !important;
+        background-position: center !important;
+        height: 100vh !important;
+        width: 100% !important;
+        background-size: cover !important;
+    */
 }
 
 /**
