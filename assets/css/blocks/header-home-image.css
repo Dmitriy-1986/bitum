@@ -25,6 +25,7 @@
     display: block;
     margin: 0 auto;
     width: 300px;
+    z-index: 1;
 }
 
 .bitum-logotype {
