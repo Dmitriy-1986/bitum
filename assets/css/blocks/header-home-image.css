@@ -1,7 +1,7 @@
 /**
 * Header Home Image
 */
-.header-bgimg { 
+/*.header-bgimg { 
     position: relative;
     background: transparent;
     min-height: 100vh;
@@ -13,7 +13,12 @@
         height: 100vh !important;
         width: 100% !important;
         background-size: cover !important;
-    */
+    
+}
+*/
+
+.bitum-group {
+    width: 100%;
 }
 
 /**
