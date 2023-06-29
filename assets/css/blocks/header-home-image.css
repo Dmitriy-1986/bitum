@@ -1,21 +1,25 @@
 /**
 * Header Home Image
 */
-/*.header-bgimg { 
+.header-bgimg { 
     position: relative;
-    background: transparent;
-    min-height: 100vh;
-    
-    /*
-        background: url('../../img/bitum-header.jpg') !important;
-        background-attachment: fixed !important;
-        background-position: center !important;
-        height: 100vh !important;
-        width: 100% !important;
-        background-size: cover !important;
-    
+    height: 100vh;
+    background: url('../../img/header-img-1200.jpg');
+    width: 100%;
+    background-size: cover;
 }
-*/
+
+@media (max-width: 992px) {
+    .header-bgimg { 
+       background: url('../../img/header-img-992.jpg'); 
+    } 
+}
+@media (max-width: 768px) {
+    .header-bgimg { 
+       background: url('../../img/header-img-768.jpg'); 
+    } 
+}
+
 
 .bitum-group {
     width: 100%;
@@ -35,7 +39,9 @@
 */
 .parallax-logotype {
     position: absolute;
-    top: 40px;
+    top: 40vh;
+    left: 0;
+    right: 0;
     display: block;
     margin: 0 auto;
     width: 300px;
