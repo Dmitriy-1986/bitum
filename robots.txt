@@ -1,0 +1,2 @@
+Sitemap: https://bitum.pp.ua/sitemap.xml 
+User-agent: *

@@ -1,0 +1,78 @@
+/**
+* Header Home Image
+*/
+/*.header-bgimg { 
+    position: relative;
+    background: transparent;
+    min-height: 100vh;
+    
+    /*
+        background: url('../../img/bitum-header.jpg') !important;
+        background-attachment: fixed !important;
+        background-position: center !important;
+        height: 100vh !important;
+        width: 100% !important;
+        background-size: cover !important;
+    
+}
+*/
+
+.bitum-group {
+    width: 100%;
+}
+
+/**
+* Parallax Logotype
+
+.parallax-logotype {
+    position: relative;
+    top: 40vh;
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    z-index: 1;
+}
+*/
+.parallax-logotype {
+    position: absolute;
+    top: 40px;
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    z-index: 1;
+}
+
+.bitum-logotype {
+    width: 300px;
+    -webkit-filter: drop-shadow(8px 6px 4px var(--color-dark));
+            filter: drop-shadow(8px 6px 4px var(--color-dark));   
+    -webkit-transition: -webkit-transform 1s;   
+    transition: -webkit-transform 1s;   
+    -o-transition: transform 1s;   
+    transition: transform 1s;   
+    transition: transform 1s, -webkit-transform 1s;
+}
+
+.bitum-logotype:hover {
+   -webkit-transform: scale(1.5);
+       -ms-transform: scale(1.5);
+           transform: scale(1.5);
+}
+
+@media (max-width: 768px) {
+    .bitum-logotype:hover {
+        -webkit-transform: scale(1.1);
+            -ms-transform: scale(1.1);
+                transform: scale(1.1);
+    }
+}
+
+@media (max-width: 350px) {
+    .parallax-logotype {
+        width: 250px;
+    }
+    
+    .bitum-logotype {
+        width: 250px;
+    }
+}
