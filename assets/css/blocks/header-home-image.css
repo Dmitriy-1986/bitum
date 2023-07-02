@@ -19,7 +19,11 @@
        background: url('../../img/bg-img-768х1024.png'); 
     } 
 }
-
+@media (max-width: 375px) {
+    .header-bgimg { 
+       background: url('../../img/bg-img-375-667.png'); 
+    } 
+}
 .bitum-group {
     width: 100%;
 }
