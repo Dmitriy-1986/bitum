@@ -80,7 +80,7 @@ const listAudio = [
     },
     {
         name: "Палата нумер п*ять",
-        file: "./assets/music/ne-albomnyye/9.Палата-нумер-п*ять.mp3",
+        file: "./assets/music/ne-albomnyye/9.Палата-нумер-п_ять.mp3",
         duration: "03:30"
     },
     {
