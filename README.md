@@ -32,7 +32,7 @@ Password: ddf110986
                 <li><a href="https://bitum.pp.ua/zdes-net-nachala.html">ЗДЕСЬ НЕТ НАЧАЛА</a> | <a
                         href="https://github.com/Dmitriy-1986/Bitum-web-project/blob/master/zdes-net-nachala.html">Код</a>
                 </li>
-                <li><a href="https://bitum.pp.ua/ne-nazvannyy.html">НЕ НАЗВАННЫЙ</a> | <a
+                <li><a href="https://bitum.pp.ua/ne-nazvannyy.html">ВСЕ ЧТО В НАШИХ СИЛАХ</a> | <a
                         href="https://github.com/Dmitriy-1986/Bitum-web-project/blob/master/ne-nazvannyy.html">Код</a>
                 </li>
                 <li><a href="https://bitum.pp.ua/ne-albomnyye.html">НЕ АЛЬБОМНЫЕ</a> | <a
