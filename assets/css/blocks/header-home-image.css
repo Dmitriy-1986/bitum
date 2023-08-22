@@ -1,7 +1,7 @@
 /**
 * Header Home Image
 */
-.header-bgimg { 
+.header-background-img { 
     position: relative;
     height: 100vh;
     background: url('../../img/bg-img-1300x600.png');
@@ -15,12 +15,12 @@
     } 
 }*/
 @media (max-width: 768px) {
-    .header-bgimg { 
+    .header-background-img { 
        background: url('../../img/bg-img-768х1024.png'); 
     } 
 }
 @media (max-width: 375px) {
-    .header-bgimg { 
+    .header-background-img { 
        background: url('../../img/bg-img-375-667.png'); 
     } 
 }
@@ -39,7 +39,7 @@
     width: 300px;
     z-index: 1;
 }
-*/
+
 .parallax-logotype {
     position: absolute;
     top: 40vh;
@@ -50,7 +50,7 @@
     width: 300px;
     z-index: 1;
 }
-
+*/
 .bitum-logotype {
     width: 300px;
     -webkit-filter: drop-shadow(8px 6px 4px var(--color-dark));
