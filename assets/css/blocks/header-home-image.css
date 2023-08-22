@@ -39,7 +39,7 @@
     width: 300px;
     z-index: 1;
 }
-
+*/
 .parallax-logotype {
     position: absolute;
     top: 40vh;
@@ -50,7 +50,7 @@
     width: 300px;
     z-index: 1;
 }
-*/
+
 .bitum-logotype {
     width: 300px;
     -webkit-filter: drop-shadow(8px 6px 4px var(--color-dark));
