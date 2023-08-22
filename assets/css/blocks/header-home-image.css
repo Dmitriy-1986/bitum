@@ -4,7 +4,7 @@
 .header-background-img { 
     position: relative;
     height: 100vh;
-    background: url('../../img/bg-img-1300x600.png');
+    background: url('../../img/bg-img-1300x600.png') !important;
     width: 100%;
     background-size: cover;
 }
@@ -16,12 +16,12 @@
 }*/
 @media (max-width: 768px) {
     .header-background-img { 
-       background: url('../../img/bg-img-768х1024.png'); 
+       background: url('../../img/bg-img-768х1024.png') !important; 
     } 
 }
 @media (max-width: 375px) {
     .header-background-img { 
-       background: url('../../img/bg-img-375-667.png'); 
+       background: url('../../img/bg-img-375-667.png') !important; 
     } 
 }
 .bitum-group {
