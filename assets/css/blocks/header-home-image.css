@@ -6,7 +6,7 @@
     height: 100vh;
     background: url('../../img/bg-img-1300x600.png') !important;
     width: 100%;
-    background-size: cover;
+    background-size: cover !important;
 }
 
 @media (max-width: 768px) {
