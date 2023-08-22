@@ -9,11 +9,6 @@
     background-size: cover;
 }
 
-/*@media (max-width: 992px) {
-    .header-bgimg { 
-       background: url('../../img/header-img-992.jpg'); 
-    } 
-}*/
 @media (max-width: 768px) {
     .header-background-img { 
        background: url('../../img/bg-img-768х1024.png') !important; 
