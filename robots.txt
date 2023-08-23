@@ -1,2 +1,4 @@
+# https://www.robotstxt.org/robotstxt.html
 Sitemap: https://bitum.pp.ua/sitemap.xml 
 User-agent: *
+Disallow:
