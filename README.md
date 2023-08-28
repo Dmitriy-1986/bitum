@@ -4,12 +4,12 @@ City: Olexandriya - Zaporizhzhya
 Web Developer: Dovgal Dima 
 Web Site: dovgaldima.pp.ua
 -->
-# h1
+<!--# h1
 list:
 - 1 [OpenAI](https://www.openai.com/)
 - 2 [OpenAI](https://www.openai.com/)
 - 3 [OpenAI](https://www.openai.com/)
-
+-->
 
 <h3>
     <a href='https://bitum.pp.ua/'>
