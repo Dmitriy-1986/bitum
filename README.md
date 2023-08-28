@@ -6,9 +6,11 @@ Web Site: dovgaldima.pp.ua
 -->
 # h1
 list:
-- 1
+- 1 [OpenAI](https://www.openai.com/)
 - 2
 - 3
+
+
 <h3>
     <a href='https://bitum.pp.ua/'>
       Творче об'єднання - Бітум
