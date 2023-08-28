@@ -7,8 +7,8 @@ Web Site: dovgaldima.pp.ua
 # h1
 list:
 - 1 [OpenAI](https://www.openai.com/)
-- 2
-- 3
+- 2 [OpenAI](https://www.openai.com/)
+- 3 [OpenAI](https://www.openai.com/)
 
 
 <h3>
