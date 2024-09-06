@@ -38,11 +38,10 @@ tabContainer.innerHTML = `<div class="header-tabs">
                                         <!-- <p class="tab__desc">Категорія відео</p> -->
                                     </article>
                                 </li>
-                                <li class="header__art-box" data-id="5">
+                               <!-- <li class="header__art-box" data-id="5">
                                     <article class="tab">
                                         <h1 class="tab__title">Архівні Фото</h1>
-                                        <!-- <p class="tab__desc">Категорія Фото</p> -->
-                                    </article>
+                                    </article> -->
                                 </li>
                             </ul>
                             <ul class="header__btns">
@@ -58,9 +57,9 @@ tabContainer.innerHTML = `<div class="header-tabs">
                                 <li class="header__btn-box" data-id="4">
                                     <button>Відео</button>
                                 </li>
-                                <li class="header__btn-box" data-id="5">
+                               <!-- <li class="header__btn-box" data-id="5">
                                     <button>Архівні Фото</button>
-                                </li>
+                                </li> -->
                             </ul>
                             <ul class="header__articles">
                                 <li class="header__content-box active" data-id="1">
@@ -107,7 +106,7 @@ tabContainer.innerHTML = `<div class="header-tabs">
                                         <a href="katehoriia-video.html"><button class="btn btn-primary">Читати більше</button></a>
                                     </article>
                                 </li>
-                                <li class="header__content-box" data-id="5">
+                              <!--  <li class="header__content-box" data-id="5">
                                     <article class="tab">
                                         <h1 class="tab-content__title">Архівні Фото</h1>
                                         
@@ -115,7 +114,7 @@ tabContainer.innerHTML = `<div class="header-tabs">
                                             
                                         <a href="katehoriia-photo.html"><button class="btn btn-primary">Читати більше</button></a>
                                     </article>
-                                </li>
+                                </li> -->
                             </ul>
                         </div>`;
 
