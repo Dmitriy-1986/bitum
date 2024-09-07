@@ -10,6 +10,27 @@
     background-size: cover;
 }
 
+/* Фон для экранов меньше 350px */
+@media (max-width: 350px) {
+  .header-background-img {
+        background-image: url('../../img/bitum-header-media-image/350.png');
+  }
+}
+
+/* Фон для экранов меньше 400px */
+@media (max-width: 400px) {
+  .header-background-img {
+        background-image: url('../../img/bitum-header-media-image/400.png');
+  }
+}
+
+/* Фон для экранов меньше 500px */
+@media (max-width: 500px) {
+  .header-background-img {
+        background-image: url('../../img/bitum-header-media-image/500.png');
+  }
+}
+
 /* Фон для экранов меньше 600px */
 @media (max-width: 600px) {
   .header-background-img {
