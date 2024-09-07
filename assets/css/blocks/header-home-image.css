@@ -8,7 +8,6 @@
     width: 100%;
     background: url('../../img/header-img/bitum-header.jpg');
     background-size: cover;
-    object-fit: cover;
 }
 
 /* Фон для экранов меньше 350px */
