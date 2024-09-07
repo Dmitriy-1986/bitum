@@ -60,13 +60,13 @@
         background-image: url('../../img/bitum-header-media-image/1200.png');
   }
 }
-
+/*
 @media (min-width: 1280px) {
     .header-background-img {
         background-image: url('../../img/bitum-header-media-image/big-bitum.jpg');
       }
 }
-
+*/
 .bitum-group {
     width: 100%;
 }
