@@ -60,6 +60,13 @@
         background-image: url('../../img/bitum-header-media-image/1200.png');
   }
 }
+
+/* Медиа запрос для экрана с шириной 1366px и высотой 768px */
+@media (width: 1366px) and (height: 768px) {
+    .header-background-img {
+        background-image: url('../../img/bitum-header-media-image/1366x768.png');
+    }
+}
 /*
 @media (min-width: 1280px) {
     .header-background-img {
