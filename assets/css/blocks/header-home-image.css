@@ -71,7 +71,7 @@
 /* Медиа запрос для экрана с шириной 1536px */
 @media (max-width: 1536px) {
     .header-background-img {
-        background-image: url('../../img/bitum-header-media-image/1536x864.png');
+        background-image: url('../../img/bitum-header-media-image/1536x830.png');
     }
 }
 
