@@ -79,12 +79,6 @@ btnSubmit.addEventListener('click', (e) => {
       logOut.addEventListener('click', () => {
           location.reload()
       });
-      
-      const div = document.createElement('div');
-
-      div.innerHTML += `<div>
-                            <h2>Страница с контентом</h2>
-                        </div>`;  
     } else {
       result.innerHTML = '<b class="password-error">Ви ввели неправильний пароль</b>';
     }
