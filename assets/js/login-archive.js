@@ -5,7 +5,7 @@ const result = document.querySelector('#result');
 
 btnArchive.addEventListener('click', (e) => {
   e.preventDefault();
-  if(calcMD5(passwordArchive.value) === '698d51a19d8a121ce581499d7b701668') {
+  if(calcMD5(passwordArchive.value) === 'a591024321c5e2bdbd23ed35f0574dde') {
     formArchive.style.display = 'none';
     document.querySelector('#archiveContent').style.display = 'none';
     
