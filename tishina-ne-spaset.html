@@ -114,7 +114,17 @@
 
                 <h1 class="text-center">ТИШИНА НЕ СПАСЕТ</h1>
                 <br>
-                <p class="alert-content">Плейліст альбому - "Тишина Не Спасет" зараз в процесі розробки...</p>
+
+                 <div id="auth">
+                    <form id="form">
+                        <label for="password">Введіть пароль:</label>
+                        <input type="password" id="password" name="password" required>
+                        <button type="submit" id="btnSubmit">Вхід</button>
+                    </form>
+                </div>
+
+    <div id="result"></div>
+                
             </div>
         </div>
     </article>
@@ -139,7 +149,7 @@
     <script defer src="./assets/js/back-to-top.js"></script>
     <script defer src="./assets/js/scrollIndicator.js"></script>
     <script src="./assets/js/login-archive.js"></script>
-     <script defer src="./assets/libs/MD5/md5.js"></script>
+    <script defer src="./assets/libs/MD5/md5.js"></script>
     
     <script>
         window.addEventListener('load', () => {
