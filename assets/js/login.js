@@ -80,6 +80,7 @@ btnSubmit.addEventListener('click', (e) => {
           location.reload()
       });
     } else {
+      password.value = '';
       result.innerHTML = '<b class="password-error">Ви ввели неправильний пароль</b>';
     }
   }
