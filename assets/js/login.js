@@ -1,9 +1,9 @@
-const btnArchive = document.querySelector('#btnSubmit');
-const passwordArchive = document.querySelector('#password');
-const formArchive = document.querySelector('#form');
+const btnSubmit = document.querySelector('#btnSubmit');
+const password = document.querySelector('#password');
+const form = document.querySelector('#form');
 const result = document.querySelector('#result');
 
-btnArchive.addEventListener('click', (e) => {
+btnSubmit.addEventListener('click', (e) => {
   e.preventDefault();
   if(calcMD5(passwordArchive.value) === 'a591024321c5e2bdbd23ed35f0574dde') {
     formArchive.style.display = 'none';
