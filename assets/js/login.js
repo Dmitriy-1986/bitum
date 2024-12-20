@@ -6,7 +6,7 @@ const result = document.querySelector('#result');
 btnSubmit.addEventListener('click', (e) => {
   e.preventDefault();
   if(calcMD5(password.value) === 'a591024321c5e2bdbd23ed35f0574dde') {
-    formArchive.style.display = 'none';
+    form.style.display = 'none';
     document.querySelector('#auth').style.display = 'none';
     
     result.innerHTML = `<p class="password-valid">Вітаю, ви увійшли на сторінку альбому  
