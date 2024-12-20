@@ -64,9 +64,6 @@
         /*
         Form
         */
-        .password, .btn-submit {
-            padding: 10px 5px 10px 5px;
-        }
         .password-valid {
             color: green;
         }
@@ -80,9 +77,38 @@
         }
         #form {
             display: block;
+            width: 300px;
+        }
+        fieldset {
+            padding: 20px;
+            border: 2px solid #4CAF50;   
+            border-radius: 8px;   
+            background-color: #f9f9f9;   
+        }
+        .password {
+            width: 100%;
+            padding: 10px 5px 10px 5px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .btn-submit {
+            padding: 10px 20px;
+            background-color: #4CAF50;  
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+        }
+        button:hover {
+            background-color: #45a049;
         }
         #auth {
-            display: block;
+            display: flex;
+            justify-content: center;   
+            align-items: center;       
+            margin: 0;
         }
     </style>
 
