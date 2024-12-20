@@ -3,6 +3,12 @@ const password = document.querySelector('#password');
 const form = document.querySelector('#form');
 const result = document.querySelector('#result');
 
+password.addEventListener('keypress', (e) => {
+  if (e.key === ' ' || e.keyCode === 32) {
+    e.preventDefault();  
+  }
+});
+
 btnSubmit.addEventListener('click', (e) => {
   e.preventDefault();
   if (password.value.trim() === '') {
