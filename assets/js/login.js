@@ -5,7 +5,9 @@ const result = document.querySelector('#result');
 
 btnSubmit.addEventListener('click', (e) => {
   e.preventDefault();
-  if(calcMD5(password.value) === 'a591024321c5e2bdbd23ed35f0574dde') {
+  if (password.value.trim() === '') {
+    result.innerHTML = '<b class="password-error">Ви не заповнили форму</b>';
+  } else (calcMD5(password.value) === 'a591024321c5e2bdbd23ed35f0574dde') {
     form.style.display = 'none';
     document.querySelector('#auth').style.display = 'none';
     
