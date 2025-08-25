@@ -205,6 +205,10 @@ a:hover {
             flex-direction: row-reverse;
 }
 
+.main-bg-white {
+    background: white;
+}
+
 @media (max-width: 1150px) {
     
     .block:nth-child(1n) {
