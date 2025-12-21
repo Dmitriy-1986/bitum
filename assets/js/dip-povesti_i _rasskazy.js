@@ -95,11 +95,6 @@ const listAudio = [
         duration: "03:03"
     },
     {
-        name: " ",
-        file: "./assets/music/dip/dip-povesti_i _rasskazy/",
-        duration: "03:51"
-    },
-    {
         name: "Играя в жизнь",
         file: "./assets/music/dip/dip-povesti_i _rasskazy/12. DIP(БІТУМ) - Играя в жизнь.mp3",
         duration: "03:44"
