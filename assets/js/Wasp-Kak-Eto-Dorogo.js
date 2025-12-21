@@ -164,7 +164,6 @@ function getClickedElement(event) {
 document.querySelector('#source-audio').src = listAudio[indexAudio].file
 document.querySelector('.title').innerHTML = listAudio[indexAudio].name
 
-
 var currentAudio = document.getElementById("myAudio");
 
 currentAudio.load()
@@ -200,7 +199,6 @@ var timer = document.getElementsByClassName('timer')[0]
 
 var barProgress = document.getElementById("myBar");
 
-
 var width = 0;
 
 function onTimeUpdate() {
@@ -218,12 +216,10 @@ function onTimeUpdate() {
     }
 }
 
-
 function setBarProgress() {
     var progress = (this.currentAudio.currentTime / this.currentAudio.duration) * 100;
     document.getElementById("myBar").style.width = progress + "%";
 }
-
 
 function getMinutes(t) {
     var min = parseInt(parseInt(t) / 60);
@@ -239,7 +235,6 @@ function getMinutes(t) {
 
 var progressbar = document.querySelector('#myProgress')
 progressbar.addEventListener("click", seek.bind(this));
-
 
 function seek(event) {
     var percent = event.offsetX / progressbar.offsetWidth;
@@ -294,7 +289,6 @@ function pauseToPlay(index) {
     ele.classList.remove("fa-pause");
     ele.classList.add("fa-play");
 }
-
 
 function toggleMute() {
     var btnMute = document.querySelector('#toggleMute');
