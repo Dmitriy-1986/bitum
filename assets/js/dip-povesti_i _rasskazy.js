@@ -72,12 +72,12 @@ const listAudio = [
     {
         name: "Жизнь",
         file: "./assets/music/dip/dip-povesti_i _rasskazy/7. DIP(БІТУМ) - Жизнь.mp3",
-        duration: "03:17"
+        duration: "03:16"
     },
     {
         name: "Ложь",
         file: "./assets/music/dip/dip-povesti_i _rasskazy/8. DIP(БІТУМ) - Ложь.wav",
-        duration: "00:00"
+        duration: "02:15"
     },
     {
         name: "Вместе,рядом",
@@ -112,7 +112,7 @@ const listAudio = [
     {
         name: "Финальная история",
         file: "./assets/music/dip/dip-povesti_i _rasskazy/15._DIP(БІТУМ)_-_Финальная_история_out.mp3",
-        duration: "00:00"
+        duration: "02:45"
     },
     {
         name: "Тільки для неї",
