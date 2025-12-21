@@ -40,104 +40,94 @@ function createTrackItem(index, name, duration, link) {
 }
 const listAudio = [
     {
-        name: "Дощі",
-        file: "./assets/music/ne-albomnyye/1.Дощі.mp3",
-        duration: "04:02"
-    },
-    {
-        name: "По улицам где нет добра",
-        file: "./assets/music/ne-albomnyye/2.По-улицам-где-нет-добра.mp3",
-        duration: "03:09"
-    },
-    {
-        name: "Утекла",
-        file: "./assets/music/ne-albomnyye/3.Утекла.mp3",
-        duration: "05:24"
-    },
-    {
-        name: "Unbelievable life",
-        file: "./assets/music/ne-albomnyye/4.Unbelievable-life.mp3",
-        duration: "04:24"
-    },
-    {
-        name: "Гонки на выживание",
-        file: "./assets/music/ne-albomnyye/5.Гонки-на-выживание.mp3",
-        duration: "03:21"
-    },
-    {
-        name: "Каждый прожитый день",
-        file: "./assets/music/ne-albomnyye/6.Каждый-прожитый-день.mp3",
-        duration: "04:16"
-    },
-    {
-        name: "Не жди",
-        file: "./assets/music/ne-albomnyye/7.Не-жди.mp3",
-        duration: "03:40"
-    },
-    {
-        name: "Отдельным особям",
-        file: "./assets/music/ne-albomnyye/8.Отдельным-особям.mp3",
-        duration: "03:11"
-    },
-    {
-        name: "Палата нумер п*ять",
-        file: "./assets/music/ne-albomnyye/9.Палата-нумер-п_ять.mp3",
-        duration: "03:30"
-    },
-    {
-        name: "Попробуй все",
-        file: "./assets/music/ne-albomnyye/10.Попробуй-все.mp3",
-        duration: "03:07"
-    },
-    {
         name: "Мечты и план",
-        file: "./assets/music/ne-albomnyye/11.Мечты-и-план.mp3",
-        duration: "03:19"
+        file: "./assets/music/dip/dip-povesti_i _rasskazy/1. DIP(БІТУМ) - Мечты и план.mp3",
+        duration: "03:13"
     },
     {
-        name: "Тряпка",
-        file: "./assets/music/ne-albomnyye/12.Wasp-тряпка.mp3",
+        name: "Aндрей",
+        file: "./assets/music/dip/dip-povesti_i _rasskazy/2. DIP(БІТУМ) - Aндрей.mp3",
+        duration: "03:31"
+    },
+    {
+        name: "Очередной день",
+        file: "./assets/music/dip/dip-povesti_i _rasskazy/3. DIP(БІТУМ) - Очередной день.mp3",
+        duration: "03:37"
+    },
+    {
+        name: "Игра без правил",
+        file: "./assets/music/dip/dip-povesti_i _rasskazy/4. DIP(БІТУМ) - Игра без правил.mp3",
+        duration: "03:06"
+    },
+    {
+        name: "Когда ушла удача",
+        file: "./assets/music/dip/dip-povesti_i _rasskazy/5. DIP(БІТУМ) - Когда ушла удача.mp3",
+        duration: "03:26"
+    },
+    {
+        name: "Время лечит молодых",
+        file: "./assets/music/dip/dip-povesti_i _rasskazy/6. DIP(БІТУМ) - Время лечит молодых.mp3",
+        duration: "02:47"
+    },
+    {
+        name: "Жизнь",
+        file: "./assets/music/dip/dip-povesti_i _rasskazy/7. DIP(БІТУМ) - Жизнь.mp3",
+        duration: "03:17"
+    },
+    {
+        name: "Ложь",
+        file: "./assets/music/dip/dip-povesti_i _rasskazy/8. DIP(БІТУМ) - Ложь.wav",
+        duration: "00:00"
+    },
+    {
+        name: "Вместе,рядом",
+        file: "./assets/music/dip/dip-povesti_i _rasskazy/9. DIP(БІТУМ) - Вместе,рядом.mp3",
+        duration: "03:00"
+    },
+    {
+        name: "Этаки",
+        file: "./assets/music/dip/dip-povesti_i _rasskazy/10. DIP(БІТУМ) - Этаки.mp3",
+        duration: "02:57"
+    },
+    {
+        name: "Tакиеже",
+        file: "./assets/music/dip/dip-povesti_i _rasskazy/11. DIP(БІТУМ) - такиеже.mp3",
+        duration: "03:03"
+    },
+    {
+        name: " ",
+        file: "./assets/music/dip/dip-povesti_i _rasskazy/",
         duration: "03:51"
     },
     {
-        name: "Все что в наших силах",
-        file: "./assets/music/ne-albomnyye/13.Все-что-в-наших-силах.mp3",
-        duration: "03:52"
+        name: "Играя в жизнь",
+        file: "./assets/music/dip/dip-povesti_i _rasskazy/12. DIP(БІТУМ) - Играя в жизнь.mp3",
+        duration: "03:44"
     },
     {
-        name: "Почему не позвола",
-        file: "./assets/music/ne-albomnyye/14.Почему-не-позвола.mp3",
-        duration: "04:29"
-    },
-    {
-        name: "Спокойная ночь",
-        file: "./assets/music/ne-albomnyye/15.Спокойная-ночь.mp3",
-        duration: "03:43"
-    },
-    {
-        name: "Мечта",
-        file: "./assets/music/ne-albomnyye/16.Мечта.mp3",
-        duration: "03:32"
-    },
-    {
-        name: "Продолжаем",
-        file: "./assets/music/ne-albomnyye/17. Продолжаем-by-Yura WasP.mp3",
+        name: "Мой город",
+        file: "./assets/music/dip/dip-povesti_i _rasskazy/13. DIP(БІТУМ) - Мой город.mp3",
         duration: "03:12"
     },
     {
-        name: "Мой мир",
-        file: "./assets/music/ne-albomnyye/18. ONEAL ft Sam - мой мир.mp3",
-        duration: "03:38"
+        name: "Тетрадь памяти",
+        file: "./assets/music/dip/dip-povesti_i _rasskazy/14. DIP(БІТУМ) - Тетрадь памяти.mp3",
+        duration: "03:16"
     },
     {
-        name: "Душа больна тобой",
-        file: "./assets/music/ne-albomnyye/19. БІТУМ (ONEAL) - Душа больна тобой.mp3",
-        duration: "02:14"
+        name: "Финальная история",
+        file: "./assets/music/dip/dip-povesti_i _rasskazy/15._DIP(БІТУМ)_-_Финальная_история_out.mp3",
+        duration: "00:00"
     },
     {
-        name: "Утекла  (demo)",
-        file: "./assets/music/ne-albomnyye/Утекла(demo)_out.mp3",
-        duration: "04:43"
+        name: "Тільки для неї",
+        file: "./assets/music/dip/dip-povesti_i _rasskazy/16. БІТУМ - Тільки для неї.mp3",
+        duration: "02:38"
+    },
+    {
+        name: "Палата нумер п`ять",
+        file: "./assets/music/dip/dip-povesti_i _rasskazy/17. БІТУМ - Палата нумер п`ять.mp3",
+        duration: "03:31"
     }
 ];
 
