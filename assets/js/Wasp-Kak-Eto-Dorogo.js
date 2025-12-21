@@ -40,79 +40,89 @@ function createTrackItem(index, name, duration, link) {
 
 const listAudio = [
     {
-        name: "intro",
-        file: "./assets/music/ne-nazvannyy/1.Интро.mp3",
-        duration: "00:11"
+        name: " ",
+        file: "./assets/music/wasp/kak_eto_doroho/",
+        duration: "00:00"
     },
     {
-        name: "25 лет жизни",
-        file: "./assets/music/ne-nazvannyy/2.25-лет-жизни.mp3",
-        duration: "03:10"
+        name: " ",
+        file: "./assets/music/wasp/kak_eto_doroho/",
+        duration: "00:00"
     },
     {
-        name: "Все что в наших силах",
-        file: "./assets/music/ne-nazvannyy/3.Все-что-в-наших-силах.mp3",
-        duration: "03:53"
+        name: " ",
+        file: "./assets/music/wasp/kak_eto_doroho/",
+        duration: "00:00"
     },
     {
-        name: "Спокойная ночь",
-        file: "./assets/music/ne-nazvannyy/4.Спокойная-ночь.mp3",
-        duration: "03:44"
+        name: " ",
+        file: "./assets/music/wasp/kak_eto_doroho/",
+        duration: "00:00"
     },
     {
-        name: "Если сказано",
-        file: "./assets/music/ne-nazvannyy/5.Если-сказано.mp3",
-        duration: "04:05"
+        name: " ",
+        file: "./assets/music/wasp/kak_eto_doroho/",
+        duration: "00:00"
     },
     {
-        name: "Ошибки",
-        file: "./assets/music/ne-nazvannyy/6.Ошибки.mp3",
-        duration: "04:43"
+        name: " ",
+        file: "./assets/music/wasp/kak_eto_doroho/",
+        duration: "00:00"
     },
     {
-        name: "О чем не скажешь",
-        file: "./assets/music/ne-nazvannyy/7.О-чем-не-скажешь.mp3",
-        duration: "03:45"
+        name: " ",
+        file: "./assets/music/wasp/kak_eto_doroho/",
+        duration: "00:00"
     },
     {
-        name: "Вперед",
-        file: "./assets/music/ne-nazvannyy/8.Вперед.mp3",
-        duration: "03:45"
+        name: " ",
+        file: "./assets/music/wasp/kak_eto_doroho/",
+        duration: "00:00"
     },
     {
-        name: "Когда уходит любовь",
-        file: "./assets/music/ne-nazvannyy/9.Когда-уходит-любовь.mp3",
-        duration: "03:56"
+        name: " ",
+        file: "./assets/music/wasp/kak_eto_doroho/",
+        duration: "00:00"
     },
     {
-        name: "Гламурные девчонки",
-        file: "./assets/music/ne-nazvannyy/10.Гламурные-девчонки.mp3",
-        duration: "03:00"
+        name: " ",
+        file: "./assets/music/wasp/kak_eto_doroho/",
+        duration: "00:00"
     },
     {
-        name: "Ночной город",
-        file: "./assets/music/ne-nazvannyy/11.Ночной-город.mp3",
-        duration: "03:21"
+        name: " ",
+        file: "./assets/music/wasp/kak_eto_doroho/",
+        duration: "00:00"
     },
     {
-        name: "Игра без правил",
-        file: "./assets/music/ne-nazvannyy/12.Игра-без-правил.mp3",
-        duration: "03:06"
+        name: " ",
+        file: "./assets/music/wasp/kak_eto_doroho/",
+        duration: "00:00"
     },
     {
-        name: "Зло и ненависть",
-        file: "./assets/music/ne-nazvannyy/13.Зло-и-ненависть.mp3",
-        duration: "03:16"
+        name: " ",
+        file: "./assets/music/wasp/kak_eto_doroho/",
+        duration: "00:00"
     },
     {
-        name: "Забыто",
-        file: "./assets/music/ne-nazvannyy/14.Забыто.mp3",
-        duration: "03:38"
+        name: " ",
+        file: "./assets/music/wasp/kak_eto_doroho/",
+        duration: "00:00"
     },
     {
-        name: "Тряпка",
-        file: "./assets/music/ne-nazvannyy/15.Тряпка.mp3",
-        duration: "03:18"
+        name: " ",
+        file: "./assets/music/wasp/kak_eto_doroho/",
+        duration: "00:00"
+    },
+    {
+        name: " ",
+        file: "./assets/music/wasp/kak_eto_doroho/",
+        duration: "00:00"
+    },
+    {
+        name: " ",
+        file: "./assets/music/wasp/kak_eto_doroho/",
+        duration: "00:00"
     }
 ];
 
