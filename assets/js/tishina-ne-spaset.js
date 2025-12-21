@@ -40,94 +40,94 @@ function createTrackItem(index, name, duration, link) {
 
 const listAudio = [
     {
-        name: " ",
-        file: "./assets/music/ ",
-        duration: "00:00"
+        name: "Интро",
+        file: "./assets/music/tishina-ne-spaset/1.Интро.mp3",
+        duration: "00:32"
     },
     {
-        name: " ",
-        file: "./assets/music/ ",
-        duration: "00:00"
+        name: "БИТУМ",
+        file: "./assets/music/tishina-ne-spaset/2. БИТУМ.mp3",
+        duration: "04:39"
     },
     {
-        name: " ",
-        file: "./assets/music/ ",
-        duration: "00:00"
+        name: "Александрия",
+        file: "./assets/music/tishina-ne-spaset/3. Александрия.mp3",
+        duration: "03:44"
     },
     {
-        name: " ",
-        file: "./assets/music/ ",
-        duration: "00:00"
+        name: "Я люблю",
+        file: "./assets/music/tishina-ne-spaset/4. Я люблю.mp3",
+        duration: "00:17"
     },
     {
-        name: " ",
-        file: "./assets/music/ ",
-        duration: "00:00"
+        name: "Той одной",
+        file: "./assets/music/tishina-ne-spaset/5. Той одной.mp3",
+        duration: "03:01"
     },
     {
-        name: " ",
-        file: "./assets/music/ ",
-        duration: "00:00"
+        name: "Фристайл",
+        file: "./assets/music/tishina-ne-spaset/6. Фристайл.mp3",
+        duration: "03:44"
     },
     {
-        name: " ",
-        file: "./assets/music/ ",
-        duration: "00:00"
+        name: "Дизориентация",
+        file: "./assets/music/tishina-ne-spaset/7. Дизориентация.mp3",
+        duration: "03:41"
     },
     {
-        name: " ",
-        file: "./assets/music/ ",
-        duration: "00:00"
+        name: "Ответ",
+        file: "./assets/music/tishina-ne-spaset/8. Ответ.mp3",
+        duration: "05:07"
     },
     {
-        name: " ",
-        file: "./assets/music/ ",
-        duration: "00:00"
+        name: "268",
+        file: "./assets/music/tishina-ne-spaset/9. 268.mp3",
+        duration: "00:40"
     },
     {
-        name: " ",
-        file: "./assets/music/ ",
-        duration: "00:00"
+        name: "Ксерокс",
+        file: "./assets/music/tishina-ne-spaset/10. Ксерокс.mp3",
+        duration: "04:01"
     },
     {
-        name: " ",
-        file: "./assets/music/ ",
-        duration: "00:00"
+        name: "Самообман",
+        file: "./assets/music/tishina-ne-spaset/11. Самообман.mp3",
+        duration: "00:35"
     },
     {
-        name: " ",
-        file: "./assets/music/ ",
-        duration: "00:00"
+        name: "Фристайл (mix)",
+        file: "./assets/music/tishina-ne-spaset/12. Фристайл (mix).mp3",
+        duration: "03:15"
     },
     {
-        name: " ",
-        file: "./assets/music/ ",
-        duration: "00:00"
+        name: "Луна",
+        file: "./assets/music/tishina-ne-spaset/13. Луна.mp3",
+        duration: "05:03"
     },
     {
-        name: " ",
-        file: "./assets/music/ ",
-        duration: "00:00"
+        name: "Если ты есть",
+        file: "./assets/music/tishina-ne-spaset/14. Если ты есть.mp3",
+        duration: "00:45"
     },
     {
-        name: " ",
-        file: "./assets/music/ ",
-        duration: "00:00"
+        name: "Власть",
+        file: "./assets/music/tishina-ne-spaset/15. Власть.mp3",
+        duration: "06:00"
     },
     {
-        name: " ",
-        file: "./assets/music/ ",
-        duration: "00:00"
+        name: "Наши имена",
+        file: "./assets/music/tishina-ne-spaset/16. Наши имена.mp3",
+        duration: "07:34"
     },
     {
-        name: " ",
-        file: "./assets/music/ ",
-        duration: "00:00"
+        name: "Грусть",
+        file: "./assets/music/tishina-ne-spaset/17. Грусть.mp3",
+        duration: "03:01"
     },
     {
-        name: " ",
-        file: "./assets/music/ ",
-        duration: "00:00"
+        name: "MEGAMIX",
+        file: "./assets/music/tishina-ne-spaset/18. MEGAMIX.mp3",
+        duration: "03:25"
     }
 ];
 
