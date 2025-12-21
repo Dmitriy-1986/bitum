@@ -62,12 +62,12 @@ const listAudio = [
     {
         name: "Когда ушла удача",
         file: "./assets/music/dip/dip-povesti_i _rasskazy/5. DIP(БІТУМ) - Когда ушла удача.mp3",
-        duration: "03:26"
+        duration: "03:25"
     },
     {
         name: "Время лечит молодых",
         file: "./assets/music/dip/dip-povesti_i _rasskazy/6. DIP(БІТУМ) - Время лечит молодых.mp3",
-        duration: "02:47"
+        duration: "02:46"
     },
     {
         name: "Жизнь",
@@ -82,17 +82,17 @@ const listAudio = [
     {
         name: "Вместе,рядом",
         file: "./assets/music/dip/dip-povesti_i _rasskazy/9. DIP(БІТУМ) - Вместе,рядом.mp3",
-        duration: "03:00"
+        duration: "02:59"
     },
     {
         name: "Этаки",
         file: "./assets/music/dip/dip-povesti_i _rasskazy/10. DIP(БІТУМ) - Этаки.mp3",
-        duration: "02:57"
+        duration: "02:56"
     },
     {
         name: "Tакиеже",
         file: "./assets/music/dip/dip-povesti_i _rasskazy/11. DIP(БІТУМ) - такиеже.mp3",
-        duration: "03:03"
+        duration: "03:02"
     },
     {
         name: "Играя в жизнь",
@@ -107,7 +107,7 @@ const listAudio = [
     {
         name: "Тетрадь памяти",
         file: "./assets/music/dip/dip-povesti_i _rasskazy/14. DIP(БІТУМ) - Тетрадь памяти.mp3",
-        duration: "03:16"
+        duration: "03:15"
     },
     {
         name: "Финальная история",
@@ -117,12 +117,12 @@ const listAudio = [
     {
         name: "Тільки для неї",
         file: "./assets/music/dip/dip-povesti_i _rasskazy/16. БІТУМ - Тільки для неї.mp3",
-        duration: "02:38"
+        duration: "02:37"
     },
     {
         name: "Палата нумер п`ять",
         file: "./assets/music/dip/dip-povesti_i _rasskazy/17. БІТУМ - Палата нумер п`ять.mp3",
-        duration: "03:31"
+        duration: "03:30"
     }
 ];
 
