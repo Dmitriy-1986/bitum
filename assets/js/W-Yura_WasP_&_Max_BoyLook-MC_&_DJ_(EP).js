@@ -40,79 +40,34 @@ function createTrackItem(index, name, duration, link) {
 
 const listAudio = [
     {
-        name: "intro",
-        file: "./assets/music/ne-nazvannyy/1.Интро.mp3",
-        duration: "00:11"
-    },
-    {
-        name: "25 лет жизни",
-        file: "./assets/music/ne-nazvannyy/2.25-лет-жизни.mp3",
+        name: "Не напрасно",
+        file: "./assets/music/wasp/Yura WasP & Max BoyLook - MC & DJ (EP) 2016/Yura WasP & Max BoyLook - 01.ne naprasno.mp3",
         duration: "03:10"
     },
     {
-        name: "Все что в наших силах",
-        file: "./assets/music/ne-nazvannyy/3.Все-что-в-наших-силах.mp3",
-        duration: "03:53"
+        name: "Киев",
+        file: "./assets/music/wasp/Yura WasP & Max BoyLook - MC & DJ (EP) 2016/Yura WasP & Max BoyLook - 02.kiev.mp3",
+        duration: "03:34"
     },
     {
-        name: "Спокойная ночь",
-        file: "./assets/music/ne-nazvannyy/4.Спокойная-ночь.mp3",
-        duration: "03:44"
-    },
-    {
-        name: "Если сказано",
-        file: "./assets/music/ne-nazvannyy/5.Если-сказано.mp3",
-        duration: "04:05"
-    },
-    {
-        name: "Ошибки",
-        file: "./assets/music/ne-nazvannyy/6.Ошибки.mp3",
-        duration: "04:43"
-    },
-    {
-        name: "О чем не скажешь",
-        file: "./assets/music/ne-nazvannyy/7.О-чем-не-скажешь.mp3",
-        duration: "03:45"
-    },
-    {
-        name: "Вперед",
-        file: "./assets/music/ne-nazvannyy/8.Вперед.mp3",
-        duration: "03:45"
-    },
-    {
-        name: "Когда уходит любовь",
-        file: "./assets/music/ne-nazvannyy/9.Когда-уходит-любовь.mp3",
-        duration: "03:56"
-    },
-    {
-        name: "Гламурные девчонки",
-        file: "./assets/music/ne-nazvannyy/10.Гламурные-девчонки.mp3",
-        duration: "03:00"
-    },
-    {
-        name: "Ночной город",
-        file: "./assets/music/ne-nazvannyy/11.Ночной-город.mp3",
-        duration: "03:21"
-    },
-    {
-        name: "Игра без правил",
-        file: "./assets/music/ne-nazvannyy/12.Игра-без-правил.mp3",
-        duration: "03:06"
-    },
-    {
-        name: "Зло и ненависть",
-        file: "./assets/music/ne-nazvannyy/13.Зло-и-ненависть.mp3",
+        name: "Рассвет, закат (feat. Evgeniy Brodyazhkin)",
+        file: "./assets/music/wasp/Yura WasP & Max BoyLook - MC & DJ (EP) 2016/Yura WasP & Max BoyLook - 03.rassvetzakat (feat. Evgeniy Brodyazhkin).mp3",
         duration: "03:16"
     },
     {
-        name: "Забыто",
-        file: "./assets/music/ne-nazvannyy/14.Забыто.mp3",
-        duration: "03:38"
+        name: "Дно",
+        file: "./assets/music/wasp/Yura WasP & Max BoyLook - MC & DJ (EP) 2016/Yura WasP & Max BoyLook - 04.dno.mp3",
+        duration: "02:47"
     },
     {
-        name: "Тряпка",
-        file: "./assets/music/ne-nazvannyy/15.Тряпка.mp3",
-        duration: "03:18"
+        name: "Рецидив",
+        file: "./assets/music/wasp/Yura WasP & Max BoyLook - MC & DJ (EP) 2016/Yura WasP & Max BoyLook - 05.recidiv.mp3",
+        duration: "03:06"
+    },
+    {
+        name: "Дальше (feat. N.deS.P., Kubin) ",
+        file: "./assets/music/wasp/Yura WasP & Max BoyLook - MC & DJ (EP) 2016/Yura WasP & Max BoyLook - 06.dal`she (feat. N.deS.P., Kubin).mp3",
+        duration: "03:57"
     }
 ];
 
