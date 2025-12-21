@@ -40,89 +40,89 @@ function createTrackItem(index, name, duration, link) {
 
 const listAudio = [
     {
-        name: " ",
-        file: "./assets/music/wasp/kak_eto_doroho/",
-        duration: "00:00"
+        name: "В нас кое-что есть (ft. Bogdan Uliak)",
+        file: "./assets/music/wasp/kak_eto_doroho/01.WasP ft. Bogdan Uliak - В нас кое-что есть.mp3",
+        duration: "03:00"
     },
     {
-        name: " ",
-        file: "./assets/music/wasp/kak_eto_doroho/",
-        duration: "00:00"
+        name: "Party up (ft. Bogdan Uliak)",
+        file: "./assets/music/wasp/kak_eto_doroho/02.WasP ft. Bogdan Uliak - Party up.mp3",
+        duration: "02:34"
     },
     {
-        name: " ",
-        file: "./assets/music/wasp/kak_eto_doroho/",
-        duration: "00:00"
+        name: "Heartbreaker-boy (ft. Bogdan Uliak, Vlada)",
+        file: "./assets/music/wasp/kak_eto_doroho/03.WasP ft. Bogdan Uliak, Vlada - Heartbreaker-boy.mp3",
+        duration: "02:42"
     },
     {
-        name: " ",
-        file: "./assets/music/wasp/kak_eto_doroho/",
-        duration: "00:00"
+        name: "Танцуй (ft. Bestseller)",
+        file: "./assets/music/wasp/kak_eto_doroho/04.WasP ft. Bestseller - Танцуй.mp3",
+        duration: "03:08"
     },
     {
-        name: " ",
-        file: "./assets/music/wasp/kak_eto_doroho/",
-        duration: "00:00"
+        name: "Не делай bullshit (ft. Capo Shaq)",
+        file: "./assets/music/wasp/kak_eto_doroho/05.WasP ft. Capo Shaq - Не делай bullshit.mp3",
+        duration: "03:10"
     },
     {
-        name: " ",
-        file: "./assets/music/wasp/kak_eto_doroho/",
-        duration: "00:00"
+        name: "Как это дорого...",
+        file: "./assets/music/wasp/kak_eto_doroho/06.WasP - Как это дорого....mp3",
+        duration: "03:41"
     },
     {
-        name: " ",
-        file: "./assets/music/wasp/kak_eto_doroho/",
-        duration: "00:00"
+        name: "Вогонь (ft. Lipton)",
+        file: "./assets/music/wasp/kak_eto_doroho/07.WasP ft. Lipton - Вогонь.mp3",
+        duration: "03:04"
     },
     {
-        name: " ",
-        file: "./assets/music/wasp/kak_eto_doroho/",
-        duration: "00:00"
+        name: "Вже не повернути (ft. Lipton)",
+        file: "./assets/music/wasp/kak_eto_doroho/08.WasP ft. Lipton - Вже не повернути.mp3",
+        duration: "02:41"
     },
     {
-        name: " ",
-        file: "./assets/music/wasp/kak_eto_doroho/",
-        duration: "00:00"
+        name: "Вновь (ft. Lipton)",
+        file: "./assets/music/wasp/kak_eto_doroho/09.WasP ft. Lipton - Вновь .mp3",
+        duration: "04:29"
     },
     {
-        name: " ",
-        file: "./assets/music/wasp/kak_eto_doroho/",
-        duration: "00:00"
+        name: "Чёртова реальность (ft. EsDeeDee)",
+        file: "./assets/music/wasp/kak_eto_doroho/10.WasP ft. EsDeeDee - Чёртова реальность.mp3",
+        duration: "04:09"
     },
     {
-        name: " ",
-        file: "./assets/music/wasp/kak_eto_doroho/",
-        duration: "00:00"
+        name: "Back in a days  (ft. EsDeeDee)",
+        file: "./assets/music/wasp/kak_eto_doroho/11.WasP ft. EsDeeDee - Back in a days.mp3",
+        duration: "04:22"
     },
     {
-        name: " ",
-        file: "./assets/music/wasp/kak_eto_doroho/",
-        duration: "00:00"
+        name: "Биксы и Баксы",
+        file: "./assets/music/wasp/kak_eto_doroho/12.WasP - Биксы и Баксы.mp3",
+        duration: "03:08"
     },
     {
-        name: " ",
-        file: "./assets/music/wasp/kak_eto_doroho/",
-        duration: "00:00"
+        name: "Успеть надо (ft. N.deS.P.)",
+        file: "./assets/music/wasp/kak_eto_doroho/13.WasP ft. N.deS.P. - Успеть надо.mp3",
+        duration: "03:31"
     },
     {
-        name: " ",
-        file: "./assets/music/wasp/kak_eto_doroho/",
-        duration: "00:00"
+        name: "Some about (ft. N.deS.P.)",
+        file: "./assets/music/wasp/kak_eto_doroho/14.WasP ft. N.deS.P. - Some about ...mp3",
+        duration: "03:25"
     },
     {
-        name: " ",
-        file: "./assets/music/wasp/kak_eto_doroho/",
-        duration: "00:00"
+        name: "Unbelievable life (ft. O`neal)",
+        file: "./assets/music/wasp/kak_eto_doroho/15.WasP ft. O`neal - Unbelievable life.mp3",
+        duration: "04:24"
     },
     {
-        name: " ",
-        file: "./assets/music/wasp/kak_eto_doroho/",
-        duration: "00:00"
+        name: "Я знаю (ft. Вьюга)",
+        file: "./assets/music/wasp/kak_eto_doroho/16.WasP ft. Вьюга - Я знаю.mp3",
+        duration: "03:07"
     },
     {
-        name: " ",
-        file: "./assets/music/wasp/kak_eto_doroho/",
-        duration: "00:00"
+        name: "Оглянись (ft. Вьюга)",
+        file: "./assets/music/wasp/kak_eto_doroho/17.WasP ft. Вьюга - Оглянись.mp3",
+        duration: "02:40"
     }
 ];
 
