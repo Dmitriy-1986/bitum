@@ -11,8 +11,9 @@ breadcrumbAboutUs.innerHTML = `<ol class="breadcrumb">
 
 const titleMainAboutUs = document.querySelector('#titleMainAboutUs');
 titleMainAboutUs.innerHTML = `<h1>Про Нас</h1>`;
-
+/*
 const aboutUsContent = document.querySelector('#aboutUsContent');
 aboutUsContent.innerHTML = `<p class="alert-content">
                                 Історія Бітума зараз в процесі розробки...
                             </p>`;
+*/
