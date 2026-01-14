@@ -207,6 +207,67 @@
             text-align: justify;
        }
     </style>
+
+    <style>
+        /* owl-carousel */
+        .owl-carousel .owl-nav button.owl-next, 
+        .owl-carousel .owl-nav button.owl-prev {
+            font-size: 66px !important;
+            color: #D6D6D6 !important;
+            background: none !important;
+            border: none !important;
+            outline: none !important;
+            cursor: pointer;
+            transition: color 0.3s ease !important; 
+        }
+        
+        .owl-theme .owl-nav [class*='owl-']:hover {
+            color: #555555 !important;   
+            background: none !important; 
+            text-decoration: none !important;
+        }
+        
+        .owl-theme .owl-nav .owl-prev { position: absolute; top: 50%; transform: translateY(-50%); left: -60px; }
+        .owl-theme .owl-nav .owl-next { position: absolute; top: 50%; transform: translateY(-50%); right: -60px; }
+        
+        @media (max-width: 1100px) {
+            .owl-theme .owl-nav .owl-prev { left: 15px !important; }
+            .owl-theme .owl-nav .owl-next { right: 15px !important; }
+            .owl-carousel .owl-nav button.owl-next, 
+            .owl-carousel .owl-nav button.owl-prev {
+                font-size: 50px !important;
+                text-shadow: 0px 0px 10px rgba(0,0,0,0.2); 
+            }
+        }
+        /* Адаптация для планшетов и мобильных */
+        @media (max-width: 1100px) {
+            .owl-carousel {
+                overflow: visible !important;
+            }
+        
+            .owl-theme .owl-nav .owl-prev {
+                left: 15px !important; 
+            }
+            
+            .owl-theme .owl-nav .owl-next {
+                right: 15px !important; 
+            }
+        
+            .owl-carousel .owl-nav button.owl-next, 
+            .owl-carousel .owl-nav button.owl-prev {
+                font-size: 50px !important;
+                color: #D6D6D6 !important;
+                z-index: 1000; 
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .owl-carousel .owl-nav button.owl-next, 
+            .owl-carousel .owl-nav button.owl-prev {
+                font-size: 35px !important;
+            }
+        }
+    </style>
     
     <!--favicon.ico-->
     <link rel="icon" type="image/png" sizes="512x512" href="/android-chrome-512x512.png">
