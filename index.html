@@ -240,11 +240,15 @@
             const wrapperLoader = document.querySelector('.wrapper-loader');
             wrapperLoader.classList.add('fade');
         });
+    
+       if (window.location.pathname.endsWith('/index.html')) {
+           window.location.replace('/');
+       }
     </script>
-
 </body>
 
 </html>
+
 
 
 
