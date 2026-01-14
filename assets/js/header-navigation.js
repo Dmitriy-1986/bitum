@@ -49,7 +49,7 @@ const navigationMenu = {
 }
 
 const logo = document.querySelector('.logo');
-logo.innerHTML  = `<a href="./index.html"><img src='./assets/img/2-new-bitum-logotype.png' alt='Бітум' class='img-logotype'></a>`;
+logo.innerHTML  = `<a href="./index.html"><img src='./assets/img/2-new-bitum-logotype.png' alt='Бітум' class='img-logotype' fetchpriority='high'></a>`;
 logo.innerHTML += `<img src="./assets/img/stop-war-in-ukraine.png" alt="Stop War" class="stop-war">`;
 
 const navList = document.querySelector('#navList');
