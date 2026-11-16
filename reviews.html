@@ -333,7 +333,7 @@ $('form').addEventListener('submit', async e => {
   try {
     await post(f.text.value.trim(), '', f.website.value);
     f.text.value = '';
-    $('msg').textContent = 'Відкликання з\'явиться після перевірки.';
+    $('msg').textContent = 'Відгук з\'явиться після перевірки.';
   } catch (_) {
     $('msg').textContent = 'Сесія закінчилася. Увійдіть знову.';
   }
