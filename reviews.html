@@ -455,7 +455,7 @@ function renderReview(r) {
 
   if (r.authorReply || (r.replies && r.replies.length)) {
     const box = el('div', 'rv-replies');
-    if (r.authorReply) box.append(makeReply('Автор сайту', r.authorReply, true, item, r.id));
+    if (r.authorReply) box.append(makeReply('Бітум', r.authorReply, true, item, r.id));
     (r.replies || []).forEach(x => box.append(makeReply(x.name, x.text, false, item, r.id)));
     item.append(box);
   }
