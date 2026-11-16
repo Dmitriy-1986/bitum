@@ -355,43 +355,61 @@
     </header>
 
    
-<main class="rv">
-  <h2>Відгуки</h2>
+    <!-- Main Content -->
+    <article class="article main-bg-white">
+        <div class="container-fluid">
+            <div class="container">
 
-  <!-- 1. ВЕРХ: вход (гость) или форма (после входа) -->
-  <section class="rv-top" aria-label="Залишити відгук">
-    <div class="rv-guest" id="guest">
-      <h3>Бажаєте залишити відгук?</h3>
-      <p>Щоб написати відгук та відповідати на них, увійдіть в акаунт.</p>
-      <div id="g-btn"></div>
-    </div>
+                <div class="row">
+                    <div class="col ">
+                        <nav id="breadcrumbContacts"></nav>
 
-    <form class="rv-formbox" id="form" hidden>
-      <div class="rv-who">
-        <div class="rv-av" id="avatar"></div>
-        <span class="rv-name" id="who"></span>
-        <button type="button" class="rv-link" id="logout">Вийти</button>
-      </div>
-      <textarea name="text" maxlength="1000" placeholder="Ваш відгук" required></textarea>
-      <input name="website" style="position:absolute;left:-9999px" tabindex="-1" autocomplete="off" aria-hidden="true">
-      <div class="rv-row">
-        <span class="rv-hint">З'явиться після перевірки модератором.</span>
-        <button class="rv-btn rv-primary" id="submit">Відправити</button>
-      </div>
-      <p class="rv-msg" id="msg" role="status" aria-live="polite"></p>
-    </form>
-  </section>
+                        <div id="titleMainContacts" class="title-block">
+                            <h2>Відгуки</h2>
+                        </div>
 
-  <!-- 2. СЕРЕДИНА: отзывы с ответами -->
-  <section class="rv-list" id="list" aria-live="polite">
-    <div class="rv-empty">Завантаження…</div>
-  </section>
+                        <main class="rv">
+                             <!-- 1. ВЕРХ: вход (гость) или форма (после входа) -->
+                             <section class="rv-top" aria-label="Залишити відгук">
+                               <div class="rv-guest" id="guest">
+                                 <h3>Бажаєте залишити відгук?</h3>
+                                 <p>Щоб написати відгук та відповідати на них, увійдіть в акаунт.</p>
+                                 <div id="g-btn"></div>
+                               </div>
+                           
+                               <form class="rv-formbox" id="form" hidden>
+                                 <div class="rv-who">
+                                   <div class="rv-av" id="avatar"></div>
+                                   <span class="rv-name" id="who"></span>
+                                   <button type="button" class="rv-link" id="logout">Вийти</button>
+                                 </div>
+                                 <textarea name="text" maxlength="1000" placeholder="Ваш відгук" required></textarea>
+                                 <input name="website" style="position:absolute;left:-9999px" tabindex="-1" autocomplete="off" aria-hidden="true">
+                                 <div class="rv-row">
+                                   <span class="rv-hint">З'явиться після перевірки модератором.</span>
+                                   <button class="rv-btn rv-primary" id="submit">Відправити</button>
+                                 </div>
+                                 <p class="rv-msg" id="msg" role="status" aria-live="polite"></p>
+                               </form>
+                             </section>
+                           
+                             <!-- 2. СЕРЕДИНА: отзывы с ответами -->
+                             <section class="rv-list" id="list" aria-live="polite">
+                               <div class="rv-empty">Завантаження…</div>
+                             </section>
+                           
+                             <!-- 3. НИЗ: пагинация -->
+                             <div class="rv-bottom">
+                               <button class="rv-btn" id="more" hidden>Показати ще</button>
+                             </div>
+                        </main>
 
-  <!-- 3. НИЗ: пагинация -->
-  <div class="rv-bottom">
-    <button class="rv-btn" id="more" hidden>Показати ще</button>
-  </div>
-</main>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+
 
 <footer>
         <div class="container">
