@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="uk">
-  <!-- v.4 -->
+  <!-- v.5 -->
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -174,11 +174,25 @@
   }
   .rv-reply p { margin: 2px 0 0; font-size: 14px; white-space: pre-wrap; overflow-wrap: anywhere; }
   
-  /* Доп. стили для кнопки и формы внутри ответов */
+  /* Доп. стили для кнопки, формы и пагинации внутри ответов */
   .rv-reply .rv-replybtn { margin-top: 6px; font-size: 12px; padding: 2px 8px; }
   .rv-replyform { margin: 10px 0 0 14px; }
   .rv-reply .rv-replyform { margin-left: 0; }
   .rv-replyform textarea { min-height: 64px; }
+
+  .rv-more-replies {
+    justify-self: start;
+    margin-top: 2px;
+    font: inherit;
+    font-size: 13px;
+    color: var(--accent-text);
+    background: var(--accent-bg);
+    border: 0;
+    border-radius: 6px;
+    padding: 4px 10px;
+    cursor: pointer;
+  }
+  .rv-more-replies:hover { filter: brightness(0.95); }
 
   /* ---------- блок 3: пагинация ---------- */
   .rv-bottom { margin-top: 16px; text-align: center; }
@@ -454,18 +468,46 @@ function renderReview(r) {
 
   item.append(head, text, actions);
 
-  if (r.authorReply || (r.replies && r.replies.length)) {
+  // Собираем все ответы ветки в один список
+  const allReplies = [];
+  if (r.authorReply) {
+    allReplies.push({ name: 'Бітум', text: r.authorReply, isAuthor: true });
+  }
+  (r.replies || []).forEach(x => {
+    allReplies.push({ name: x.name, text: x.text, isAuthor: false });
+    if (x.authorReply) {
+      allReplies.push({ name: 'Бітум', text: x.authorReply, isAuthor: true });
+    }
+  });
+
+  if (allReplies.length) {
     const box = el('div', 'rv-replies');
-    if (r.authorReply) box.append(makeReply('Бітум', r.authorReply, true, item, r.id));
-    
-    (r.replies || []).forEach(x => {
-      box.append(makeReply(x.name, x.text, false, item, r.id));
-      // Если модератор заполнил колонку answer напротив этого вложенного ответа:
-      if (x.authorReply) {
-        box.append(makeReply('Бітум', x.authorReply, true, item, r.id));
+    const INITIAL_SHOW = 2; // сколько ответов показывать сразу
+    const STEP = 5;         // по сколько штук раскрывать при клике
+    let shown = 0;
+
+    const moreBtn = el('button', 'rv-more-replies');
+    moreBtn.type = 'button';
+
+    function showChunk(count) {
+      const next = allReplies.slice(shown, shown + count);
+      next.forEach(rep => {
+        box.insertBefore(makeReply(rep.name, rep.text, rep.isAuthor, item, r.id), moreBtn);
+      });
+      shown += next.length;
+
+      const left = allReplies.length - shown;
+      if (left > 0) {
+        moreBtn.textContent = `Показати ще відповіді (${left})`;
+      } else {
+        moreBtn.remove();
       }
-    });
-    
+    }
+
+    box.append(moreBtn);
+    showChunk(INITIAL_SHOW);
+    moreBtn.onclick = () => showChunk(STEP);
+
     item.append(box);
   }
   return item;
