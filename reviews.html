@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Отзывы</title>
+<title>Відгуки</title>
 <style>
   :root {
     color-scheme: light dark;
@@ -213,7 +213,7 @@
 
 <script>
 /* ====== НАСТРОЙКИ ====== */
-const API = 'https://script.google.com/macros/s/AKfycbz557HuntR-3iXOLuCEG2fn4AWekCn63xvW2sSb-TQOr4i3WN702mV6_8GNszAEU1Jxiw/exec';
+const API = 'https://script.google.com/macros/s/AKfycbyZKK4F2pRhGgZe59dz9ftVOL89JaE_NLWPJ6WBJCjgr8Uj27Gm8qM2CEfHmjVMUdBAiw/exec';
 const CLIENT_ID = '98570679118-cppgq8jos48aki4jpe1bofduap71plrp.apps.googleusercontent.com';
 /* ======================= */
 
@@ -333,9 +333,9 @@ $('form').addEventListener('submit', async e => {
   try {
     await post(f.text.value.trim(), '', f.website.value);
     f.text.value = '';
-    $('msg').textContent = 'Спасибо! Отзыв появится после проверки.';
+    $('msg').textContent = 'Відкликання з\'явиться після перевірки.';
   } catch (_) {
-    $('msg').textContent = 'Сессия истекла. Войдите снова.';
+    $('msg').textContent = 'Сесія закінчилася. Увійдіть знову.';
   }
   btn.disabled = false;
 });
@@ -360,10 +360,10 @@ function openReplyForm(item, id, actions) {
   const ta = el('textarea');
   ta.maxLength = 1000; ta.required = true; ta.placeholder = 'Ваш ответ';
   const row = el('div', 'rv-row');
-  const hint = el('span', 'rv-hint', 'Появится после проверки');
+  const hint = el('span', 'rv-hint', 'З\'явиться після перевірки');
   const btns = el('div');
   const cancel = el('button', 'rv-btn rv-small', 'Отмена'); cancel.type = 'button';
-  const send = el('button', 'rv-btn rv-primary rv-small', 'Отправить'); send.type = 'submit';
+  const send = el('button', 'rv-btn rv-primary rv-small', 'Надіслати'); send.type = 'submit';
   btns.append(cancel, ' ', send);
   row.append(hint, btns);
   f.append(ta, row);
@@ -374,9 +374,9 @@ function openReplyForm(item, id, actions) {
     send.disabled = true;
     try {
       await post(ta.value.trim(), id, '');
-      f.replaceChildren(el('p', 'rv-hint', 'Спасибо! Ответ появится после проверки.'));
+      f.replaceChildren(el('p', 'rv-hint', 'Дякую! Відповідь з\'явиться після перевірки.'));
     } catch (_) {
-      hint.textContent = 'Сессия истекла. Войдите снова.';
+      hint.textContent = 'Сесія закінчилася. Увійдіть знову.';
       send.disabled = false;
     }
   };
@@ -424,7 +424,7 @@ async function load() {
   loading = true;
   const more = $('more');
   more.disabled = true;
-  more.textContent = 'Загрузка…';
+  more.textContent = 'Завантаження…';
   try {
     const res = await fetch(API + '?page=' + (page + 1)).then(r => r.json());
     page = res.page;
@@ -432,19 +432,19 @@ async function load() {
     const list = $('list');
     if (page === 1) list.textContent = '';
     if (page === 1 && !res.items.length) {
-      list.append(el('div', 'rv-empty', 'Пока нет отзывов. Будьте первым!'));
+      list.append(el('div', 'rv-empty', 'Поки що немає відгуків. Будьте першим!'));
     }
     res.items.forEach(r => list.append(renderReview(r)));
     more.hidden = page >= pages;
   } catch (_) {
     if (page === 0) {
-      $('list').replaceChildren(el('div', 'rv-error', 'Не удалось загрузить отзывы. Попробуйте обновить страницу.'));
+      $('list').replaceChildren(el('div', 'rv-error', 'Неможливо завантажити відгуки. Спробуйте оновити сторінку.'));
     } else {
       more.hidden = false;
     }
   }
   more.disabled = false;
-  more.textContent = 'Показать ещё';
+  more.textContent = 'Показати ще';
   loading = false;
 }
 $('more').onclick = load;
