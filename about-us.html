@@ -2,13 +2,12 @@
 <html lang="uk">
     
 <head>
+    <meta charset="UTF-8">
     <!-- bgcolor theme brozer-->
     <meta name="msapplication-TileColor" content="#000">
     <meta name="theme-color" content="#000">
     <!-- end bgcolor theme -->
 
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Open Graph data-->
@@ -659,6 +658,123 @@
                     </span>
                     <br><br>
                 </div>
+
+
+<!-- FEEDBACK-->   
+<style>
+
+.feedback {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+    margin: 40px auto;
+    max-width: 1100px;
+    background: #232629;
+    border: 1px solid #383838;
+    
+    overflow: hidden;
+}
+
+.feedback-image {
+    flex: 0 0 32%;
+}
+
+.feedback-image img {
+    display: block;
+    width: 100%;
+    max-height: 240px;
+    object-fit: contain;
+}
+
+.feedback-content {
+    flex: 1;
+}
+
+.feedback-content h2 {
+    margin: 0 0 20px;
+    color: #e9b12d;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.feedback-content p {
+    margin: 0 0 25px;
+    color: #d0d0d0;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.feedback-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 20px;
+    padding: 12px 24px;
+    background: #e9b12d;
+    color: #171717;
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background 0.3s, transform 0.3s;
+}
+ 
+.feedback-button:hover {
+    text-decoration: none;
+    background: #f5c34e;
+    transform: translateY(-2px);
+}
+
+.feedback-button span {
+    font-size: 22px;
+}
+
+/* Адаптация для мобильных устройств */
+@media (max-width: 650px) {
+    .feedback {
+        flex-direction: column;
+        gap: 15px;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .feedback-image {
+        flex: auto;
+        width: 100%;
+        max-width: 320px;
+    }
+
+    .feedback-content h2 {
+        font-size: 24px;
+    }
+
+    .feedback-content p {
+        font-size: 14px;
+    }
+}
+
+</style>   
+<div class="feedback">
+    <div class="feedback-image">
+        <img src="./assets/img/bitum-feedback.png" alt="Лист для відгуку">
+    </div>
+
+    <div class="feedback-content">
+        <h2>Ваші враження</h2>
+
+        <p>
+            Нам важлива ваша думка! Поділіться враженнями
+            про творчість гурту БІТУМ, залиште свої слова,
+            побажання чи спогади.
+        </p>
+
+        <a href="feedback.html" class="feedback-button">
+            Залишити відгук
+        </a>
+    </div>
+</div>
+<!-- //FEEDBACK-->  
+
+                
             </div>
         </div>
     </article>
