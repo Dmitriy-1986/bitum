@@ -174,13 +174,13 @@
 <body>
 
 <main class="rv">
-  <h2>Отзывы</h2>
+  <h2>Відгуки</h2>
 
   <!-- 1. ВЕРХ: вход (гость) или форма (после входа) -->
   <section class="rv-top" aria-label="Оставить отзыв">
     <div class="rv-guest" id="guest">
-      <h3>Хотите оставить отзыв?</h3>
-      <p>Чтобы писать отзывы и отвечать на них, войдите в аккаунт.</p>
+      <h3>Бажаєте залишити відгук?</h3>
+      <p>Щоб написати відгук та відповідати на них, увійдіть в аккаунт.</p>
       <div id="g-btn"></div>
     </div>
 
@@ -188,13 +188,13 @@
       <div class="rv-who">
         <div class="rv-av" id="avatar"></div>
         <span class="rv-name" id="who"></span>
-        <button type="button" class="rv-link" id="logout">Выйти</button>
+        <button type="button" class="rv-link" id="logout">Вийти</button>
       </div>
       <textarea name="text" maxlength="1000" placeholder="Ваш отзыв" required></textarea>
       <input name="website" style="position:absolute;left:-9999px" tabindex="-1" autocomplete="off" aria-hidden="true">
       <div class="rv-row">
-        <span class="rv-hint">Появится после проверки. Не чаще раза в минуту.</span>
-        <button class="rv-btn rv-primary" id="submit">Отправить</button>
+        <span class="rv-hint">З'явиться після перевірки модератором.</span>
+        <button class="rv-btn rv-primary" id="submit">Відправити</button>
       </div>
       <p class="rv-msg" id="msg" role="status" aria-live="polite"></p>
     </form>
@@ -202,12 +202,12 @@
 
   <!-- 2. СЕРЕДИНА: отзывы с ответами -->
   <section class="rv-list" id="list" aria-live="polite">
-    <div class="rv-empty">Загрузка…</div>
+    <div class="rv-empty">Завантаження…</div>
   </section>
 
   <!-- 3. НИЗ: пагинация -->
   <div class="rv-bottom">
-    <button class="rv-btn" id="more" hidden>Показать ещё</button>
+    <button class="rv-btn" id="more" hidden>Показати ще</button>
   </div>
 </main>
 
