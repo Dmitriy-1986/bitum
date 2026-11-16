@@ -172,7 +172,11 @@
     background: var(--accent-bg); color: var(--accent-text);
   }
   .rv-reply p { margin: 2px 0 0; font-size: 14px; white-space: pre-wrap; overflow-wrap: anywhere; }
+  
+  /* Доп. стили для кнопки и формы внутри ответов */
+  .rv-reply .rv-replybtn { margin-top: 6px; font-size: 12px; padding: 2px 8px; }
   .rv-replyform { margin: 10px 0 0 14px; }
+  .rv-reply .rv-replyform { margin-left: 0; }
   .rv-replyform textarea { min-height: 64px; }
 
   /* ---------- блок 3: пагинация ---------- */
@@ -335,7 +339,7 @@ async function post(text, parentId, website) {
   if (!isLoggedIn()) { showAuth(); throw new Error('expired'); }
   await fetch(API, {
     method: 'POST',
-    mode: 'no-cors',                              // ответ сервера не читается
+    mode: 'no-cors',
     headers: { 'Content-Type': 'text/plain' },
     body: JSON.stringify({ token: session.token, text, parentId: parentId || '', website: website || '' })
   });
@@ -361,21 +365,37 @@ $('form').addEventListener('submit', async e => {
 const SVG_ARROW = '<svg class="i-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4v6a4 4 0 0 0 4 4h12"/><path d="M15 9l5 5-5 5"/></svg>';
 const SVG_LOCK = '<svg class="i-lock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg>';
 
-function makeReply(name, text, isAuthor) {
-  const r = el('div', 'rv-reply' + (isAuthor ? ' author' : ''));
-  const h = el('div', 'rv-rname', name);
-  if (isAuthor) h.append(el('span', 'rv-badge', 'автор'));
-  r.append(h, el('p', '', text));
-  return r;
+function makeReplyBtn(onClick) {
+  const btn = el('button', 'rv-btn rv-small rv-replybtn');
+  btn.type = 'button';
+  btn.innerHTML = SVG_ARROW + SVG_LOCK;
+  btn.append('Відповісти');
+  btn.classList.toggle('locked', !isLoggedIn());
+  btn.onclick = () => {
+    if (!isLoggedIn()) { askLogin(); return; }
+    onClick();
+  };
+  return btn;
 }
 
-function openReplyForm(item, id, actions) {
+function openReplyForm(item, rootId, anchorEl, replyToName = '') {
   const old = item.querySelector('.rv-replyform');
-  if (old) { old.remove(); return; }
+  if (old) {
+    const isSame = old.previousElementSibling === anchorEl;
+    old.remove();
+    if (isSame) return;
+  }
 
   const f = el('form', 'rv-replyform');
   const ta = el('textarea');
-  ta.maxLength = 1000; ta.required = true; ta.placeholder = 'Ваша відповідь';
+  ta.maxLength = 1000; 
+  ta.required = true; 
+  ta.placeholder = 'Ваша відповідь';
+
+  if (replyToName) {
+    ta.value = `@${replyToName}, `;
+  }
+
   const row = el('div', 'rv-row');
   const hint = el('span', 'rv-hint', "З'явиться після перевірки");
   const btns = el('div');
@@ -390,7 +410,7 @@ function openReplyForm(item, id, actions) {
     e.preventDefault();
     send.disabled = true;
     try {
-      await post(ta.value.trim(), id, '');
+      await post(ta.value.trim(), rootId, '');
       f.replaceChildren(el('p', 'rv-hint', "Дякуємо! Відповідь з'явиться після перевірки."));
     } catch (_) {
       hint.textContent = 'Сесія закінчилася. Увійдіть знову.';
@@ -398,8 +418,23 @@ function openReplyForm(item, id, actions) {
     }
   };
 
-  actions.after(f);
+  anchorEl.after(f);
   ta.focus();
+  ta.setSelectionRange(ta.value.length, ta.value.length);
+}
+
+function makeReply(name, text, isAuthor, item, rootId) {
+  const r = el('div', 'rv-reply' + (isAuthor ? ' author' : ''));
+  const h = el('div', 'rv-rname', name);
+  if (isAuthor) h.append(el('span', 'rv-badge', 'автор'));
+  
+  const p = el('p', '', text);
+  const actions = el('div');
+  const btn = makeReplyBtn(() => openReplyForm(item, rootId, actions, name));
+  actions.append(btn);
+
+  r.append(h, p, actions);
+  return r;
 }
 
 function renderReview(r) {
@@ -413,23 +448,15 @@ function renderReview(r) {
   const text = el('p', 'rv-text', r.text);
 
   const actions = el('div');
-  const btn = el('button', 'rv-btn rv-small rv-replybtn');
-  btn.type = 'button';
-  btn.innerHTML = SVG_ARROW + SVG_LOCK;             // статичная разметка, без данных пользователя
-  btn.append('Відповісти');
-  btn.classList.toggle('locked', !isLoggedIn());
-  btn.onclick = () => {
-    if (!isLoggedIn()) { askLogin(); return; }
-    openReplyForm(item, r.id, actions);
-  };
+  const btn = makeReplyBtn(() => openReplyForm(item, r.id, actions));
   actions.append(btn);
 
   item.append(head, text, actions);
 
   if (r.authorReply || (r.replies && r.replies.length)) {
     const box = el('div', 'rv-replies');
-    if (r.authorReply) box.append(makeReply('Автор сайту', r.authorReply, true));
-    (r.replies || []).forEach(x => box.append(makeReply(x.name, x.text, false)));
+    if (r.authorReply) box.append(makeReply('Автор сайту', r.authorReply, true, item, r.id));
+    (r.replies || []).forEach(x => box.append(makeReply(x.name, x.text, false, item, r.id)));
     item.append(box);
   }
   return item;
