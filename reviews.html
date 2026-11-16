@@ -104,6 +104,42 @@
            ]
          }
      </script>
+
+   <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+   <!-- Preloader -->
+      <style>
+        .wrapper-loader {
+            position: fixed;
+            inset: 0;
+            z-index: 9999;
+            background-color: #000;
+            display: grid;
+            place-items: center;
+            transition: opacity 0.25s, visibility 1s;
+            height: 100%;
+            width: 100%;
+        }
+
+        .fade {
+            opacity: 0;
+            visibility: hidden;
+        }
+
+        .loader img {
+            width: 30px;
+        }
+
+        #titleContacts {
+            color: var(--color-indigo);
+        }
+
+        iframe {
+            width: 100%;
+        }
+    </style>
+   <!-- //Preloader -->
    
 <style>
   :root {
@@ -298,7 +334,27 @@
 </style>
 </head>
 <body>
+ <!-- Preloader -->
+    <div class="wrapper-loader">
+        <div class="loader">
+            <img src="./assets/img/ajax-loader.gif" alt="Loading">
+        </div>
+    </div>
+   <header class="header">
+        <div class="container-fluid">
+            <div class="container">
+                <div class="header-inner">
+                    <div id="logo" class="logo"></div>
+                    <button id="burgerMenu" class="burger-menu" aria-label="Open menu"></button>
+                    <nav class="nav">
+                        <ul id="navList" class="nav-list"></ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
 
+   
 <main class="rv">
   <h2>Відгуки</h2>
 
@@ -337,6 +393,24 @@
   </div>
 </main>
 
+<footer>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div id="btnShare"></div>
+                    <p id="footerContent"></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+   
+    <!-- JavaScript -->
+    <script defer src="./assets/js/script.js"></script>
+    <script defer src="./assets/js/header-navigation.js"></script>
+    <script defer src="./assets/js/footer.js"></script>
+    <script defer src="./assets/js/back-to-top.js"></script>
+    <script defer src="./assets/js/scrollIndicator.js"></script>
+   
 <script>
 /* ====== НАСТРОЙКИ ====== */
 const API = 'https://script.google.com/macros/s/AKfycbwkLNHXadAbYsu5GfbLJj9-wWk0IoI8VvJiFFKn1yXKW5779BLImeXcDRGoj3CHwFFotA/exec';
