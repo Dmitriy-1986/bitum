@@ -723,5 +723,13 @@ showAuth();
 load();
 </script>
 <script src="https://accounts.google.com/gsi/client" async defer onload="initGoogle()"></script>
+
+   <script>
+        window.addEventListener('load', () => {
+            const wrapperLoader = document.querySelector('.wrapper-loader');
+            wrapperLoader.classList.add('fade');
+        });
+    </script>
+   
 </body>
 </html>
