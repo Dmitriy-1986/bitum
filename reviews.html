@@ -1,1 +1,460 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Отзывы</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #f6f7f9;
+    --card: #ffffff;
+    --text: #1c1e21;
+    --muted: #6b7280;
+    --border: #e3e5e8;
+    --accent: #2563eb;
+    --accent-bg: #e8f0fe;
+    --accent-text: #1d4ed8;
+    --author-bg: #f3f6fb;
+    --radius: 12px;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #14161a;
+      --card: #1d2025;
+      --text: #e8eaed;
+      --muted: #9aa0a6;
+      --border: #2e3238;
+      --accent: #6ea0ff;
+      --accent-bg: #1c2a45;
+      --accent-text: #a8c5ff;
+      --author-bg: #232831;
+    }
+  }
+
+  * { box-sizing: border-box; }
+  [hidden] { display: none !important; }
+
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 16px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+
+  .rv {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 24px 16px 48px;
+  }
+  .rv h2 { margin: 0 0 16px; font-size: 22px; font-weight: 600; }
+
+  /* ---------- кнопки и поля ---------- */
+  .rv-btn {
+    font: inherit;
+    font-size: 14px;
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: 1px solid var(--border);
+    background: var(--card);
+    color: var(--text);
+    cursor: pointer;
+  }
+  .rv-btn:hover { border-color: var(--muted); }
+  .rv-btn:disabled { opacity: .55; cursor: default; }
+  .rv-primary { background: var(--accent); border-color: var(--accent); color: #fff; }
+  .rv-primary:hover { border-color: var(--accent); filter: brightness(1.08); }
+  .rv-small { font-size: 13px; padding: 4px 10px; }
+  .rv-link {
+    font: inherit; font-size: 13px; padding: 0;
+    background: none; border: 0; color: var(--muted);
+    text-decoration: underline; cursor: pointer;
+  }
+
+  .rv textarea {
+    width: 100%;
+    font: inherit;
+    font-size: 15px;
+    padding: 10px 12px;
+    min-height: 84px;
+    resize: vertical;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    background: var(--card);
+    color: var(--text);
+  }
+  .rv textarea:focus { outline: 2px solid var(--accent); outline-offset: 1px; }
+  .rv button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+  .rv-row { display: flex; align-items: center; justify-content: space-between; gap: 10px; margin-top: 8px; flex-wrap: wrap; }
+  .rv-hint { font-size: 12px; color: var(--muted); }
+  .rv-msg { font-size: 13px; margin: 8px 0 0; color: var(--accent-text); min-height: 1em; }
+
+  /* ---------- блок 1: вход / форма ---------- */
+  .rv-top { margin-bottom: 20px; }
+  .rv-guest {
+    background: var(--accent-bg);
+    border: 1px solid var(--accent);
+    border-radius: var(--radius);
+    padding: 18px 16px;
+    text-align: center;
+  }
+  .rv-guest h3 { margin: 0 0 4px; font-size: 16px; font-weight: 600; color: var(--accent-text); }
+  .rv-guest p { margin: 0 0 14px; font-size: 14px; color: var(--accent-text); }
+  #g-btn { display: flex; justify-content: center; min-height: 44px; }
+  .rv-guest.flash { animation: rvflash 1.2s ease; }
+  @keyframes rvflash {
+    0%, 100% { box-shadow: 0 0 0 0 transparent; }
+    30% { box-shadow: 0 0 0 5px var(--accent); }
+  }
+
+  .rv-formbox {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 14px;
+  }
+  .rv-who { display: flex; align-items: center; gap: 8px; margin-bottom: 10px; }
+  .rv-who span.rv-name { font-size: 14px; color: var(--muted); flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
+  /* ---------- блок 2: отзывы ---------- */
+  .rv-list {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 0 16px;
+  }
+  .rv-item { padding: 16px 0; border-top: 1px solid var(--border); }
+  .rv-item:first-child { border-top: 0; }
+  .rv-head { display: flex; align-items: center; gap: 10px; margin-bottom: 6px; }
+  .rv-name { font-size: 15px; font-weight: 600; }
+  .rv-date { font-size: 12px; color: var(--muted); }
+  .rv-text { margin: 0 0 10px; white-space: pre-wrap; overflow-wrap: anywhere; font-size: 15px; }
+  .rv-empty, .rv-error { padding: 24px 0; text-align: center; color: var(--muted); font-size: 14px; }
+
+  .rv-av {
+    --h: 215;
+    width: 32px; height: 32px; flex: none;
+    border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 12px; font-weight: 600;
+    background: hsl(var(--h) 60% 88%);
+    color: hsl(var(--h) 50% 25%);
+  }
+  @media (prefers-color-scheme: dark) {
+    .rv-av { background: hsl(var(--h) 35% 28%); color: hsl(var(--h) 70% 88%); }
+  }
+
+  .rv-replybtn svg { width: 14px; height: 14px; vertical-align: -2px; margin-right: 4px; }
+  .rv-replybtn .i-lock { display: none; }
+  .rv-replybtn.locked .i-lock { display: inline; }
+  .rv-replybtn.locked .i-arrow { display: none; }
+
+  .rv-replies { margin: 12px 0 0 14px; display: grid; gap: 8px; }
+  .rv-reply {
+    padding: 8px 12px;
+    border-left: 3px solid var(--border);
+    border-radius: 0 8px 8px 0;
+  }
+  .rv-reply.author { border-left-color: var(--accent); background: var(--author-bg); }
+  .rv-reply .rv-rname { font-size: 13px; font-weight: 600; }
+  .rv-badge {
+    font-size: 11px; font-weight: 500; margin-left: 6px;
+    padding: 1px 8px; border-radius: 999px;
+    background: var(--accent-bg); color: var(--accent-text);
+  }
+  .rv-reply p { margin: 2px 0 0; font-size: 14px; white-space: pre-wrap; overflow-wrap: anywhere; }
+  .rv-replyform { margin: 10px 0 0 14px; }
+  .rv-replyform textarea { min-height: 64px; }
+
+  /* ---------- блок 3: пагинация ---------- */
+  .rv-bottom { margin-top: 16px; text-align: center; }
+</style>
+</head>
+<body>
+
+<main class="rv">
+  <h2>Отзывы</h2>
+
+  <!-- 1. ВЕРХ: вход (гость) или форма (после входа) -->
+  <section class="rv-top" aria-label="Оставить отзыв">
+    <div class="rv-guest" id="guest">
+      <h3>Хотите оставить отзыв?</h3>
+      <p>Чтобы писать отзывы и отвечать на них, войдите в аккаунт.</p>
+      <div id="g-btn"></div>
+    </div>
+
+    <form class="rv-formbox" id="form" hidden>
+      <div class="rv-who">
+        <div class="rv-av" id="avatar"></div>
+        <span class="rv-name" id="who"></span>
+        <button type="button" class="rv-link" id="logout">Выйти</button>
+      </div>
+      <textarea name="text" maxlength="1000" placeholder="Ваш отзыв" required></textarea>
+      <input name="website" style="position:absolute;left:-9999px" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <div class="rv-row">
+        <span class="rv-hint">Появится после проверки. Не чаще раза в минуту.</span>
+        <button class="rv-btn rv-primary" id="submit">Отправить</button>
+      </div>
+      <p class="rv-msg" id="msg" role="status" aria-live="polite"></p>
+    </form>
+  </section>
+
+  <!-- 2. СЕРЕДИНА: отзывы с ответами -->
+  <section class="rv-list" id="list" aria-live="polite">
+    <div class="rv-empty">Загрузка…</div>
+  </section>
+
+  <!-- 3. НИЗ: пагинация -->
+  <div class="rv-bottom">
+    <button class="rv-btn" id="more" hidden>Показать ещё</button>
+  </div>
+</main>
+
+<script>
+/* ====== НАСТРОЙКИ ====== */
+const API = 'https://script.google.com/macros/s/AKfycbz557HuntR-3iXOLuCEG2fn4AWekCn63xvW2sSb-TQOr4i3WN702mV6_8GNszAEU1Jxiw/exec';
+const CLIENT_ID = '98570679118-cppgq8jos48aki4jpe1bofduap71plrp.apps.googleusercontent.com';
+/* ======================= */
+
+const $ = id => document.getElementById(id);
+let session = null;            // { token, name, exp }
+let page = 0, pages = 1, loading = false;
+
+/* ---------- утилиты ---------- */
+function el(tag, cls, text) {
+  const e = document.createElement(tag);
+  if (cls) e.className = cls;
+  if (text != null) e.textContent = text;
+  return e;
+}
+
+function initials(name) {
+  const p = String(name || '?').trim().split(/\s+/);
+  return ((p[0][0] || '?') + (p[1] ? p[1][0] : '')).toUpperCase();
+}
+
+function makeAvatar(name) {
+  const a = el('div', 'rv-av', initials(name));
+  let h = 0;
+  for (const ch of String(name)) h = (h * 31 + ch.charCodeAt(0)) % 360;
+  a.style.setProperty('--h', h);
+  return a;
+}
+
+function fmtDate(v) {
+  const d = new Date(v);
+  return isNaN(d) ? '' : d.toLocaleDateString('ru-RU', { day: 'numeric', month: 'short' });
+}
+
+function parseJwt(t) {
+  const b64 = t.split('.')[1].replace(/-/g, '+').replace(/_/g, '/');
+  const bytes = Uint8Array.from(atob(b64), c => c.charCodeAt(0));
+  return JSON.parse(new TextDecoder().decode(bytes));
+}
+
+/* ---------- сессия ---------- */
+function saveSession(s) { try { localStorage.setItem('rv_session', JSON.stringify(s)); } catch (_) {} }
+function clearSession() { try { localStorage.removeItem('rv_session'); } catch (_) {} }
+function loadSession() {
+  try {
+    const s = JSON.parse(localStorage.getItem('rv_session'));
+    if (s && s.exp * 1000 > Date.now() + 30000) return s;
+  } catch (_) {}
+  return null;
+}
+
+function isLoggedIn() {
+  if (session && session.exp * 1000 > Date.now() + 5000) return true;
+  session = null;
+  clearSession();
+  return false;
+}
+
+function showAuth() {
+  const on = isLoggedIn();
+  $('guest').hidden = on;
+  $('form').hidden = !on;
+  if (on) {
+    $('who').textContent = session.name;
+    const av = makeAvatar(session.name);
+    $('avatar').textContent = av.textContent;
+    $('avatar').style.setProperty('--h', av.style.getPropertyValue('--h'));
+  }
+  document.querySelectorAll('.rv-replybtn').forEach(b => b.classList.toggle('locked', !on));
+}
+
+function onCredential(resp) {
+  const p = parseJwt(resp.credential);
+  session = { token: resp.credential, name: p.name || p.email, exp: p.exp };
+  saveSession(session);
+  showAuth();
+}
+
+function initGoogle() {
+  google.accounts.id.initialize({ client_id: CLIENT_ID, callback: onCredential });
+  google.accounts.id.renderButton($('g-btn'),
+    { theme: 'outline', size: 'large', text: 'signin_with', locale: 'ru' });
+}
+
+$('logout').onclick = () => {
+  session = null;
+  clearSession();
+  if (window.google && google.accounts) google.accounts.id.disableAutoSelect();
+  showAuth();
+};
+
+function askLogin() {
+  const g = $('guest');
+  g.hidden = false;
+  g.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  g.classList.remove('flash');
+  void g.offsetWidth;
+  g.classList.add('flash');
+}
+
+/* ---------- отправка ---------- */
+async function post(text, parentId, website) {
+  if (!isLoggedIn()) { showAuth(); throw new Error('expired'); }
+  await fetch(API, {
+    method: 'POST',
+    mode: 'no-cors',                              // ответ сервера не читается
+    headers: { 'Content-Type': 'text/plain' },
+    body: JSON.stringify({ token: session.token, text, parentId: parentId || '', website: website || '' })
+  });
+}
+
+$('form').addEventListener('submit', async e => {
+  e.preventDefault();
+  const f = $('form');
+  const btn = $('submit');
+  btn.disabled = true;
+  $('msg').textContent = '';
+  try {
+    await post(f.text.value.trim(), '', f.website.value);
+    f.text.value = '';
+    $('msg').textContent = 'Спасибо! Отзыв появится после проверки.';
+  } catch (_) {
+    $('msg').textContent = 'Сессия истекла. Войдите снова.';
+  }
+  btn.disabled = false;
+});
+
+/* ---------- отрисовка ---------- */
+const SVG_ARROW = '<svg class="i-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4v6a4 4 0 0 0 4 4h12"/><path d="M15 9l5 5-5 5"/></svg>';
+const SVG_LOCK = '<svg class="i-lock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg>';
+
+function makeReply(name, text, isAuthor) {
+  const r = el('div', 'rv-reply' + (isAuthor ? ' author' : ''));
+  const h = el('div', 'rv-rname', name);
+  if (isAuthor) h.append(el('span', 'rv-badge', 'автор'));
+  r.append(h, el('p', '', text));
+  return r;
+}
+
+function openReplyForm(item, id, actions) {
+  const old = item.querySelector('.rv-replyform');
+  if (old) { old.remove(); return; }
+
+  const f = el('form', 'rv-replyform');
+  const ta = el('textarea');
+  ta.maxLength = 1000; ta.required = true; ta.placeholder = 'Ваш ответ';
+  const row = el('div', 'rv-row');
+  const hint = el('span', 'rv-hint', 'Появится после проверки');
+  const btns = el('div');
+  const cancel = el('button', 'rv-btn rv-small', 'Отмена'); cancel.type = 'button';
+  const send = el('button', 'rv-btn rv-primary rv-small', 'Отправить'); send.type = 'submit';
+  btns.append(cancel, ' ', send);
+  row.append(hint, btns);
+  f.append(ta, row);
+
+  cancel.onclick = () => f.remove();
+  f.onsubmit = async e => {
+    e.preventDefault();
+    send.disabled = true;
+    try {
+      await post(ta.value.trim(), id, '');
+      f.replaceChildren(el('p', 'rv-hint', 'Спасибо! Ответ появится после проверки.'));
+    } catch (_) {
+      hint.textContent = 'Сессия истекла. Войдите снова.';
+      send.disabled = false;
+    }
+  };
+
+  actions.after(f);
+  ta.focus();
+}
+
+function renderReview(r) {
+  const item = el('article', 'rv-item');
+
+  const head = el('div', 'rv-head');
+  const meta = el('div');
+  meta.append(el('span', 'rv-name', r.name), ' ', el('span', 'rv-date', fmtDate(r.date)));
+  head.append(makeAvatar(r.name), meta);
+
+  const text = el('p', 'rv-text', r.text);
+
+  const actions = el('div');
+  const btn = el('button', 'rv-btn rv-small rv-replybtn');
+  btn.type = 'button';
+  btn.innerHTML = SVG_ARROW + SVG_LOCK;            // статичная разметка, без данных пользователя
+  btn.append('Ответить');
+  btn.classList.toggle('locked', !isLoggedIn());
+  btn.onclick = () => {
+    if (!isLoggedIn()) { askLogin(); return; }
+    openReplyForm(item, r.id, actions);
+  };
+  actions.append(btn);
+
+  item.append(head, text, actions);
+
+  if (r.authorReply || (r.replies && r.replies.length)) {
+    const box = el('div', 'rv-replies');
+    if (r.authorReply) box.append(makeReply('Автор сайта', r.authorReply, true));
+    (r.replies || []).forEach(x => box.append(makeReply(x.name, x.text, false)));
+    item.append(box);
+  }
+  return item;
+}
+
+/* ---------- загрузка и «Показать ещё» ---------- */
+async function load() {
+  if (loading) return;
+  loading = true;
+  const more = $('more');
+  more.disabled = true;
+  more.textContent = 'Загрузка…';
+  try {
+    const res = await fetch(API + '?page=' + (page + 1)).then(r => r.json());
+    page = res.page;
+    pages = res.pages;
+    const list = $('list');
+    if (page === 1) list.textContent = '';
+    if (page === 1 && !res.items.length) {
+      list.append(el('div', 'rv-empty', 'Пока нет отзывов. Будьте первым!'));
+    }
+    res.items.forEach(r => list.append(renderReview(r)));
+    more.hidden = page >= pages;
+  } catch (_) {
+    if (page === 0) {
+      $('list').replaceChildren(el('div', 'rv-error', 'Не удалось загрузить отзывы. Попробуйте обновить страницу.'));
+    } else {
+      more.hidden = false;
+    }
+  }
+  more.disabled = false;
+  more.textContent = 'Показать ещё';
+  loading = false;
+}
+$('more').onclick = load;
+
+/* ---------- старт ---------- */
+session = loadSession();
+showAuth();
+load();
+</script>
+<script src="https://accounts.google.com/gsi/client" async defer onload="initGoogle()"></script>
+</body>
+</html>
 
