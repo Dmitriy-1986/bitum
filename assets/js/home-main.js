@@ -92,7 +92,7 @@ music.append(imgMusic);
 
 // Contacts
 const contactTitle = document.querySelector('#contactTitle');
-const contentContacts = document.querySelector('#contentContacts p');
+const contentContacts = document.querySelector('#contentContacts');
 const googleMaps = document.querySelector('#googleMaps');
 
 contactTitle.innerHTML = `<h2>${homeMain.contactMain.title}</h2>`;
