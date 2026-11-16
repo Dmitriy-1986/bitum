@@ -52,7 +52,7 @@ contentFeedback.innerHTML += `<a href='./reviews.html'><button class='btn btn-pr
 const imgFeedback = new Image();
 imgFeedback.alt = homeMain.feedbackMain.title;
 imgFeedback.src = './assets/img/feedback.jpg';
-imgAboutUsBlock.append(imgFeedback);
+imgFeedbackBlock.append(imgFeedback);
 
 // Archive
 const archive = document.querySelector('#archive');
