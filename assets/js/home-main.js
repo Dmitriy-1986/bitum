@@ -46,7 +46,7 @@ imgAboutUsBlock.append(imgAbout);
 const imgFeedbackBlock = document.querySelector('#imgFeedback');
 const contentFeedback = document.querySelector('#contentFeedback');
 contentFeedback.innerHTML = `<h2>${homeMain.feedbackMain.title}</h2>`;
-contentFeedback.innerHTML += `<p class='content-about-us'>${homeMain.feedbackMain.subdescription.slice(0, 200)}...</p>`;
+contentFeedback.innerHTML += `<span class='content-about-us'>${homeMain.feedbackMain.subdescription.slice(0, 200)}...</span>`;
 contentFeedback.innerHTML += `<a href='./reviews.html'><button class='btn btn-primary'>Читати більше</button></a>`;
 
 const imgFeedback = new Image();
