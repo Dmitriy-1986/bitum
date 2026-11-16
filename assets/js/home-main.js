@@ -46,7 +46,7 @@ imgAboutUsBlock.append(imgAbout);
 const imgFeedbackBlock = document.querySelector('#imgFeedback');
 const contentFeedback = document.querySelector('#contentFeedback');
 contentFeedback.innerHTML = `<h2>${homeMain.feedbackMain.title}</h2>`;
-contentFeedback.innerHTML += `<span class='content-about-us'>${homeMain.feedbackMain.subdescription.slice(0, 200)}...</span>`;
+contentFeedback.innerHTML += `<p class='content-about-us'>${homeMain.feedbackMain.subdescription.slice(0, 200)}...</p>`;
 contentFeedback.innerHTML += `<a href='./reviews.html'><button class='btn btn-primary'>Читати більше</button></a>`;
 
 const imgFeedback = new Image();
@@ -96,7 +96,7 @@ const contentContacts = document.querySelector('#contentContacts p');
 const googleMaps = document.querySelector('#googleMaps');
 
 contactTitle.innerHTML = `<h2>${homeMain.contactMain.title}</h2>`;
-contentContacts.innerHTML = `<p class='content-about-us'>${homeMain.contactMain.subdescription}</p>`;
+contentContacts.innerHTML = `<span class='content-about-us'>${homeMain.contactMain.subdescription}</span>`;
 contentContacts.innerHTML += `<a href='mailto:${homeMain.contactMain.mail}'>
                                    <img src='./assets/img/icon-gmail.png' alt='Gmail' class='img-gmail'> 
                                    ${homeMain.contactMain.mail}
