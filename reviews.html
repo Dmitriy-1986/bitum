@@ -34,7 +34,64 @@
         content="Ви можете залишити відгук про творче об'єднання Бітум. Діліться враженнями або читайте, що кажуть інші.">
    <meta name="keywords" content="Бітум, творче об'єднання Бітум, реп гурт Бітум, Бітум відгуки, фідбек, український реп, хіп-хоп">
    
-
+    <!-- Schema.org -->
+    <script type="application/ld+json">
+         {
+           "@context": "https://schema.org",
+           "@graph": [
+             {
+               "@type": ["Organization", "MusicGroup"],
+               "@id": "https://bitum.pp.ua/#organization",
+               "name": "Творче об'єднання «Бітум»",
+               "foundingDate": "2003",
+               "genre": ["Hip-Hop", "Rap"],
+               "numberOfEmployees": {
+                 "@type": "QuantitativeValue",
+                 "value": 6
+               },
+               "description": "Творче об'єднання та український реп-гурт «Бітум».",
+               "url": "https://bitum.pp.ua/",
+               "logo": {
+                 "@type": "ImageObject",
+                 "url": "https://bitum.pp.ua/assets/img/bitum-logo.jpg"
+               },
+               "email": "bitum2003@gmail.com"
+             },
+             {
+               "@type": "WebPage",
+               "@id": "https://bitum.pp.ua/reviews.html#webpage",
+               "url": "https://bitum.pp.ua/reviews.html",
+               "name": "Творче об'єднання - Бітум | Відгуки",
+               "description": "Ви можете залишити відгук про творче об'єднання Бітум. Діліться враженнями або читайте, що кажуть інші.",
+               "about": {
+                 "@id": "https://bitum.pp.ua/#organization"
+               },
+               "breadcrumb": {
+                 "@id": "https://bitum.pp.ua/reviews.html#breadcrumb"
+               }
+             },
+             {
+               "@type": "BreadcrumbList",
+               "@id": "https://bitum.pp.ua/reviews.html#breadcrumb",
+               "itemListElement": [
+                 {
+                   "@type": "ListItem",
+                   "position": 1,
+                   "name": "Головна",
+                   "item": "https://bitum.pp.ua/"
+                 },
+                 {
+                   "@type": "ListItem",
+                   "position": 2,
+                   "name": "Відгуки",
+                   "item": "https://bitum.pp.ua/reviews.html"
+                 }
+               ]
+             }
+           ]
+         }
+     </script>
+   
 <style>
   :root {
     color-scheme: light dark;
