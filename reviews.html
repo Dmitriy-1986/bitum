@@ -426,7 +426,7 @@ function openReplyForm(item, rootId, anchorEl, replyToName = '') {
 function makeReply(name, text, isAuthor, item, rootId) {
   const r = el('div', 'rv-reply' + (isAuthor ? ' author' : ''));
   const h = el('div', 'rv-rname', name);
-  if (isAuthor) h.append(el('span', 'rv-badge', 'автор'));
+  if (isAuthor) h.append(el('span', 'rv-badge', 'модератор'));
   
   const p = el('p', '', text);
   const actions = el('div');
