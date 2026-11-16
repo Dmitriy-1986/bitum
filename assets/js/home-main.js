@@ -5,6 +5,10 @@ const homeMain = {
           "title": "Про Нас",
           "subdescription": "Стислий опис історії реп гурту БІТУМ, та головних історичних подій учасників гурту з моменту заснування по нинішній час."
      },
+    "feedbackMain": {
+          "title": "Відгуки",
+          "subdescription": "Ваші враження, думки та спогади про творчість реп гурту БІТУМ. Залиште свій відгук, поділіться історією знайомства з нашою музикою або просто напишіть кілька теплих слів."
+     },
      "musicMain": {
           "title": "Музика",
           "subdescription": "Вашій увазі музичні альбоми реп гурту БІТУМ а також музичні композиції учасників гурту різних років творчості що не були включені в офіційні альбоми."
@@ -37,6 +41,18 @@ const imgAbout = new Image();
 imgAbout.alt = homeMain.aboutMain.title;
 imgAbout.src = './assets/img/home-about-us.jpg';
 imgAboutUsBlock.append(imgAbout);
+
+// Feedback
+const imgFeedbackBlock = document.querySelector('#imgFeedback');
+const contentFeedback = document.querySelector('#contentFeedback');
+contentFeedback.innerHTML = `<h2>${homeMain.feedbackMain.title}</h2>`;
+contentFeedback.innerHTML += `<p class='content-about-us'>${homeMain.feedbackMain.subdescription.slice(0, 200)}...</p>`;
+contentFeedback.innerHTML += `<a href='./reviews.html'><button class='btn btn-primary'>Читати більше</button></a>`;
+
+const imgFeedback = new Image();
+imgFeedback.alt = homeMain.feedbackMain.title;
+imgFeedback.src = './assets/img/feedback.jpg';
+imgAboutUsBlock.append(imgFeedback);
 
 // Archive
 const archive = document.querySelector('#archive');
